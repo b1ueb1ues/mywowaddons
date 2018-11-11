@@ -1,0 +1,14 @@
+## Interface: 70300
+## X-Compatible-With: 70300
+## Title: Sell-O-Matic2 |cff7fff7fList|r
+## Notes: Sell-O-Matic2 module for selling items using lists.
+## Author: Silmano
+## Version: a072
+## OptionalDeps: Ace3, LibGratuity-3.0
+## LoadOnDemand: 1
+## Dependencies: SellOMatic2
+## DefaultState: disabled
+## X-Category: Tradeskill
+
+SOM_list.lua
+SOM_frames.lua

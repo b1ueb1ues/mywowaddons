@@ -1,0 +1,17 @@
+## Interface: 80000
+## Title: ItemLevelDisplay-Baudbag
+## Notes: Displays item's levels in Baudbag bags
+## Notes-itIT: Mostra il livello degli items nelle borse di Baudbag
+## Author: Alar of Daggerspine
+## Version: 2.1.2 70200
+## X-Revision: 7ef9c2b
+## eMail: alar@aspide.it
+## Dependencies: ItemLevelDisplay,Baudbag
+## DefaultState: Enabled
+## X-Embeds:
+## X-Category: Bags and Inventory
+## X-License: GPL v3
+## X-eMail: alar@aspide.it
+## X-Date: 2018-08-05T19:06:35Z
+..\ItemLevelDisplay\Bags.lua
+core.lua

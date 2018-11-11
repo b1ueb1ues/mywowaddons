@@ -1,0 +1,77 @@
+Version History for Titan Skills
+
+v1.6.1
+- TOC Update for 7.1!
+
+v1.6
+- Updated for 7.0.x!
+
+v1.5
+- Updated for 6.1!
+
+v1.4
+- TOC Update for 5.1.
+- Titan Skills will now tell you if you have to level up to train a skill.
+- Mining, Engineering and Herbing will now show skinning data at all times.
+- Skinning professions will now show the color of the mob's level in comparison to yours.
+
+v1.3
+- TOC Updated for 5.0.x
+- Titan Skills will now tell you if you have no skills to track.
+- Skinable levels will now take bonuses into account.
+
+v1.2
+- TOC Updated for 4.3
+- Skinners, Miner, Herbalists and Engineers now have a note indicating the highest level creature they can skin.
+- Adjusted addon to allow for localization. (Not that there's much desire for it...)
+- Removed a lot of old, useless code.
+
+v1.1
+- Updated for Cataclysm! (4.0.1)
+- Weapon skills removed.
+- Max Skill levels now supports every account expansion type. IE: Profession Max is 300 for people with no expansions, but is 525 for people with Cataclysm.
+- Known Bug: Right-Click Options do not appear.
+
+v1.0.9
+- TOC Update
+- Class Skills, such as Lockpicking, will now properly max out at 400.
+- Removed a leftover link that would look for FishingBuddyTitan.lua in the XML file.
+
+v1.0.8a
+- Adjusted Coloring zones.
+- Fixed an auto-update problem that was pointed out to me by Tristanian on WoWUI. Thanks man!
+- Removed some un-needed code. (Also pointed out by Tristanian.)
+
+v1.0.8
+- Updated to Patch 3.0.2 & Titan 4.0.0.
+- Fixed a bug that would revert the tooltip color to default yellow if there was a modifier present.
+- Added an option to remove the text.
+
+v1.0.7
+- Added Orange Color Code.
+- Shifted Green, Yellow and Red Color Codes.
+- Extended Gray Color Code. (Mostly visible only to high-level characters.)
+- Fixed several bugs that would prematurely color skills as Maxed Out when using By Max.
+- Changed the hover tooltip to say "Skills Info", rather than "Titan Skills".
+
+v1.0.6
+- TOC Update for WotLK! (3.0.1)
+- Moved coloring into it's own drop-down box.
+- Defined coloring options better.
+- Added "Color by Maximum Skill" option.
+
+v1.0.5
+- Added optional color functions.
+
+v1.0.4
+- Icon on Titan's bar can now be turned off!
+
+v1.0.3
+- Now supports Class Skills, such as a Rogue's lockpicking.
+- Now updates skill numbers while hovering over data.
+
+v1.0.2
+- Updated to Patch 2.4
+
+v1.0
+- Initial Version

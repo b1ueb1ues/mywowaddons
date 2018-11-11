@@ -1,0 +1,13 @@
+tag v2.8.6
+44a4fcd40c84e7d7686807debaeeafe4e82e945d
+Adirelle <adirelle@gmail.com>
+2013-11-03 10:34:16 +0100
+
+Fixed Partial Paralysis (Shiv effect with Paralytic Poison).
+
+
+--------------------
+
+Adirelle:
+	- Updated some comments.
+	- Fixed Partial Paralysis (Shiv effect with Paralytic Poison).

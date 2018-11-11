@@ -1,0 +1,12 @@
+tag c47681ab8c27021bc4fa389f84248f9ba79de996 2.1.2
+Author:	Alar of Runetotem <alar@aspide.it>
+Date:	Sun Aug 5 21:06:59 2018 +0200
+
+Fix: Works again with Bagnon
+
+commit 7ef9c2b19cf8b5f982c6db17fe53ac92419df746
+Author: Alar of Runetotem <alar@aspide.it>
+Date:   Sun Aug 5 21:06:35 2018 +0200
+
+    Fix: Works again with Bagnon
+

@@ -1,0 +1,16 @@
+## Title: Babylonian |cff224477(lib)
+## Notes: Provides the facilites to support languages other than those supported by the client locale.
+##
+## Interface: 80000
+## LoadOnDemand: 0
+##
+## Version: 8.0.6126 (SwimmingSeadragon)
+## Revision: $Id: Babylonian.toc 6126 2018-09-09 15:10:05Z none $
+## Author: Norganna's AddOns
+## X-Part-Of: Libraries
+## X-Category: Library
+## X-Max-Interface: 80000
+## X-URL: http://zip.norganna.org/libs/Babylonian/
+## X-Feedback: http://forums.norganna.org
+##
+Load.xml
