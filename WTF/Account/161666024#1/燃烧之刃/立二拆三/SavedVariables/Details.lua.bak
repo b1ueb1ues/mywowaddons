@@ -1,0 +1,3933 @@
+
+_detalhes_database = {
+	["announce_interrupts"] = {
+		["enabled"] = false,
+		["whisper"] = "",
+		["channel"] = "SAY",
+		["custom"] = "",
+		["next"] = "",
+	},
+	["announce_prepots"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+		["reverse"] = false,
+	},
+	["active_profile"] = "立二拆三-燃烧之刃",
+	["last_day"] = "04",
+	["ignore_nicktag"] = false,
+	["combat_counter"] = 33,
+	["plugin_database"] = {
+		["DETAILS_PLUGIN_TINY_THREAT"] = {
+			["updatespeed"] = 1,
+			["useclasscolors"] = false,
+			["animate"] = false,
+			["useplayercolor"] = false,
+			["showamount"] = false,
+			["author"] = "Details! Team",
+			["playercolor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			},
+			["enabled"] = true,
+		},
+		["DETAILS_PLUGIN_DAMAGE_RANK"] = {
+			["lasttry"] = {
+			},
+			["annouce"] = true,
+			["dpshistory"] = {
+			},
+			["dps"] = 0,
+			["author"] = "Details! Team",
+			["level"] = 1,
+			["enabled"] = true,
+		},
+		["DETAILS_PLUGIN_VANGUARD"] = {
+			["enabled"] = true,
+			["tank_block_texture"] = "Details Serenity",
+			["tank_block_color"] = {
+				0.24705882, -- [1]
+				0.0039215, -- [2]
+				0, -- [3]
+				0.8, -- [4]
+			},
+			["show_inc_bars"] = false,
+			["author"] = "Details! Team",
+			["first_run"] = false,
+			["tank_block_size"] = 150,
+		},
+		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
+			["enabled"] = true,
+			["encounter_timers_bw"] = {
+			},
+			["max_emote_segments"] = 3,
+			["author"] = "Details! Team",
+			["window_scale"] = 1,
+			["hide_on_combat"] = false,
+			["show_icon"] = 5,
+			["opened"] = 0,
+			["encounter_timers_dbm"] = {
+			},
+		},
+		["DETAILS_PLUGIN_TIME_ATTACK"] = {
+			["enabled"] = true,
+			["realm_last_shown"] = 40,
+			["saved_as_anonymous"] = true,
+			["recently_as_anonymous"] = true,
+			["dps"] = 0,
+			["disable_sharing"] = false,
+			["history"] = {
+			},
+			["time"] = 40,
+			["history_lastindex"] = 0,
+			["realm_lastamt"] = 0,
+			["realm_history"] = {
+			},
+			["author"] = "Details! Team",
+		},
+		["DETAILS_PLUGIN_RAIDCHECK"] = {
+			["enabled"] = true,
+			["food_tier1"] = true,
+			["mythic_1_4"] = true,
+			["food_tier2"] = true,
+			["author"] = "Details! Team",
+			["use_report_panel"] = true,
+			["pre_pot_healers"] = false,
+			["pre_pot_tanks"] = false,
+			["food_tier3"] = true,
+		},
+		["DETAILS_PLUGIN_DPS_TUNING"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+			["SpellBarsShowType"] = 1,
+		},
+	},
+	["savedbuffs"] = {
+	},
+	["character_data"] = {
+		["logons"] = 1,
+	},
+	["last_instance_time"] = 0,
+	["tabela_historico"] = {
+		["tabelas"] = {
+			{
+				{
+					["combatId"] = 30,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1300,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["可耻的萨德里斯"] = 1688789,
+							},
+							["pets"] = {
+								"布雷兹辛格 <立二拆三>", -- [1]
+								"野生小鬼 <立二拆三>", -- [2]
+								"恐惧猎犬 <立二拆三>", -- [3]
+							},
+							["on_hold"] = false,
+							["classe"] = "WARLOCK",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 635283.007346,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1475596275,
+							["friendlyfire_total"] = 0,
+							["spec"] = 266,
+							["nome"] = "立二拆三",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[86040] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 53696,
+										["g_amt"] = 0,
+										["n_max"] = 13424,
+										["targets"] = {
+											["可耻的萨德里斯"] = 93968,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 40272,
+										["n_min"] = 13424,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 93968,
+										["c_max"] = 26848,
+										["id"] = 86040,
+										["r_dmg"] = 0,
+										["spellschool"] = 36,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 26848,
+									},
+									[157695] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 43745,
+										["g_amt"] = 0,
+										["n_max"] = 19138,
+										["targets"] = {
+											["可耻的萨德里斯"] = 370458,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 326713,
+										["n_min"] = 12303,
+										["g_dmg"] = 0,
+										["counter"] = 22,
+										["total"] = 370458,
+										["c_max"] = 27341,
+										["id"] = 157695,
+										["r_dmg"] = 0,
+										["spellschool"] = 127,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 20,
+										["r_amt"] = 0,
+										["c_min"] = 16404,
+									},
+									[603] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 85429,
+										["g_amt"] = 0,
+										["n_max"] = 42714,
+										["targets"] = {
+											["可耻的萨德里斯"] = 170857,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 85428,
+										["n_min"] = 42714,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 170857,
+										["c_max"] = 85429,
+										["id"] = 603,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 85429,
+									},
+								},
+							},
+							["grupo"] = true,
+							["total"] = 1688789.007346,
+							["serial"] = "Player-829-0381ED32",
+							["last_dps"] = 26057.1354761744,
+							["custom"] = 0,
+							["last_event"] = 1475596274,
+							["damage_taken"] = 0.007346,
+							["start_time"] = 1475596210,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["serial"] = "Pet-0-3117-1220-11286-78217-0101BCDA97",
+							["damage_from"] = {
+								["可耻的萨德里斯"] = true,
+							},
+							["targets"] = {
+								["可耻的萨德里斯"] = 452017,
+							},
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 452017.002639,
+							["dps_started"] = false,
+							["total"] = 452017.002639,
+							["classe"] = "PET",
+							["ownerName"] = "立二拆三",
+							["nome"] = "布雷兹辛格 <立二拆三>",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 8,
+										["b_amt"] = 0,
+										["c_dmg"] = 61768,
+										["g_amt"] = 0,
+										["n_max"] = 3988,
+										["targets"] = {
+											["可耻的萨德里斯"] = 207169,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 145401,
+										["n_min"] = 2964,
+										["g_dmg"] = 0,
+										["counter"] = 46,
+										["total"] = 207169,
+										["c_max"] = 7977,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 38,
+										["r_amt"] = 0,
+										["c_min"] = 5929,
+									}, -- [1]
+									[20153] = {
+										["c_amt"] = 6,
+										["b_amt"] = 0,
+										["c_dmg"] = 49128,
+										["g_amt"] = 0,
+										["n_max"] = 4477,
+										["targets"] = {
+											["可耻的萨德里斯"] = 244848,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 195720,
+										["n_min"] = 3328,
+										["g_dmg"] = 0,
+										["counter"] = 51,
+										["total"] = 244848,
+										["c_max"] = 8954,
+										["id"] = 20153,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 45,
+										["r_amt"] = 0,
+										["c_min"] = 6656,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1475596275,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 154171.002639,
+							["start_time"] = 1475596210,
+							["delay"] = 0,
+							["last_event"] = 1475596274,
+						}, -- [2]
+						{
+							["flag_original"] = 8465,
+							["serial"] = "Vehicle-0-3117-1220-11286-98035-000073CFC3",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["可耻的萨德里斯"] = 335392,
+							},
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 335392.005444,
+							["dps_started"] = false,
+							["total"] = 335392.005444,
+							["classe"] = "PET",
+							["ownerName"] = "立二拆三",
+							["nome"] = "恐惧猎犬 <立二拆三>",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 15,
+										["b_amt"] = 0,
+										["c_dmg"] = 94205,
+										["g_amt"] = 0,
+										["n_max"] = 3310,
+										["targets"] = {
+											["可耻的萨德里斯"] = 251205,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 157000,
+										["n_min"] = 2460,
+										["g_dmg"] = 0,
+										["counter"] = 65,
+										["total"] = 251205,
+										["c_max"] = 6621,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 50,
+										["r_amt"] = 0,
+										["c_min"] = 4921,
+									}, -- [1]
+									[205196] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 10524,
+										["targets"] = {
+											["可耻的萨德里斯"] = 84187,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 84187,
+										["n_min"] = 10523,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 84187,
+										["c_max"] = 0,
+										["id"] = 205196,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 8,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1475596275,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.005444,
+							["start_time"] = 1475596215,
+							["delay"] = 0,
+							["last_event"] = 1475596274,
+						}, -- [3]
+						{
+							["flag_original"] = 8465,
+							["serial"] = "Creature-0-3117-1220-11286-55659-000173CFB5",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["可耻的萨德里斯"] = 266097,
+							},
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 266097.008762,
+							["dps_started"] = false,
+							["total"] = 266097.008762,
+							["classe"] = "PET",
+							["ownerName"] = "立二拆三",
+							["nome"] = "野生小鬼 <立二拆三>",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[104318] = {
+										["c_amt"] = 13,
+										["b_amt"] = 0,
+										["c_dmg"] = 35860,
+										["g_amt"] = 0,
+										["n_max"] = 1570,
+										["targets"] = {
+											["可耻的萨德里斯"] = 266097,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 230237,
+										["n_min"] = 1110,
+										["g_dmg"] = 0,
+										["counter"] = 175,
+										["total"] = 266097,
+										["c_max"] = 3107,
+										["id"] = 104318,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 162,
+										["r_amt"] = 0,
+										["c_min"] = 2221,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1475596275,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.008762,
+							["start_time"] = 1475596212,
+							["delay"] = 0,
+							["last_event"] = 1475596274,
+						}, -- [4]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 30,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorb"] = 0.008644,
+							["last_hps"] = 0,
+							["healing_from"] = {
+							},
+							["targets"] = {
+								["布雷兹辛格 <立二拆三>"] = 154171,
+							},
+							["spec"] = 266,
+							["pets"] = {
+								"布雷兹辛格 <立二拆三>", -- [1]
+							},
+							["totalover_without_pet"] = 0.008644,
+							["targets_overheal"] = {
+							},
+							["healing_taken"] = 0.008644,
+							["totalover"] = 0.008644,
+							["total_without_pet"] = 154171.008644,
+							["heal_enemy_amt"] = 0,
+							["iniciar_hps"] = false,
+							["classe"] = "WARLOCK",
+							["total"] = 154171.008644,
+							["last_event"] = 1475596274,
+							["end_time"] = 1475596275,
+							["nome"] = "立二拆三",
+							["targets_absorbs"] = {
+							},
+							["grupo"] = true,
+							["heal_enemy"] = {
+							},
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[108366] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 12932,
+										["targets"] = {
+											["布雷兹辛格 <立二拆三>"] = 154171,
+										},
+										["n_min"] = 1692,
+										["counter"] = 34,
+										["overheal"] = 0,
+										["total"] = 154171,
+										["c_max"] = 0,
+										["id"] = 108366,
+										["targets_absorbs"] = {
+										},
+										["m_crit"] = 0,
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["n_curado"] = 154171,
+										["m_healed"] = 0,
+										["n_amt"] = 34,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["custom"] = 0,
+							["tipo"] = 2,
+							["on_hold"] = false,
+							["start_time"] = 1475596211,
+							["delay"] = 0,
+							["serial"] = "Player-829-0381ED32",
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["totalabsorb"] = 0.007785,
+							["last_hps"] = 0,
+							["healing_from"] = {
+								["立二拆三"] = true,
+							},
+							["targets_absorbs"] = {
+							},
+							["targets"] = {
+							},
+							["targets_overheal"] = {
+							},
+							["pets"] = {
+							},
+							["totalover_without_pet"] = 0.007785,
+							["last_event"] = 0,
+							["classe"] = "PET",
+							["totalover"] = 0.007785,
+							["total_without_pet"] = 0.007785,
+							["iniciar_hps"] = false,
+							["serial"] = "Pet-0-3117-1220-11286-78217-0101BCDA97",
+							["fight_component"] = true,
+							["total"] = 0.007785,
+							["heal_enemy_amt"] = 0,
+							["ownerName"] = "立二拆三",
+							["nome"] = "布雷兹辛格 <立二拆三>",
+							["end_time"] = 1475596275,
+							["heal_enemy"] = {
+							},
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+								},
+							},
+							["custom"] = 0,
+							["tipo"] = 2,
+							["on_hold"] = false,
+							["start_time"] = 1475596275,
+							["delay"] = 0,
+							["healing_taken"] = 154171.007785,
+						}, -- [2]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 30,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["resource"] = 26.002126,
+							["targets"] = {
+								["立二拆三"] = 15900,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "WARLOCK",
+							["total"] = 15900.002126,
+							["nome"] = "立二拆三",
+							["spec"] = 266,
+							["grupo"] = true,
+							["resource_type"] = 7,
+							["tipo"] = 3,
+							["received"] = 15900.002126,
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[227413] = {
+										["id"] = 227413,
+										["total"] = 15900,
+										["targets"] = {
+											["立二拆三"] = 15900,
+										},
+										["counter"] = 1,
+									},
+								},
+							},
+							["serial"] = "Player-829-0381ED32",
+							["last_event"] = 1475596274,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 30,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[603] = {
+										["uptime"] = 64,
+										["activedamt"] = 0,
+										["id"] = 603,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 150,
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[177046] = {
+										["uptime"] = 9,
+										["activedamt"] = 1,
+										["id"] = 177046,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[205146] = {
+										["uptime"] = 30,
+										["activedamt"] = 2,
+										["id"] = 205146,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[193396] = {
+										["actived_at"] = 1475596270,
+										["uptime"] = 46,
+										["activedamt"] = 3,
+										["id"] = 193396,
+										["actived"] = true,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[108366] = {
+										["uptime"] = 65,
+										["activedamt"] = 1,
+										["id"] = 108366,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[108446] = {
+										["actived_at"] = 1475596328,
+										["uptime"] = 0,
+										["activedamt"] = 22,
+										["id"] = 108446,
+										["actived"] = true,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+								},
+							},
+							["debuff_uptime"] = 64,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 266,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[104316] = 4,
+								[157695] = 23,
+								[105174] = 5,
+								[193396] = 5,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1475596328,
+							["nome"] = "立二拆三",
+							["pets"] = {
+								"布雷兹辛格 <立二拆三>", -- [1]
+								"野生小鬼 <立二拆三>", -- [2]
+								"恐惧猎犬 <立二拆三>", -- [3]
+							},
+							["serial"] = "Player-829-0381ED32",
+							["tipo"] = 4,
+						}, -- [1]
+						{
+							["flag_original"] = 8465,
+							["ownerName"] = "立二拆三",
+							["nome"] = "野生小鬼 <立二拆三>",
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["tipo"] = 4,
+							["spell_cast"] = {
+								[104318] = 175,
+							},
+							["serial"] = "Creature-0-3117-1220-11286-55659-000173CFB5",
+							["last_event"] = 0,
+						}, -- [2]
+						{
+							["flag_original"] = 8465,
+							["ownerName"] = "立二拆三",
+							["nome"] = "恐惧猎犬 <立二拆三>",
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["tipo"] = 4,
+							["spell_cast"] = {
+								[215111] = 8,
+								[205196] = 8,
+							},
+							["serial"] = "Vehicle-0-3117-1220-11286-98035-000073CFC3",
+							["last_event"] = 0,
+						}, -- [3]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 30,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["立二拆三"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["enemy"] = "可耻的萨德里斯",
+				["combat_counter"] = 33,
+				["playing_solo"] = true,
+				["totals"] = {
+					1688788.960941, -- [1]
+					154170.998613, -- [2]
+					{
+						0, -- [1]
+						[0] = 15900,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = -0.00873100000000004,
+						["dispell"] = -0.00778199999999973,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["立二拆三"] = 154171.008644,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["立二拆三"] = 1688789.007346,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 823540.179,
+				["combat_id"] = 30,
+				["instance_type"] = "none",
+				["frags"] = {
+					["暗魔狂热者"] = 2,
+					["噩梦小鬼"] = 1,
+					["暗魔腐蚀者"] = 1,
+					["可耻的萨德里斯"] = 1,
+				},
+				["data_fim"] = "23:51:15",
+				["data_inicio"] = "23:50:10",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					635283, -- [1]
+					154171, -- [2]
+					{
+						0, -- [1]
+						[0] = 15900,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 823475.368,
+				["contra"] = "可耻的萨德里斯",
+				["TimeData"] = {
+				},
+			}, -- [1]
+			{
+				{
+					["combatId"] = 29,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1300,
+							["damage_from"] = {
+								["噩梦小鬼"] = true,
+							},
+							["targets"] = {
+								["噩梦小鬼"] = 172137,
+							},
+							["pets"] = {
+								"布雷兹辛格 <立二拆三>", -- [1]
+								"恐惧猎犬 <立二拆三>", -- [2]
+								"野生小鬼 <立二拆三>", -- [3]
+							},
+							["total"] = 172137.005397,
+							["on_hold"] = false,
+							["classe"] = "WARLOCK",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 68105.005397,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1475596201,
+							["friendlyfire_total"] = 0,
+							["spec"] = 266,
+							["nome"] = "立二拆三",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[157695] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 27341,
+										["g_amt"] = 0,
+										["n_max"] = 13670,
+										["targets"] = {
+											["噩梦小鬼"] = 54681,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 27340,
+										["n_min"] = 13670,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 54681,
+										["c_max"] = 27341,
+										["id"] = 157695,
+										["r_dmg"] = 0,
+										["spellschool"] = 127,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 27341,
+									},
+									[86040] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 13424,
+										["targets"] = {
+											["噩梦小鬼"] = 13424,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 13424,
+										["n_min"] = 13424,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 13424,
+										["c_max"] = 0,
+										["id"] = 86040,
+										["r_dmg"] = 0,
+										["spellschool"] = 36,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-829-0381ED32",
+							["last_dps"] = 21967.4585753924,
+							["custom"] = 0,
+							["last_event"] = 1475596200,
+							["damage_taken"] = 6383.005397,
+							["start_time"] = 1475596193,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+						{
+							["flag_original"] = 8465,
+							["serial"] = "Vehicle-0-3117-1220-11286-98035-000073CFAD",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["噩梦小鬼"] = 56173,
+							},
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 56173.002833,
+							["dps_started"] = false,
+							["total"] = 56173.002833,
+							["classe"] = "PET",
+							["ownerName"] = "立二拆三",
+							["nome"] = "恐惧猎犬 <立二拆三>",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 9842,
+										["g_amt"] = 0,
+										["n_max"] = 2460,
+										["targets"] = {
+											["噩梦小鬼"] = 24602,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 14760,
+										["n_min"] = 2460,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 24602,
+										["c_max"] = 4921,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 6,
+										["r_amt"] = 0,
+										["c_min"] = 4921,
+									}, -- [1]
+									[205196] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 21047,
+										["g_amt"] = 0,
+										["n_max"] = 10524,
+										["targets"] = {
+											["噩梦小鬼"] = 31571,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 10524,
+										["n_min"] = 10524,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 31571,
+										["c_max"] = 21047,
+										["id"] = 205196,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 21047,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1475596201,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.002833,
+							["start_time"] = 1475596193,
+							["delay"] = 0,
+							["last_event"] = 1475596199,
+						}, -- [2]
+						{
+							["flag_original"] = 4369,
+							["serial"] = "Pet-0-3117-1220-11286-78217-0101BCDA97",
+							["damage_from"] = {
+								["噩梦小鬼"] = true,
+							},
+							["targets"] = {
+								["噩梦小鬼"] = 39803,
+							},
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 39803.007367,
+							["dps_started"] = false,
+							["total"] = 39803.007367,
+							["classe"] = "PET",
+							["ownerName"] = "立二拆三",
+							["nome"] = "布雷兹辛格 <立二拆三>",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 7977,
+										["g_amt"] = 0,
+										["n_max"] = 2965,
+										["targets"] = {
+											["噩梦小鬼"] = 19835,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 11858,
+										["n_min"] = 2964,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 19835,
+										["c_max"] = 7977,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["r_amt"] = 0,
+										["c_min"] = 7977,
+									}, -- [1]
+									[20153] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 6656,
+										["g_amt"] = 0,
+										["n_max"] = 3328,
+										["targets"] = {
+											["噩梦小鬼"] = 19968,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 13312,
+										["n_min"] = 3328,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 19968,
+										["c_max"] = 6656,
+										["id"] = 20153,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["r_amt"] = 0,
+										["c_min"] = 6656,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1475596201,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 21755.007367,
+							["start_time"] = 1475596193,
+							["delay"] = 0,
+							["last_event"] = 1475596200,
+						}, -- [3]
+						{
+							["flag_original"] = 8465,
+							["serial"] = "Creature-0-3117-1220-11286-99737-000073CFAD",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["噩梦小鬼"] = 8056,
+							},
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 8056.007943,
+							["dps_started"] = false,
+							["total"] = 8056.007943,
+							["classe"] = "PET",
+							["ownerName"] = "立二拆三",
+							["nome"] = "野生小鬼 <立二拆三>",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[104318] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 2262,
+										["g_amt"] = 0,
+										["n_max"] = 1164,
+										["targets"] = {
+											["噩梦小鬼"] = 8056,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 5794,
+										["n_min"] = 1152,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 8056,
+										["c_max"] = 2262,
+										["id"] = 104318,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["r_amt"] = 0,
+										["c_min"] = 2262,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1475596201,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.007943,
+							["start_time"] = 1475596194,
+							["delay"] = 0,
+							["last_event"] = 1475596199,
+						}, -- [4]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 29,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorb"] = 0.008212,
+							["last_hps"] = 0,
+							["healing_from"] = {
+								["立二拆三"] = true,
+							},
+							["targets"] = {
+								["立二拆三"] = 6383,
+								["布雷兹辛格 <立二拆三>"] = 21755,
+							},
+							["last_event"] = 1475596200,
+							["pets"] = {
+								"布雷兹辛格 <立二拆三>", -- [1]
+							},
+							["totalover_without_pet"] = 0.008212,
+							["targets_overheal"] = {
+							},
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 0.008212,
+							["total_without_pet"] = 28138.008212,
+							["iniciar_hps"] = false,
+							["classe"] = "WARLOCK",
+							["fight_component"] = true,
+							["total"] = 28138.008212,
+							["serial"] = "Player-829-0381ED32",
+							["healing_taken"] = 6383.008212,
+							["nome"] = "立二拆三",
+							["spec"] = 266,
+							["grupo"] = true,
+							["end_time"] = 1475596201,
+							["heal_enemy"] = {
+							},
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[108366] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 7949,
+										["targets"] = {
+											["立二拆三"] = 6383,
+											["布雷兹辛格 <立二拆三>"] = 21755,
+										},
+										["n_min"] = 2703,
+										["counter"] = 5,
+										["overheal"] = 0,
+										["total"] = 28138,
+										["c_max"] = 0,
+										["id"] = 108366,
+										["targets_absorbs"] = {
+										},
+										["m_crit"] = 0,
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["n_curado"] = 28138,
+										["m_healed"] = 0,
+										["n_amt"] = 5,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["custom"] = 0,
+							["tipo"] = 2,
+							["on_hold"] = false,
+							["start_time"] = 1475596193,
+							["delay"] = 0,
+							["targets_absorbs"] = {
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["totalabsorb"] = 0.003568,
+							["last_hps"] = 0,
+							["targets_overheal"] = {
+							},
+							["targets"] = {
+							},
+							["targets_absorbs"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["healing_from"] = {
+								["立二拆三"] = true,
+							},
+							["healing_taken"] = 21755.003568,
+							["totalover"] = 0.003568,
+							["total_without_pet"] = 0.003568,
+							["last_event"] = 0,
+							["totalover_without_pet"] = 0.003568,
+							["fight_component"] = true,
+							["end_time"] = 1475596201,
+							["classe"] = "PET",
+							["ownerName"] = "立二拆三",
+							["nome"] = "布雷兹辛格 <立二拆三>",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+								},
+							},
+							["serial"] = "Pet-0-3117-1220-11286-78217-0101BCDA97",
+							["total"] = 0.003568,
+							["heal_enemy"] = {
+							},
+							["heal_enemy_amt"] = 0,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["on_hold"] = false,
+							["start_time"] = 1475596201,
+							["delay"] = 0,
+						}, -- [2]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 29,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["resource"] = 3.007917,
+							["targets"] = {
+								["立二拆三"] = 15900,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "WARLOCK",
+							["fight_component"] = true,
+							["total"] = 15900.007917,
+							["nome"] = "立二拆三",
+							["spec"] = 266,
+							["grupo"] = true,
+							["resource_type"] = 7,
+							["tipo"] = 3,
+							["received"] = 15900.007917,
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[227413] = {
+										["id"] = 227413,
+										["total"] = 15900,
+										["targets"] = {
+											["立二拆三"] = 15900,
+										},
+										["counter"] = 1,
+									},
+								},
+							},
+							["serial"] = "Player-829-0381ED32",
+							["last_event"] = 1475596200,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 29,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[603] = {
+										["uptime"] = 7,
+										["activedamt"] = 0,
+										["id"] = 603,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 8,
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[108366] = {
+										["uptime"] = 8,
+										["activedamt"] = 1,
+										["id"] = 108366,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[193396] = {
+										["actived_at"] = 1475596200,
+										["uptime"] = 0,
+										["activedamt"] = 1,
+										["id"] = 193396,
+										["actived"] = true,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 7,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 266,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[105174] = 1,
+								[157695] = 3,
+								[193396] = 1,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1475596201,
+							["nome"] = "立二拆三",
+							["pets"] = {
+								"布雷兹辛格 <立二拆三>", -- [1]
+								"恐惧猎犬 <立二拆三>", -- [2]
+								"野生小鬼 <立二拆三>", -- [3]
+							},
+							["serial"] = "Player-829-0381ED32",
+							["tipo"] = 4,
+						}, -- [1]
+						{
+							["flag_original"] = 8465,
+							["ownerName"] = "立二拆三",
+							["nome"] = "恐惧猎犬 <立二拆三>",
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["tipo"] = 4,
+							["spell_cast"] = {
+								[205196] = 2,
+							},
+							["serial"] = "Vehicle-0-3117-1220-11286-98035-000073CFAD",
+							["last_event"] = 0,
+						}, -- [2]
+						{
+							["flag_original"] = 8465,
+							["ownerName"] = "立二拆三",
+							["nome"] = "野生小鬼 <立二拆三>",
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["tipo"] = 4,
+							["spell_cast"] = {
+								[104318] = 6,
+							},
+							["serial"] = "Creature-0-3117-1220-11286-99737-000073CFAD",
+							["last_event"] = 0,
+						}, -- [3]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 29,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["立二拆三"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["enemy"] = "噩梦小鬼",
+				["combat_counter"] = 32,
+				["playing_solo"] = true,
+				["totals"] = {
+					172136.992597, -- [1]
+					28138, -- [2]
+					{
+						0, -- [1]
+						[0] = 15900,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["立二拆三"] = 28138.008212,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["立二拆三"] = 172137.005397,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 823465.997,
+				["combat_id"] = 29,
+				["instance_type"] = "none",
+				["frags"] = {
+					["噩梦小鬼"] = 1,
+				},
+				["data_fim"] = "23:50:01",
+				["data_inicio"] = "23:49:53",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					68105, -- [1]
+					28138, -- [2]
+					{
+						0, -- [1]
+						[0] = 15900,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 823458.161,
+				["contra"] = "噩梦小鬼",
+				["TimeData"] = {
+				},
+			}, -- [2]
+			{
+				{
+					["combatId"] = 28,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1300,
+							["damage_from"] = {
+								["噩梦小鬼"] = true,
+							},
+							["targets"] = {
+								["噩梦小鬼"] = 170112,
+							},
+							["pets"] = {
+								"布雷兹辛格 <立二拆三>", -- [1]
+								"恐惧猎犬 <立二拆三>", -- [2]
+								"野生小鬼 <立二拆三>", -- [3]
+							},
+							["total"] = 170112.007382,
+							["on_hold"] = false,
+							["classe"] = "WARLOCK",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 68352.007382,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1475596180,
+							["friendlyfire_total"] = 0,
+							["spec"] = 266,
+							["nome"] = "立二拆三",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[157695] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 54682,
+										["g_amt"] = 0,
+										["n_max"] = 13670,
+										["targets"] = {
+											["噩梦小鬼"] = 68352,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 13670,
+										["n_min"] = 13670,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 68352,
+										["c_max"] = 27341,
+										["id"] = 157695,
+										["r_dmg"] = 0,
+										["spellschool"] = 127,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 27341,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-829-0381ED32",
+							["last_dps"] = 18224.9847207569,
+							["custom"] = 0,
+							["last_event"] = 1475596179,
+							["damage_taken"] = 6983.007382,
+							["start_time"] = 1475596171,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+						{
+							["flag_original"] = 8465,
+							["serial"] = "Vehicle-0-3117-1220-11286-98035-000073CF9A",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["噩梦小鬼"] = 58633,
+							},
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 58633.002066,
+							["dps_started"] = false,
+							["total"] = 58633.002066,
+							["classe"] = "PET",
+							["ownerName"] = "立二拆三",
+							["nome"] = "恐惧猎犬 <立二拆三>",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 14763,
+										["g_amt"] = 0,
+										["n_max"] = 2460,
+										["targets"] = {
+											["噩梦小鬼"] = 27063,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 12300,
+										["n_min"] = 2460,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 27063,
+										["c_max"] = 4921,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["r_amt"] = 0,
+										["c_min"] = 4921,
+									}, -- [1]
+									[205196] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 21047,
+										["g_amt"] = 0,
+										["n_max"] = 10523,
+										["targets"] = {
+											["噩梦小鬼"] = 31570,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 10523,
+										["n_min"] = 10523,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 31570,
+										["c_max"] = 21047,
+										["id"] = 205196,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 21047,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1475596180,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.002066,
+							["start_time"] = 1475596173,
+							["delay"] = 0,
+							["last_event"] = 1475596179,
+						}, -- [2]
+						{
+							["flag_original"] = 4369,
+							["serial"] = "Pet-0-3117-1220-11286-78217-0101BCDA97",
+							["damage_from"] = {
+								["噩梦小鬼"] = true,
+							},
+							["targets"] = {
+								["噩梦小鬼"] = 35153,
+							},
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 35153.002724,
+							["dps_started"] = false,
+							["total"] = 35153.002724,
+							["classe"] = "PET",
+							["ownerName"] = "立二拆三",
+							["nome"] = "布雷兹辛格 <立二拆三>",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2965,
+										["targets"] = {
+											["噩梦小鬼"] = 11857,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 11857,
+										["n_min"] = 2964,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 11857,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									}, -- [1]
+									[20153] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 13312,
+										["g_amt"] = 0,
+										["n_max"] = 3328,
+										["targets"] = {
+											["噩梦小鬼"] = 23296,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 9984,
+										["n_min"] = 3328,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 23296,
+										["c_max"] = 6656,
+										["id"] = 20153,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 6656,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1475596180,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 11339.002724,
+							["start_time"] = 1475596171,
+							["delay"] = 0,
+							["last_event"] = 1475596179,
+						}, -- [3]
+						{
+							["flag_original"] = 8465,
+							["serial"] = "Creature-0-3117-1220-11286-99737-000073CF9A",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["噩梦小鬼"] = 7974,
+							},
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 7974.003737,
+							["dps_started"] = false,
+							["total"] = 7974.003737,
+							["classe"] = "PET",
+							["ownerName"] = "立二拆三",
+							["nome"] = "野生小鬼 <立二拆三>",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[104318] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 2297,
+										["g_amt"] = 0,
+										["n_max"] = 1149,
+										["targets"] = {
+											["噩梦小鬼"] = 7974,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 5677,
+										["n_min"] = 1128,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 7974,
+										["c_max"] = 2297,
+										["id"] = 104318,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["r_amt"] = 0,
+										["c_min"] = 2297,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1475596180,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.003737,
+							["start_time"] = 1475596174,
+							["delay"] = 0,
+							["last_event"] = 1475596179,
+						}, -- [4]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 28,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorb"] = 0.004293,
+							["last_hps"] = 0,
+							["healing_from"] = {
+								["立二拆三"] = true,
+							},
+							["targets"] = {
+								["布雷兹辛格 <立二拆三>"] = 11339,
+								["立二拆三"] = 6983,
+							},
+							["last_event"] = 1475596177,
+							["pets"] = {
+								"布雷兹辛格 <立二拆三>", -- [1]
+							},
+							["totalover_without_pet"] = 0.004293,
+							["targets_overheal"] = {
+							},
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 0.004293,
+							["total_without_pet"] = 18322.004293,
+							["iniciar_hps"] = false,
+							["classe"] = "WARLOCK",
+							["fight_component"] = true,
+							["total"] = 18322.004293,
+							["serial"] = "Player-829-0381ED32",
+							["healing_taken"] = 6983.004293,
+							["nome"] = "立二拆三",
+							["spec"] = 266,
+							["grupo"] = true,
+							["end_time"] = 1475596180,
+							["heal_enemy"] = {
+							},
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[108366] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 6983,
+										["targets"] = {
+											["布雷兹辛格 <立二拆三>"] = 11339,
+											["立二拆三"] = 6983,
+										},
+										["n_min"] = 2350,
+										["counter"] = 5,
+										["overheal"] = 0,
+										["total"] = 18322,
+										["c_max"] = 0,
+										["id"] = 108366,
+										["targets_absorbs"] = {
+										},
+										["m_crit"] = 0,
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["n_curado"] = 18322,
+										["m_healed"] = 0,
+										["n_amt"] = 5,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["custom"] = 0,
+							["tipo"] = 2,
+							["on_hold"] = false,
+							["start_time"] = 1475596171,
+							["delay"] = 0,
+							["targets_absorbs"] = {
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["totalabsorb"] = 0.002766,
+							["last_hps"] = 0,
+							["targets_overheal"] = {
+							},
+							["targets"] = {
+							},
+							["targets_absorbs"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["healing_from"] = {
+								["立二拆三"] = true,
+							},
+							["healing_taken"] = 11339.002766,
+							["totalover"] = 0.002766,
+							["total_without_pet"] = 0.002766,
+							["last_event"] = 0,
+							["totalover_without_pet"] = 0.002766,
+							["fight_component"] = true,
+							["end_time"] = 1475596180,
+							["classe"] = "PET",
+							["ownerName"] = "立二拆三",
+							["nome"] = "布雷兹辛格 <立二拆三>",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+								},
+							},
+							["serial"] = "Pet-0-3117-1220-11286-78217-0101BCDA97",
+							["total"] = 0.002766,
+							["heal_enemy"] = {
+							},
+							["heal_enemy_amt"] = 0,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["on_hold"] = false,
+							["start_time"] = 1475596180,
+							["delay"] = 0,
+						}, -- [2]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 28,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["resource"] = 3.006463,
+							["targets"] = {
+								["立二拆三"] = 15900,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "WARLOCK",
+							["fight_component"] = true,
+							["total"] = 15900.006463,
+							["nome"] = "立二拆三",
+							["spec"] = 266,
+							["grupo"] = true,
+							["resource_type"] = 7,
+							["tipo"] = 3,
+							["received"] = 15900.006463,
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[227413] = {
+										["id"] = 227413,
+										["total"] = 15900,
+										["targets"] = {
+											["立二拆三"] = 15900,
+										},
+										["counter"] = 1,
+									},
+								},
+							},
+							["serial"] = "Player-829-0381ED32",
+							["last_event"] = 1475596179,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 28,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[603] = {
+										["uptime"] = 8,
+										["activedamt"] = 0,
+										["id"] = 603,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 17,
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[177046] = {
+										["uptime"] = 8,
+										["activedamt"] = 1,
+										["id"] = 177046,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[193396] = {
+										["actived_at"] = 1475596179,
+										["uptime"] = 0,
+										["activedamt"] = 1,
+										["id"] = 193396,
+										["actived"] = true,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[108366] = {
+										["uptime"] = 9,
+										["activedamt"] = 1,
+										["id"] = 108366,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 8,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 266,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[104316] = 1,
+								[157695] = 3,
+								[193396] = 1,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1475596180,
+							["nome"] = "立二拆三",
+							["pets"] = {
+								"布雷兹辛格 <立二拆三>", -- [1]
+								"恐惧猎犬 <立二拆三>", -- [2]
+								"野生小鬼 <立二拆三>", -- [3]
+							},
+							["serial"] = "Player-829-0381ED32",
+							["tipo"] = 4,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["ownerName"] = "立二拆三",
+							["nome"] = "布雷兹辛格 <立二拆三>",
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["fight_component"] = true,
+							["tipo"] = 4,
+							["spell_cast"] = {
+								[171021] = 1,
+							},
+							["serial"] = "Pet-0-3117-1220-11286-78217-0101BCDA97",
+							["last_event"] = 0,
+						}, -- [2]
+						{
+							["flag_original"] = 8465,
+							["ownerName"] = "立二拆三",
+							["nome"] = "恐惧猎犬 <立二拆三>",
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["tipo"] = 4,
+							["spell_cast"] = {
+								[215111] = 2,
+								[205196] = 2,
+							},
+							["serial"] = "Vehicle-0-3117-1220-11286-98035-000073CF9A",
+							["last_event"] = 0,
+						}, -- [3]
+						{
+							["flag_original"] = 8465,
+							["ownerName"] = "立二拆三",
+							["nome"] = "野生小鬼 <立二拆三>",
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["tipo"] = 4,
+							["spell_cast"] = {
+								[104318] = 6,
+							},
+							["serial"] = "Creature-0-3117-1220-11286-99737-000073CF9A",
+							["last_event"] = 0,
+						}, -- [4]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 28,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["立二拆三"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["enemy"] = "噩梦小鬼",
+				["combat_counter"] = 31,
+				["playing_solo"] = true,
+				["totals"] = {
+					170111.988966, -- [1]
+					18322, -- [2]
+					{
+						0, -- [1]
+						[0] = 15900,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["立二拆三"] = 18322.004293,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["立二拆三"] = 170112.007382,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 823445.296,
+				["combat_id"] = 28,
+				["instance_type"] = "none",
+				["frags"] = {
+					["噩梦小鬼"] = 2,
+				},
+				["data_fim"] = "23:49:40",
+				["data_inicio"] = "23:49:31",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					68352, -- [1]
+					18322, -- [2]
+					{
+						0, -- [1]
+						[0] = 15900,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 823435.962,
+				["contra"] = "噩梦小鬼",
+				["TimeData"] = {
+				},
+			}, -- [3]
+			{
+				{
+					["combatId"] = 27,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1300,
+							["damage_from"] = {
+								["噩梦小鬼"] = true,
+							},
+							["targets"] = {
+								["噩梦小鬼"] = 169704,
+							},
+							["pets"] = {
+								"布雷兹辛格 <立二拆三>", -- [1]
+								"野生小鬼 <立二拆三>", -- [2]
+								"恐惧猎犬 <立二拆三>", -- [3]
+							},
+							["total"] = 169704.00481,
+							["on_hold"] = false,
+							["classe"] = "WARLOCK",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 42875.00481,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1475596160,
+							["friendlyfire_total"] = 0,
+							["spec"] = 266,
+							["nome"] = "立二拆三",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[86040] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 10067,
+										["targets"] = {
+											["噩梦小鬼"] = 10067,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 10067,
+										["n_min"] = 10067,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 10067,
+										["c_max"] = 0,
+										["id"] = 86040,
+										["r_dmg"] = 0,
+										["spellschool"] = 36,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[157695] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 16404,
+										["g_amt"] = 0,
+										["n_max"] = 8202,
+										["targets"] = {
+											["噩梦小鬼"] = 32808,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 16404,
+										["n_min"] = 8202,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 32808,
+										["c_max"] = 16404,
+										["id"] = 157695,
+										["r_dmg"] = 0,
+										["spellschool"] = 127,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 16404,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-829-0381ED32",
+							["last_dps"] = 13825.1735080479,
+							["custom"] = 0,
+							["last_event"] = 1475596159,
+							["damage_taken"] = 6621.00481,
+							["start_time"] = 1475596148,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["serial"] = "Pet-0-3117-1220-11286-78217-0101BCDA97",
+							["damage_from"] = {
+								["噩梦小鬼"] = true,
+							},
+							["targets"] = {
+								["噩梦小鬼"] = 66970,
+							},
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 66970.003891,
+							["dps_started"] = false,
+							["total"] = 66970.003891,
+							["classe"] = "PET",
+							["ownerName"] = "立二拆三",
+							["nome"] = "布雷兹辛格 <立二拆三>",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 7977,
+										["g_amt"] = 0,
+										["n_max"] = 2965,
+										["targets"] = {
+											["噩梦小鬼"] = 25766,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 17789,
+										["n_min"] = 2964,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 25766,
+										["c_max"] = 7977,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 6,
+										["r_amt"] = 0,
+										["c_min"] = 7977,
+									}, -- [1]
+									[20153] = {
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 22266,
+										["g_amt"] = 0,
+										["n_max"] = 4477,
+										["targets"] = {
+											["噩梦小鬼"] = 41204,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 18938,
+										["n_min"] = 3328,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 41204,
+										["c_max"] = 8954,
+										["id"] = 20153,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["r_amt"] = 0,
+										["c_min"] = 6656,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1475596160,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 16835.003891,
+							["start_time"] = 1475596148,
+							["delay"] = 0,
+							["last_event"] = 1475596159,
+						}, -- [2]
+						{
+							["flag_original"] = 8465,
+							["serial"] = "Vehicle-0-3117-1220-11286-98035-000073CF88",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["噩梦小鬼"] = 35047,
+							},
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 35047.005793,
+							["dps_started"] = false,
+							["total"] = 35047.005793,
+							["classe"] = "PET",
+							["ownerName"] = "立二拆三",
+							["nome"] = "恐惧猎犬 <立二拆三>",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 4921,
+										["g_amt"] = 0,
+										["n_max"] = 3310,
+										["targets"] = {
+											["噩梦小鬼"] = 14001,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 9080,
+										["n_min"] = 2460,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 14001,
+										["c_max"] = 4921,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 4921,
+									}, -- [1]
+									[205196] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 10523,
+										["targets"] = {
+											["噩梦小鬼"] = 21046,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 21046,
+										["n_min"] = 10523,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 21046,
+										["c_max"] = 0,
+										["id"] = 205196,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1475596160,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.005793,
+							["start_time"] = 1475596156,
+							["delay"] = 0,
+							["last_event"] = 1475596158,
+						}, -- [3]
+						{
+							["flag_original"] = 8465,
+							["serial"] = "Creature-0-3117-1220-11286-55659-000073CF82",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["噩梦小鬼"] = 24812,
+							},
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 24812.007121,
+							["dps_started"] = false,
+							["total"] = 24812.007121,
+							["classe"] = "PET",
+							["ownerName"] = "立二拆三",
+							["nome"] = "野生小鬼 <立二拆三>",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[104318] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 5389,
+										["g_amt"] = 0,
+										["n_max"] = 1557,
+										["targets"] = {
+											["噩梦小鬼"] = 24812,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 19423,
+										["n_min"] = 1110,
+										["g_dmg"] = 0,
+										["counter"] = 18,
+										["total"] = 24812,
+										["c_max"] = 3093,
+										["id"] = 104318,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 16,
+										["r_amt"] = 0,
+										["c_min"] = 2296,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1475596160,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.007121,
+							["start_time"] = 1475596151,
+							["delay"] = 0,
+							["last_event"] = 1475596159,
+						}, -- [4]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 27,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorb"] = 0.005835,
+							["last_hps"] = 0,
+							["healing_from"] = {
+								["立二拆三"] = true,
+							},
+							["targets"] = {
+								["布雷兹辛格 <立二拆三>"] = 16835,
+								["立二拆三"] = 6621,
+							},
+							["last_event"] = 1475596158,
+							["pets"] = {
+								"布雷兹辛格 <立二拆三>", -- [1]
+							},
+							["totalover_without_pet"] = 0.005835,
+							["targets_overheal"] = {
+							},
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 0.005835,
+							["total_without_pet"] = 23456.005835,
+							["iniciar_hps"] = false,
+							["classe"] = "WARLOCK",
+							["fight_component"] = true,
+							["total"] = 23456.005835,
+							["serial"] = "Player-829-0381ED32",
+							["healing_taken"] = 6621.005835,
+							["nome"] = "立二拆三",
+							["spec"] = 266,
+							["grupo"] = true,
+							["end_time"] = 1475596160,
+							["heal_enemy"] = {
+							},
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[108366] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 7992,
+										["targets"] = {
+											["布雷兹辛格 <立二拆三>"] = 16835,
+											["立二拆三"] = 6621,
+										},
+										["n_min"] = 1614,
+										["counter"] = 6,
+										["overheal"] = 0,
+										["total"] = 23456,
+										["c_max"] = 0,
+										["id"] = 108366,
+										["targets_absorbs"] = {
+										},
+										["m_crit"] = 0,
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["n_curado"] = 23456,
+										["m_healed"] = 0,
+										["n_amt"] = 6,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["custom"] = 0,
+							["tipo"] = 2,
+							["on_hold"] = false,
+							["start_time"] = 1475596148,
+							["delay"] = 0,
+							["targets_absorbs"] = {
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["totalabsorb"] = 0.005,
+							["last_hps"] = 0,
+							["targets_overheal"] = {
+							},
+							["targets"] = {
+							},
+							["targets_absorbs"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["healing_from"] = {
+								["立二拆三"] = true,
+							},
+							["healing_taken"] = 16835.005,
+							["totalover"] = 0.005,
+							["total_without_pet"] = 0.005,
+							["last_event"] = 0,
+							["totalover_without_pet"] = 0.005,
+							["fight_component"] = true,
+							["end_time"] = 1475596160,
+							["classe"] = "PET",
+							["ownerName"] = "立二拆三",
+							["nome"] = "布雷兹辛格 <立二拆三>",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+								},
+							},
+							["serial"] = "Pet-0-3117-1220-11286-78217-0101BCDA97",
+							["total"] = 0.005,
+							["heal_enemy"] = {
+							},
+							["heal_enemy_amt"] = 0,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["on_hold"] = false,
+							["start_time"] = 1475596160,
+							["delay"] = 0,
+						}, -- [2]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 27,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["resource"] = 3.001062,
+							["targets"] = {
+								["立二拆三"] = 15900,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "WARLOCK",
+							["fight_component"] = true,
+							["total"] = 15900.001062,
+							["nome"] = "立二拆三",
+							["spec"] = 266,
+							["grupo"] = true,
+							["resource_type"] = 7,
+							["tipo"] = 3,
+							["received"] = 15900.001062,
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[227413] = {
+										["id"] = 227413,
+										["total"] = 15900,
+										["targets"] = {
+											["立二拆三"] = 15900,
+										},
+										["counter"] = 1,
+									},
+								},
+							},
+							["serial"] = "Player-829-0381ED32",
+							["last_event"] = 1475596159,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 27,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[603] = {
+										["uptime"] = 11,
+										["activedamt"] = 0,
+										["id"] = 603,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 26,
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[193396] = {
+										["actived_at"] = 1475596158,
+										["uptime"] = 0,
+										["activedamt"] = 1,
+										["id"] = 193396,
+										["actived"] = true,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[205146] = {
+										["uptime"] = 4,
+										["activedamt"] = 1,
+										["id"] = 205146,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[177046] = {
+										["uptime"] = 10,
+										["activedamt"] = 1,
+										["id"] = 177046,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[108366] = {
+										["uptime"] = 12,
+										["activedamt"] = 1,
+										["id"] = 108366,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 11,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 266,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[104316] = 1,
+								[157695] = 3,
+								[193396] = 1,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1475596160,
+							["nome"] = "立二拆三",
+							["pets"] = {
+								"布雷兹辛格 <立二拆三>", -- [1]
+								"野生小鬼 <立二拆三>", -- [2]
+								"恐惧猎犬 <立二拆三>", -- [3]
+							},
+							["serial"] = "Player-829-0381ED32",
+							["tipo"] = 4,
+						}, -- [1]
+						{
+							["flag_original"] = 8465,
+							["ownerName"] = "立二拆三",
+							["nome"] = "野生小鬼 <立二拆三>",
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["tipo"] = 4,
+							["spell_cast"] = {
+								[104318] = 19,
+							},
+							["serial"] = "Creature-0-3117-1220-11286-55659-0000F3CF82",
+							["last_event"] = 0,
+						}, -- [2]
+						{
+							["flag_original"] = 8465,
+							["ownerName"] = "立二拆三",
+							["nome"] = "恐惧猎犬 <立二拆三>",
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["tipo"] = 4,
+							["spell_cast"] = {
+								[215111] = 2,
+								[205196] = 2,
+							},
+							["serial"] = "Vehicle-0-3117-1220-11286-98035-000073CF88",
+							["last_event"] = 0,
+						}, -- [3]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 27,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["立二拆三"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["enemy"] = "噩梦小鬼",
+				["combat_counter"] = 30,
+				["playing_solo"] = true,
+				["totals"] = {
+					169703.989929, -- [1]
+					23456, -- [2]
+					{
+						0, -- [1]
+						[0] = 15900,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["立二拆三"] = 23456.005835,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["立二拆三"] = 169704.00481,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 823425.34,
+				["combat_id"] = 27,
+				["instance_type"] = "none",
+				["frags"] = {
+					["噩梦小鬼"] = 1,
+				},
+				["data_fim"] = "23:49:20",
+				["data_inicio"] = "23:49:08",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					42875, -- [1]
+					23456, -- [2]
+					{
+						0, -- [1]
+						[0] = 15900,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 823413.065,
+				["contra"] = "噩梦小鬼",
+				["TimeData"] = {
+				},
+			}, -- [4]
+			{
+				{
+					["combatId"] = 26,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["damage_from"] = {
+								["噩梦小鬼"] = true,
+							},
+							["targets"] = {
+								["噩梦小鬼"] = 169697,
+							},
+							["pets"] = {
+								"恐惧猎犬 <立二拆三>", -- [1]
+								"野生小鬼 <立二拆三>", -- [2]
+								"布雷兹辛格 <立二拆三>", -- [3]
+							},
+							["total"] = 169697.005528,
+							["on_hold"] = false,
+							["classe"] = "WARLOCK",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 73573.005528,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1475596140,
+							["friendlyfire_total"] = 0,
+							["spec"] = 266,
+							["nome"] = "立二拆三",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[86040] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 13424,
+										["targets"] = {
+											["噩梦小鬼"] = 13424,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 13424,
+										["n_min"] = 13424,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 13424,
+										["c_max"] = 0,
+										["id"] = 86040,
+										["r_dmg"] = 0,
+										["spellschool"] = 36,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[157695] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 27341,
+										["g_amt"] = 0,
+										["n_max"] = 19138,
+										["targets"] = {
+											["噩梦小鬼"] = 60149,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 32808,
+										["n_min"] = 13670,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 60149,
+										["c_max"] = 27341,
+										["id"] = 157695,
+										["r_dmg"] = 0,
+										["spellschool"] = 127,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 27341,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-829-0381ED32",
+							["last_dps"] = 17422.6905059715,
+							["custom"] = 0,
+							["last_event"] = 1475596139,
+							["damage_taken"] = 8776.005528,
+							["start_time"] = 1475596130,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["serial"] = "Pet-0-3117-1220-11286-78217-0101BCDA97",
+							["damage_from"] = {
+								["噩梦小鬼"] = true,
+							},
+							["targets"] = {
+								["噩梦小鬼"] = 55578,
+							},
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 55578.006785,
+							["dps_started"] = false,
+							["total"] = 55578.006785,
+							["classe"] = "PET",
+							["ownerName"] = "立二拆三",
+							["nome"] = "布雷兹辛格 <立二拆三>",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 21883,
+										["g_amt"] = 0,
+										["n_max"] = 3988,
+										["targets"] = {
+											["噩梦小鬼"] = 28835,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 6952,
+										["n_min"] = 2964,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 28835,
+										["c_max"] = 7977,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 5929,
+									}, -- [1]
+									[20153] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 13312,
+										["g_amt"] = 0,
+										["n_max"] = 4477,
+										["targets"] = {
+											["噩梦小鬼"] = 26743,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 13431,
+										["n_min"] = 4477,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 26743,
+										["c_max"] = 6656,
+										["id"] = 20153,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 6656,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1475596140,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 7679.006785,
+							["start_time"] = 1475596132,
+							["delay"] = 0,
+							["last_event"] = 1475596139,
+						}, -- [2]
+						{
+							["flag_original"] = 8465,
+							["serial"] = "Creature-0-3117-1220-11286-99737-000073CF67",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["噩梦小鬼"] = 35626,
+							},
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 35626.006563,
+							["dps_started"] = false,
+							["total"] = 35626.006563,
+							["classe"] = "PET",
+							["ownerName"] = "立二拆三",
+							["nome"] = "野生小鬼 <立二拆三>",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[104318] = {
+										["c_amt"] = 6,
+										["b_amt"] = 0,
+										["c_dmg"] = 17652,
+										["g_amt"] = 0,
+										["n_max"] = 1566,
+										["targets"] = {
+											["噩梦小鬼"] = 35626,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 17974,
+										["n_min"] = 1113,
+										["g_dmg"] = 0,
+										["counter"] = 20,
+										["total"] = 35626,
+										["c_max"] = 3121,
+										["id"] = 104318,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 14,
+										["r_amt"] = 0,
+										["c_min"] = 2300,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1475596140,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.006563,
+							["start_time"] = 1475596132,
+							["delay"] = 0,
+							["last_event"] = 1475596139,
+						}, -- [3]
+						{
+							["flag_original"] = 8465,
+							["serial"] = "Vehicle-0-3117-1220-11286-98035-000073CF67",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["噩梦小鬼"] = 4920,
+							},
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 4920.004434,
+							["dps_started"] = false,
+							["total"] = 4920.004434,
+							["classe"] = "PET",
+							["ownerName"] = "立二拆三",
+							["nome"] = "恐惧猎犬 <立二拆三>",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2460,
+										["targets"] = {
+											["噩梦小鬼"] = 4920,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 4920,
+										["n_min"] = 2460,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 4920,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									}, -- [1]
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1475596140,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.004434,
+							["start_time"] = 1475596132,
+							["delay"] = 0,
+							["last_event"] = 1475596132,
+						}, -- [4]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 26,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorb"] = 0.007128,
+							["last_hps"] = 0,
+							["healing_from"] = {
+								["立二拆三"] = true,
+							},
+							["targets"] = {
+								["布雷兹辛格 <立二拆三>"] = 7679,
+								["立二拆三"] = 8776,
+							},
+							["last_event"] = 1475596136,
+							["pets"] = {
+								"布雷兹辛格 <立二拆三>", -- [1]
+							},
+							["totalover_without_pet"] = 0.007128,
+							["targets_overheal"] = {
+							},
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 0.007128,
+							["total_without_pet"] = 16455.007128,
+							["iniciar_hps"] = false,
+							["classe"] = "WARLOCK",
+							["fight_component"] = true,
+							["total"] = 16455.007128,
+							["serial"] = "Player-829-0381ED32",
+							["healing_taken"] = 8776.007128,
+							["nome"] = "立二拆三",
+							["spec"] = 266,
+							["grupo"] = true,
+							["end_time"] = 1475596140,
+							["heal_enemy"] = {
+							},
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[108366] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 8776,
+										["targets"] = {
+											["布雷兹辛格 <立二拆三>"] = 7679,
+											["立二拆三"] = 8776,
+										},
+										["n_min"] = 2238,
+										["counter"] = 4,
+										["overheal"] = 0,
+										["total"] = 16455,
+										["c_max"] = 0,
+										["id"] = 108366,
+										["targets_absorbs"] = {
+										},
+										["m_crit"] = 0,
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["n_curado"] = 16455,
+										["m_healed"] = 0,
+										["n_amt"] = 4,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["custom"] = 0,
+							["tipo"] = 2,
+							["on_hold"] = false,
+							["start_time"] = 1475596132,
+							["delay"] = 0,
+							["targets_absorbs"] = {
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["totalabsorb"] = 0.005096,
+							["last_hps"] = 0,
+							["targets_overheal"] = {
+							},
+							["targets"] = {
+							},
+							["targets_absorbs"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["healing_from"] = {
+								["立二拆三"] = true,
+							},
+							["healing_taken"] = 7679.005096,
+							["totalover"] = 0.005096,
+							["total_without_pet"] = 0.005096,
+							["last_event"] = 0,
+							["totalover_without_pet"] = 0.005096,
+							["fight_component"] = true,
+							["end_time"] = 1475596140,
+							["classe"] = "PET",
+							["ownerName"] = "立二拆三",
+							["nome"] = "布雷兹辛格 <立二拆三>",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+								},
+							},
+							["serial"] = "Pet-0-3117-1220-11286-78217-0101BCDA97",
+							["total"] = 0.005096,
+							["heal_enemy"] = {
+							},
+							["heal_enemy_amt"] = 0,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["on_hold"] = false,
+							["start_time"] = 1475596140,
+							["delay"] = 0,
+						}, -- [2]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 26,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["resource"] = 3.002137,
+							["targets"] = {
+								["立二拆三"] = 15900,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "WARLOCK",
+							["fight_component"] = true,
+							["total"] = 15900.002137,
+							["nome"] = "立二拆三",
+							["spec"] = 266,
+							["grupo"] = true,
+							["resource_type"] = 7,
+							["tipo"] = 3,
+							["received"] = 15900.002137,
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[227413] = {
+										["id"] = 227413,
+										["total"] = 15900,
+										["targets"] = {
+											["立二拆三"] = 15900,
+										},
+										["counter"] = 1,
+									},
+								},
+							},
+							["serial"] = "Player-829-0381ED32",
+							["last_event"] = 1475596139,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 26,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[603] = {
+										["uptime"] = 9,
+										["activedamt"] = 0,
+										["id"] = 603,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 19,
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[177046] = {
+										["uptime"] = 9,
+										["activedamt"] = 1,
+										["id"] = 177046,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[193396] = {
+										["actived_at"] = 1475596136,
+										["uptime"] = 0,
+										["activedamt"] = 1,
+										["id"] = 193396,
+										["actived"] = true,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[108366] = {
+										["uptime"] = 10,
+										["activedamt"] = 1,
+										["id"] = 108366,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 9,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 266,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[157695] = 3,
+								[193396] = 1,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1475596140,
+							["nome"] = "立二拆三",
+							["pets"] = {
+								"野生小鬼 <立二拆三>", -- [1]
+								"布雷兹辛格 <立二拆三>", -- [2]
+							},
+							["serial"] = "Player-829-0381ED32",
+							["tipo"] = 4,
+						}, -- [1]
+						{
+							["flag_original"] = 8465,
+							["ownerName"] = "立二拆三",
+							["nome"] = "野生小鬼 <立二拆三>",
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["tipo"] = 4,
+							["spell_cast"] = {
+								[104318] = 22,
+							},
+							["serial"] = "Creature-0-3117-1220-11286-99737-0000F3CF67",
+							["last_event"] = 0,
+						}, -- [2]
+						{
+							["flag_original"] = 4369,
+							["ownerName"] = "立二拆三",
+							["nome"] = "布雷兹辛格 <立二拆三>",
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["fight_component"] = true,
+							["tipo"] = 4,
+							["spell_cast"] = {
+								[171021] = 1,
+							},
+							["serial"] = "Pet-0-3117-1220-11286-78217-0101BCDA97",
+							["last_event"] = 0,
+						}, -- [3]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 26,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["立二拆三"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["enemy"] = "噩梦小鬼",
+				["combat_counter"] = 29,
+				["playing_solo"] = true,
+				["totals"] = {
+					169696.96938001, -- [1]
+					16454.984107, -- [2]
+					{
+						0, -- [1]
+						[0] = 15900,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["立二拆三"] = 16455.007128,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["立二拆三"] = 169697.005528,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 823405.057,
+				["combat_id"] = 26,
+				["instance_type"] = "none",
+				["frags"] = {
+					["噩梦小鬼"] = 1,
+				},
+				["data_fim"] = "23:49:00",
+				["data_inicio"] = "23:48:50",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					73573, -- [1]
+					16455, -- [2]
+					{
+						0, -- [1]
+						[0] = 15900,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 823395.317,
+				["contra"] = "噩梦小鬼",
+				["TimeData"] = {
+				},
+			}, -- [5]
+		},
+	},
+	["nick_tag_cache"] = {
+		["nextreset"] = 1476888452,
+		["last_version"] = 8,
+	},
+	["tabela_instancias"] = {
+	},
+	["combat_id"] = 30,
+	["savedStyles"] = {
+	},
+	["last_version"] = "v7.0.3.2961",
+	["cached_talents"] = {
+		["Player-829-0381ED32"] = {
+			22477, -- [1]
+			21694, -- [2]
+			19280, -- [3]
+			21182, -- [4]
+			22479, -- [5]
+			22041, -- [6]
+			19291, -- [7]
+		},
+	},
+	["announce_deaths"] = {
+		["enabled"] = false,
+		["last_hits"] = 1,
+		["only_first"] = 5,
+		["where"] = 1,
+	},
+	["tabela_overall"] = {
+		{
+			["tipo"] = 2,
+			["_ActorTable"] = {
+			},
+		}, -- [1]
+		{
+			["tipo"] = 3,
+			["_ActorTable"] = {
+			},
+		}, -- [2]
+		{
+			["tipo"] = 7,
+			["_ActorTable"] = {
+			},
+		}, -- [3]
+		{
+			["tipo"] = 9,
+			["_ActorTable"] = {
+			},
+		}, -- [4]
+		{
+			["tipo"] = 2,
+			["_ActorTable"] = {
+			},
+		}, -- [5]
+		["PhaseData"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+			}, -- [1]
+			["heal_section"] = {
+			},
+			["heal"] = {
+			},
+			["damage_section"] = {
+			},
+			["damage"] = {
+			},
+		},
+		["start_time"] = 0,
+		["data_inicio"] = 0,
+		["combat_counter"] = 3,
+		["last_events_tables"] = {
+		},
+		["raid_roster"] = {
+		},
+		["totals_grupo"] = {
+			0, -- [1]
+			0, -- [2]
+			{
+				0, -- [1]
+				[0] = 0,
+				[6] = 0,
+				[3] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["debuff_uptime"] = 0,
+				["cooldowns_defensive"] = 0,
+				["interrupt"] = 0,
+				["dispell"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+		},
+		["frags"] = {
+		},
+		["data_fim"] = 0,
+		["totals"] = {
+			0, -- [1]
+			0, -- [2]
+			{
+				0, -- [1]
+				[0] = 0,
+				[6] = 0,
+				[3] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["debuff_uptime"] = 0,
+				["cooldowns_defensive"] = 0,
+				["interrupt"] = 0,
+				["dispell"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+			["frags_total"] = 0,
+			["voidzone_damage"] = 0,
+		},
+		["CombatSkillCache"] = {
+		},
+		["player_last_events"] = {
+		},
+		["frags_need_refresh"] = false,
+		["TimeData"] = {
+			["Raid Damage Done"] = {
+			},
+		},
+		["__call"] = {
+		},
+	},
+	["last_realversion"] = 113,
+	["local_instances_config"] = {
+		{
+			["segment"] = 0,
+			["sub_attribute"] = 1,
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["is_open"] = true,
+			["isLocked"] = false,
+			["snap"] = {
+			},
+			["mode"] = 2,
+			["attribute"] = 1,
+			["pos"] = {
+				["normal"] = {
+					["y"] = -20.76025390625,
+					["x"] = -643.337875366211,
+					["w"] = 319.999908447266,
+					["h"] = 129.999984741211,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [1]
+	},
+	["SoloTablesSaved"] = {
+		["LastSelected"] = "DETAILS_PLUGIN_DAMAGE_RANK",
+		["Mode"] = 1,
+	},
+	["announce_cooldowns"] = {
+		["enabled"] = false,
+		["ignored_cooldowns"] = {
+		},
+		["custom"] = "",
+		["channel"] = "RAID",
+	},
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["last_instance_id"] = 0,
+	["cached_specs"] = {
+		["Player-829-0381ED32"] = 266,
+	},
+}

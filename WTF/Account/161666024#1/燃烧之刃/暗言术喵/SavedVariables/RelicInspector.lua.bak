@@ -1,0 +1,2 @@
+
+RelicInspectorCharDB = nil

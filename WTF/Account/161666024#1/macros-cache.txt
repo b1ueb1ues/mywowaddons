@@ -1,0 +1,290 @@
+VER 3 000000000000000D " " "INV_Misc_QuestionMark"
+#showtooltips 纯净术
+/cast [@mouseover,help][help]纯净术;[harm]驱散魔法
+END
+VER 3 0000000000000061 " " "524353"
+/script SetRaidTarget("mouseover",2)
+END
+VER 3 0000000000000011 " " "INV_Misc_QuestionMark"
+#showtooltips 漂浮术
+/cast [@mouseover,help][@player]漂浮术
+END
+VER 3 000000000000001A " " "INV_Misc_QuestionMark"
+#showtooltips 痛苦压制
+/cast [@mouseover,help][@target,help][@targettarget,help]痛苦压制
+/cast [@mouseover,help][@target,help][@targettarget,help][@player]暗影愈合
+END
+VER 3 000000000000001F " " "INV_MISC_QUESTIONMARK"
+#showtooltips
+/cast [@mouseover,help][@target,help][@targettarget,help][@player]守护之魂
+/cast [@mouseover,help][@target,help][@targettarget,help][@player]快速治疗
+END
+VER 3 0000000000000069 " " "INV_MISC_QUESTIONMARK"
+/use  高山战鼓
+/use 延时之力
+END
+VER 3 0000000000000023 " " "INV_MISC_QUESTIONMARK"
+#showtooltips 惩击
+/cast [harm][@targettarget,harm]惩击
+END
+VER 3 000000000000004C " " "SPELL_SHADOW_TELEPORT"
+/坐下
+END
+VER 3 000000000000003D " " "INV_MISC_QUESTIONMARK"
+#showtooltips
+/castsequence reset=5 15,雪崩药剂
+END
+VER 3 0000000000000056 " " "INV_MISC_QUESTIONMARK"
+#showtooltips
+/use [flyable]翡翠角鹰兽;猩红水黾;
+END
+VER 3 000000000000003E " " "INV_MISC_QUESTIONMARK"
+/cast [@player]漂浮术
+END
+VER 3 000000000000003F " " "464024"
+#showtooltip 海滨治疗药水
+/use 治疗石
+/use 海滨治疗药水
+END
+VER 3 0000000000000048 " " "INV_MISC_QUESTIONMARK"
+/cast 影遁
+/cast 潜行
+END
+VER 3 000000000000004E " " "INV_MISC_QUESTIONMARK"
+#showtooltips
+/cast [talent:7/1]意志洞悉
+END
+VER 3 0000000000000051 " " "INV_MISC_QUESTIONMARK"
+#showtooltips
+/cast [@player]真言术：盾
+END
+VER 3 0000000000000052 " " "INV_MISC_QUESTIONMARK"
+#showtooltips 圣光之怒
+/cast [harm][@targettarget,harm]圣光之怒
+END
+VER 3 000000000000005E " " "INV_MISC_QUESTIONMARK"
+#showtooltips
+/cast [combat]幻灭踢
+/use [flyable]翡翠角鹰兽;巨型黑色龙龟;
+END
+VER 3 0000000000000060 " " "INV_MISC_QUESTIONMARK"
+#showtooltips
+/cast [@target]迅如猛虎
+END
+VER 3 000000000000003B " 1" "INV_MISC_QUESTIONMARK"
+/y ██◤ 　　 　　　 ◣ 
+/y █　 █　█ ◢█◤ █ 
+/y █◤ █　█ █　　 █◢◤ 
+/y █　 █　█ █　　 ██ 
+/y █　 ◥█◤ ◥█◣ █◥◣
+END
+VER 3 0000000000000024 " <>" "INV_MISC_QUESTIONMARK"
+#showtooltips 神圣之火
+/targetenemy
+/cast 神圣之火
+/targetlasttarget
+/cancelaura 漂浮术
+END
+VER 3 000000000000002B " <>>" "INV_MISC_QUESTIONMARK"
+#showtooltips 苦修
+/cast [harm][@targettarget,harm][@target]苦修
+/cancelaura 漂浮术
+END
+VER 3 0000000000000034 " ><" "INV_MISC_QUESTIONMARK"
+/cast 驱散魔法
+/targetenemy
+END
+VER 3 0000000000000008 " _" "INV_Misc_QuestionMark"
+#showtooltips 恳求
+/cast [@mouseover,help][@target,help]恳求;[@target,harm]暗言术：痛;[@player][]恳求
+END
+VER 3 000000000000002F " _" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/cast [combat]幻灭踢
+/click TotemFrameTotem1 RightButton
+/use [flyable]翡翠角鹰兽;[swimming]猩红水黾;洛希恩徘徊者
+END
+VER 3 0000000000000013 " _0" "INV_Misc_QuestionMark"
+#showtooltips [talent:1/3]教派分歧;苦修
+/cast [@target,harm,talent:1/3][@targettarget,harm,talent:1/3]教派分歧
+/cast [@mouseover,help][@target,help][@targettarget,help][@player]苦修
+END
+VER 3 0000000000000049 " _4" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/cast [talent:5/2]能量灌注;[talent:5/3]暗影洞察;命运多舛
+END
+VER 3 0000000000000025 " _5" "INV_MISC_QUESTIONMARK"
+#showtooltips [talent:6/1]意志洞悉;[talent:6/3]光晕;神圣之星
+/cast [@mouseover,help][@target,help][@targettarget,help][@player]意志洞悉
+/cast 神圣之星
+/cast 光晕
+END
+VER 3 0000000000000010 " _6" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/use 6
+END
+VER 3 000000000000003C " _camera" "ABILITY_SHOOTWAND"
+/console cameradistancemaxfactor 50
+END
+VER 3 0000000000000044 " _d3" "INV_MISC_QUESTIONMARK"
+/cast [talent:4/1]丛林之魂;[talent:4/2]化身：丛林之王(天赋，变形);[talent:4/3]自然之力
+END
+VER 3 000000000000004A " focus" "132877"
+/tar [@focus]
+/cancelaura 漂浮术
+END
+VER 3 0000000000000079 "!!!!!!!!!!!" "INV_MISC_QUESTIONMARK"
+/castsequence  reset=5 翔龙在天,猛虎掌
+END
+VER 3 000000000000005A "!console" "INV_MISC_QUESTIONMARK"
+/console targetnearestuseold 1 
+END
+VER 3 000000000000006F "2" "1305159"
+/目标 惑龙
+/施放 投掷利刃
+END
+VER 3 0000000000000070 "2d3" "134400"
+/script T,F=0,CreateFrame("frame")if X then X=nil else X=function()local t=GetTime()StaticPopup1Button1:Click()if t-T>0.2 then AcceptGroup()T=t end if  UnitIsGroupLeader("player")then LeaveParty()end end end F:SetScript("OnUpdate",X)
+END
+VER 3 000000000000007A "@focus" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/cast [@focus,help]活血术;活血术
+END
+VER 3 0000000000000067 "@focus" "INV_MISC_QUESTIONMARK"
+/cast [@focus,harm][@target]分筋错骨
+END
+VER 3 0000000000000066 "@focus" "INV_MISC_QUESTIONMARK"
+/cast [@focus,harm][@target]切喉手
+END
+VER 3 000000000000005F "@tar" "INV_MISC_QUESTIONMARK"
+/tar 夜之子贱民
+END
+VER 3 0000000000000050 "_" "INV_MISC_QUESTIONMARK"
+#showtooltips 教派分歧
+/cast [harm][@targettarget,harm]教派分歧
+END
+VER 3 0000000000000030 "_" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/cast 吸血鬼的拥抱
+/cast 噬灵疫病
+END
+VER 3 0000000000000006 "_" "INV_Misc_QuestionMark"
+#showtooltips 愈合祷言
+/cast [@mouseover,help][@target,help][@targettarget,help][@player]愈合祷言
+END
+VER 3 000000000000005B "_" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/cast 风火雷电
+/cast [talent:7/3]旭日东升踢
+END
+VER 3 000000000000005D "_" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/cast [@cursor]百花齐放
+END
+VER 3 000000000000006D "_13" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/use 13
+END
+VER 3 0000000000000068 "_14" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/use 14
+END
+VER 3 000000000000002E "_3" "INV_MISC_QUESTIONMARK"
+#showtooltips 
+/cancelaura 消散
+/cast [talent:4/3]统御意志
+/cast [talent:4/2]心灵尖啸
+/cast [talent:4/1]虚空触须
+END
+VER 3 0000000000000039 "_4" "INV_MISC_QUESTIONMARK"
+#showtooltips 
+/cast [talent:5/2]能量灌注
+/cast [talent:5/3]灵魂护壳
+/cast 天使长
+/use 13
+/use 14
+END
+VER 3 000000000000003A "_6" "INV_MISC_QUESTIONMARK"
+#showtooltips [talent:7/1]意志洞悉;[talent:7/3]救赎恩惠;治疗术
+/cast [@mouseover,help,talent:7/1][talent:6/1]意志洞悉;[@mouseover,help,talent:6/3][@target,help,talent:6/1][@targettarget,help,talent:7/3]救赎恩惠;[@mouseover,help,talent:7/2][talent:7/2]治疗术
+END
+VER 3 000000000000006C "___" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/cast 荣誉勋章
+END
+VER 3 0000000000000074 "____b_t5" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/cast [talent:5/1]活血术
+/cast [talent:5/2]金创药
+/cast [talent:5/3]躯不坏
+END
+VER 3 0000000000000063 "_b" "SPELL_FROST_ARCTICWINDS"
+#showtooltips
+/cancelaura 保护祝福
+/cast 火焰之息
+END
+VER 3 0000000000000065 "_b_t1" "INV_MISC_QUESTIONMARK"
+#showtooltips 
+/cast [talent:1/3]真气爆裂;[talent:1/1]猛虎掌;[]真气波
+END
+VER 3 0000000000000078 "_bos_taunt" "INV_MISC_QUESTIONMARK"
+/cast 玄牛雕像
+/target 玄牛雕像
+/cast [help]嚎镇八方
+/targetlasttarget [help]
+/click TotemFrameTotem1 RightButton
+END
+VER 3 0000000000000054 "_disc" "SPELL_HOLY_SEARINGLIGHT"
+/run SetSpecialization(1)
+END
+VER 3 0000000000000062 "_m" "INV_MISC_QUESTIONMARK"
+#showtooltips 精华之泉
+/cast 法力茶
+/cast 精华之泉
+END
+VER 3 0000000000000057 "_m" "INV_MISC_QUESTIONMARK"
+#showtooltips 作茧缚命
+/cast [@mouseover,help][help]作茧缚命;抚慰之雾
+/cast [@mouseover,help][help]抚慰之雾
+END
+VER 3 0000000000000055 "_mist" "ABILITY_MONK_EFFUSE"
+/run SetSpecialization(2)
+END
+VER 3 0000000000000076 "_pm" "133784"
+/W BLCDX-战歌 组
+END
+VER 3 0000000000000072 "_pvp" "INV_MISC_QUESTIONMARK"
+#showtooltips 醉酿投
+/cast 醉上加醉
+/cast 醉酿投
+END
+VER 3 0000000000000053 "_shadow" "1035040"
+/run SetSpecialization(3)
+END
+VER 3 0000000000000058 "_t44" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/cast [talent:4/1]扫堂腿
+/cast [talent:4/3]扫堂腿
+/tar 玄牛雕像
+/cast [talent:4/2]嚎镇八方
+/targetlasttarget
+END
+VER 3 0000000000000075 "AAP_MACRO" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use 地精工程学手炮
+END
+VER 3 0000000000000077 "printk" "INV_MISC_QUESTIONMARK"
+/run local a,ar,k =select(2,UnitArmor("player")),C_PaperDollInfo.GetArmorEffectivenessAgainstTarget(select(2,UnitArmor("player"))) if ar then k = a/ar-a print(k) end
+END
+VER 3 000000000000006B "rl" "133204"
+/rl
+END
+VER 3 000000000000005C "roll" "INV_MISC_QUESTIONMARK"
+/roll
+END
+VER 3 000000000000006A "rt bw" "132895"
+/rt bw
+END
+VER 3 0000000000000064 "tmw" "SPELL_MISC_PETHEAL"
+/tmw
+END

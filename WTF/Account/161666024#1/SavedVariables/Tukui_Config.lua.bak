@@ -1,0 +1,10 @@
+
+TukuiConfigShared = {
+	["白银之手"] = {
+		["备前长光"] = {
+		},
+	},
+	["Account"] = {
+	},
+}
+TukuiConfigPerAccount = nil

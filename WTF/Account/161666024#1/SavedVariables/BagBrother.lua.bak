@@ -1,0 +1,13 @@
+
+BrotherBags = {
+	["白银之手"] = {
+		["公主猫"] = {
+			["race"] = "Human",
+			["faction"] = true,
+			["equip"] = {
+			},
+			["class"] = "PRIEST",
+			["sex"] = 3,
+		},
+	},
+}

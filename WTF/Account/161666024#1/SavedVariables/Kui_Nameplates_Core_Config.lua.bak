@@ -1,0 +1,29 @@
+
+KuiNameplatesCoreSaved = {
+	["profiles"] = {
+		["default"] = {
+			["fade_avoid_nameonly"] = false,
+			["frame_height"] = 11,
+			["nameonly_target"] = false,
+			["execute_colour"] = {
+				0.262745098039216, -- [1]
+				0, -- [2]
+				0.568627450980392, -- [3]
+			},
+			["castbar_height"] = 7,
+			["colour_tapped"] = {
+				0.47843137254902, -- [1]
+				0.470588235294118, -- [2]
+				0.494117647058824, -- [3]
+			},
+			["tank_mode"] = false,
+			["execute_enabled"] = false,
+			["castbar_colour"] = {
+				1, -- [1]
+				1, -- [2]
+				0.32156862745098, -- [3]
+			},
+			["clickthrough_friend"] = true,
+		},
+	},
+}

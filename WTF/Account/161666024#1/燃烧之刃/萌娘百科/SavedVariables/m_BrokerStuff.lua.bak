@@ -1,0 +1,10 @@
+
+Broker_EquipmentDB = {
+	["text"] = "/-",
+	["icon"] = 135188,
+	["spec"] = {
+		["spec1"] = "",
+		["spec2"] = "",
+	},
+}
+SB_MEM_KILL = nil

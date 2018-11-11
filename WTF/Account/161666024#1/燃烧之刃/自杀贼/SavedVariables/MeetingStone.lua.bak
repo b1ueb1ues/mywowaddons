@@ -1,0 +1,41 @@
+
+MEETINGSTONE_CHARACTER_DB = {
+	["profileKeys"] = {
+		["自杀贼 - 燃烧之刃"] = "自杀贼 - 燃烧之刃",
+	},
+	["profiles"] = {
+		["自杀贼 - 燃烧之刃"] = {
+			["minimap"] = {
+				["minimapPos"] = 193.376864770783,
+				["hide"] = false,
+			},
+			["settings"] = {
+				["storage"] = {
+					["y"] = 0,
+					["x"] = 329.620971679688,
+					["scale"] = 1,
+				},
+				["panel"] = false,
+			},
+			["searchHistoryList"] = {
+				"6-0-0-0", -- [1]
+			},
+			["lastSearchValue"] = "6-0-0-0",
+			["worldQuestHelp"] = true,
+			["chatGroupListening"] = {
+				["APP_WHISPER"] = {
+					nil, -- [1]
+					nil, -- [2]
+					false, -- [3]
+					false, -- [4]
+					false, -- [5]
+					false, -- [6]
+					false, -- [7]
+					false, -- [8]
+					false, -- [9]
+					false, -- [10]
+				},
+			},
+		},
+	},
+}

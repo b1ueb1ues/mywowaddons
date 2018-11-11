@@ -1,0 +1,2 @@
+
+TukuiDataPerChar = nil

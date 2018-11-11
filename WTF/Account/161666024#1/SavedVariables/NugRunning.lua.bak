@@ -1,0 +1,5 @@
+
+NRunDB_Global = {
+	["charspec"] = {
+	},
+}

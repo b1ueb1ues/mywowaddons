@@ -1,0 +1,77 @@
+VER 3 0100000000000009 " " "INV_MISC_QUESTIONMARK"
+#showtooltips
+/cast [@target]禅意波
+END
+VER 3 0100000000000004 " " "ABILITY_MONK_THUNDERFOCUSTEA"
+/equipset +
+/run SetSpecialization(2)
+END
+VER 3 0100000000000002 " " "INV_MISC_QUESTIONMARK"
+#showtooltips 清创生血
+/use 13
+/use 14
+/cast [@player]清创生血
+END
+VER 3 0100000000000012 " " "134488"
+#showtooltips
+/cast 铁骨酒
+/cast 玄牛酒
+/cast 铁骨酒
+END
+VER 3 0100000000000005 " " "MONK_ABILITY_FISTOFFURY"
+/equipset -
+/run SetSpecialization(3)
+END
+VER 3 0100000000000003 " " "INV_MISC_BEER_06"
+/equipset /
+/run SetSpecialization(1)
+END
+VER 3 0100000000000001 " _" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/cast [@player]真气波
+END
+VER 3 010000000000000C " _" "ABILITY_MONK_BREATHOFFIRE"
+#showtooltips
+/cast [@cursor][@player]爆炸酒桶
+END
+VER 3 0100000000000006 " _" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/cast [@player]迅如猛虎
+END
+VER 3 010000000000000A " _t_1" "INV_MISC_QUESTIONMARK"
+#showtooltips 
+/cast [talent:1/3]真气爆裂;[talent:1/1]氤氲之雾;[@mouseover,help][@target,help][@player]真气波
+END
+VER 3 010000000000000F " _trincet" "INV_MISC_QUESTIONMARK"
+#showtooltips 活血术
+/use 14
+/cast 活血术
+END
+VER 3 010000000000000B "_" "1029739"
+#showtooltips 
+/cast 活血酒 
+END
+VER 3 010000000000000E "_b_t6" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/cast [talent:6/3]玄牛砮皂;[talent:6/2]碧玉疾风;[talent:6/1]醉酿投
+END
+VER 3 010000000000000D "_cursor" "INV_MISC_QUESTIONMARK"
+#showtooltips 
+/cast [@cursor, talent:4/2]玄牛雕像;活血术
+END
+VER 3 0100000000000008 "_m_t6" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/cast [talent:6/2]碧愈疾风;[talent:6/3]朱鹤赤精;[@cursor][@player]青龙雕像
+END
+VER 3 0100000000000014 "_m_t62" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/cast [talent:6/2]碧愈疾风;[talent:6/3]朱鹤赤精;[@player]青龙雕像
+END
+VER 3 0100000000000007 "_m_t_5" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/cast [talent:5/1]金创药;[talent:5/2]散魔功;躯不坏
+END
+VER 3 0100000000000011 "_tp_brm" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cast [@target,harm]猛虎掌;[@mouseover,help]真气贯通;真气贯通
+END
