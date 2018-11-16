@@ -69,7 +69,7 @@ MADB = {
 						"UIParent", -- [2]
 						"BOTTOM", -- [3]
 						0, -- [4]
-						96.0000076293945, -- [5]
+						96, -- [5]
 					},
 					["name"] = "TalkingHeadFrame",
 					["pos"] = {
@@ -90,7 +90,6 @@ MADB = {
 					},
 					["name"] = "ObjectiveTrackerFrameScaleMover",
 					["scale"] = 1,
-					["orgScale"] = 1,
 					["pos"] = {
 						"TOPRIGHT", -- [1]
 						"MinimapCluster", -- [2]
@@ -98,6 +97,7 @@ MADB = {
 						-90.2347412109375, -- [4]
 						74.5726318359375, -- [5]
 					},
+					["orgScale"] = 1,
 				},
 				["ObjectiveTrackerBonusBannerFrame"] = {
 					["orgPos"] = {
@@ -105,7 +105,7 @@ MADB = {
 						"UIParent", -- [2]
 						"TOP", -- [3]
 						0, -- [4]
-						-169.999984741211, -- [5]
+						-170, -- [5]
 					},
 					["name"] = "ObjectiveTrackerBonusBannerFrame",
 					["pos"] = {
@@ -119,8 +119,8 @@ MADB = {
 			},
 		},
 	},
-	["tooltips"] = true,
-	["playSound"] = false,
-	["noBags"] = false,
 	["closeGUIOnEscape"] = false,
+	["noBags"] = false,
+	["playSound"] = false,
+	["tooltips"] = true,
 }

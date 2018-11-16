@@ -90,6 +90,7 @@ MADB = {
 					},
 					["name"] = "ObjectiveTrackerFrameScaleMover",
 					["scale"] = 1,
+					["orgScale"] = 1,
 					["pos"] = {
 						"TOPRIGHT", -- [1]
 						"MinimapCluster", -- [2]
@@ -97,7 +98,6 @@ MADB = {
 						-90.2347412109375, -- [4]
 						74.5726318359375, -- [5]
 					},
-					["orgScale"] = 1,
 				},
 				["ObjectiveTrackerBonusBannerFrame"] = {
 					["orgPos"] = {
@@ -119,8 +119,8 @@ MADB = {
 			},
 		},
 	},
-	["closeGUIOnEscape"] = false,
-	["noBags"] = false,
-	["playSound"] = false,
 	["tooltips"] = true,
+	["playSound"] = false,
+	["noBags"] = false,
+	["closeGUIOnEscape"] = false,
 }

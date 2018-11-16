@@ -1,8 +1,8 @@
 
 CompactRunesDB = {
 	["profileKeys"] = {
-		["萌娘百科 - 燃烧之刃"] = "Default",
 		["泠凊之腤 - 白银之手"] = "Default",
+		["萌娘百科 - 燃烧之刃"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -79,10 +79,6 @@ CompactRunesDB = {
 			},
 			["procs"] = false,
 			["locked"] = true,
-			["frame"] = {
-				["y"] = 75.9259338378906,
-				["x"] = 115.338745117188,
-			},
 			["bars"] = {
 				["BloodPlagueBar"] = {
 					["enabled"] = false,
@@ -110,6 +106,10 @@ CompactRunesDB = {
 					["enabled"] = false,
 					["progress"] = "None",
 				},
+			},
+			["frame"] = {
+				["y"] = 75.9259338378906,
+				["x"] = 115.338745117188,
 			},
 			["profileVersion"] = 2,
 		},

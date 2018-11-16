@@ -31,10 +31,6 @@ dbILD = {
 			["firstun"] = false,
 		},
 	},
-	["global"] = {
-		["firstrun"] = false,
-		["hascommon"] = true,
-	},
 	["profileKeys"] = {
 		["喵言术嗷呜 - 燃烧之刃"] = "Default",
 		["自杀贼 - 燃烧之刃"] = "Default",
@@ -45,6 +41,10 @@ dbILD = {
 		["教授猫 - 白银之手"] = "Default",
 		["暗言术喵 - 燃烧之刃"] = "Default",
 		["尊严德 - 燃烧之刃"] = "Default",
+	},
+	["global"] = {
+		["firstrun"] = false,
+		["hascommon"] = true,
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -57,12 +57,12 @@ dbILD = {
 				["BAGSCORNER"] = "tr",
 				["SHOWENCHANT"] = true,
 				["FONTOUTLINE"] = "OUTLINE,THICKOUTLINE",
-				["SHOWUSELESSILEVEL"] = false,
+				["SHOWBUCKLE"] = false,
 				["BAGSLEVELS"] = 1,
 				["BAGS"] = true,
 				["COLORSCHEME"] = "qual",
 				["FONT"] = "伤害数字",
-				["SHOWBUCKLE"] = false,
+				["SHOWUSELESSILEVEL"] = false,
 				["CORNER"] = "bc",
 				["CLASSES"] = {
 					["_default"] = true,
