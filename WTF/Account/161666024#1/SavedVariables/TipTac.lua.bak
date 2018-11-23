@@ -47,9 +47,9 @@ TipTac_Config = {
 	["classification_trivial"] = "~%s ",
 	["classification_worldboss"] = "%s|r (Boss) ",
 	["backdropInsets"] = 4,
-	["classification_rareelite"] = "+%s|r (Rare) ",
+	["colSameGuild"] = "|cffff32ff",
 	["manaBar"] = false,
-	["classColoredBorder"] = false,
+	["classification_rareelite"] = "+%s|r (Rare) ",
 	["colorNameByClass"] = false,
 	["gradientColor"] = {
 		0.8, -- [1]
@@ -57,7 +57,7 @@ TipTac_Config = {
 		0.8, -- [3]
 		0.2, -- [4]
 	},
-	["colSameGuild"] = "|cffff32ff",
+	["classColoredBorder"] = false,
 	["healthBarColor"] = {
 		0.3, -- [1]
 		0.9, -- [2]

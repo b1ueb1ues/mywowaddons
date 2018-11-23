@@ -20,17 +20,8 @@ oRA3DB = {
 		["Cooldowns"] = {
 			["global"] = {
 				["spellsOnCooldown"] = {
-					[6940] = {
-						["Player-829-038A6FB8"] = 90932.407,
-					},
-					[184364] = {
-						["Player-1946-028AF763"] = 90901.847,
-					},
-					[51690] = {
-						["Player-826-03DCF83E"] = 90893.921,
-					},
 				},
-				["lastTime"] = 99530.038,
+				["lastTime"] = 69815.386,
 			},
 			["profiles"] = {
 				["Default"] = {

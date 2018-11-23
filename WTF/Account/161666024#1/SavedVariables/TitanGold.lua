@@ -3,7 +3,7 @@ GoldSave = {
 	["喵言术嗷呜_燃烧之刃::Horde"] = {
 		["show"] = true,
 		["name"] = "喵言术嗷呜",
-		["gold"] = 143001405,
+		["gold"] = 1591114435,
 	},
 	["泠凊之腤_白银之手::Alliance"] = {
 		["show"] = true,
@@ -33,7 +33,7 @@ GoldSave = {
 	["萌娘百科_燃烧之刃::Horde"] = {
 		["show"] = true,
 		["name"] = "萌娘百科",
-		["gold"] = 1949228198,
+		["gold"] = 501628374,
 	},
 	["暗言术喵_燃烧之刃::Horde"] = {
 		["show"] = true,
@@ -58,7 +58,7 @@ GoldSave = {
 	["尊严德_燃烧之刃::Horde"] = {
 		["show"] = true,
 		["name"] = "尊严德",
-		["gold"] = 944606799,
+		["gold"] = 1986398501,
 	},
 	["Pantyazure_燃烧之刃::Neutral"] = {
 		["show"] = true,

@@ -12,12 +12,12 @@ MasqueDB = {
 		["自杀贼 - 燃烧之刃"] = "Default",
 		["备前长船 - 阿克蒙德"] = "Default",
 		["泠凊之腤 - 白银之手"] = "Default",
-		["喵喵围炉斯 - 燃烧之刃"] = "Default",
 		["Pantyazure - 燃烧之刃"] = "Default",
+		["备前长光 - 白银之手"] = "Default",
 		["喵喵了个咪肉 - 燃烧之刃"] = "Default",
 		["萌娘百科 - 燃烧之刃"] = "Default",
 		["教授猫 - 白银之手"] = "Default",
-		["备前长光 - 白银之手"] = "Default",
+		["喵喵围炉斯 - 燃烧之刃"] = "Default",
 		["暗言术喵 - 燃烧之刃"] = "Default",
 		["尊严德 - 燃烧之刃"] = "Default",
 	},
@@ -148,7 +148,7 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Caith",
 				},
-				["TellMeWhen_分组: 7"] = {
+				["TellMeWhen_分组: 11"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Caith",
 				},
@@ -164,15 +164,15 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Caith",
 				},
-				["TellMeWhen_分组: 11"] = {
-					["Inherit"] = false,
+				["Bartender4_9"] = {
 					["SkinID"] = "Caith",
+					["Inherit"] = false,
 				},
 				["TellMeWhen_分组: 10"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Caith",
 				},
-				["Bartender4_8"] = {
+				["Bartender4"] = {
 					["SkinID"] = "Caith",
 					["Inherit"] = false,
 				},
@@ -180,17 +180,17 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Caith",
 				},
+				["Bartender4_8"] = {
+					["SkinID"] = "Caith",
+					["Inherit"] = false,
+				},
+				["TellMeWhen_分组: 7"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Caith",
+				},
 				["TellMeWhen_分组: 6"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Caith",
-				},
-				["Bartender4_9"] = {
-					["SkinID"] = "Caith",
-					["Inherit"] = false,
-				},
-				["Bartender4"] = {
-					["SkinID"] = "Caith",
-					["Inherit"] = false,
 				},
 				["TellMeWhen_分组: 9"] = {
 					["Inherit"] = false,

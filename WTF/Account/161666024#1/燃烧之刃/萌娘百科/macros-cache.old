@@ -1,3 +1,7 @@
+VER 3 0100000000000007 " " "INV_MISC_QUESTIONMARK"
+/cast 跳跃
+/cast 撕扯
+END
 VER 3 0100000000000003 " " "INV_MISC_QUESTIONMARK"
 /cast  吸血鬼之血
 /use 13
@@ -7,17 +11,17 @@ VER 3 0100000000000002 "+" "INV_MISC_QUESTIONMARK"
 #showtooltips
 /cast [@cursor]枯萎凋零
 END
-VER 3 0100000000000004 "@focus" "INV_MISC_QUESTIONMARK"
+VER 3 0100000000000006 "@focus" "INV_MISC_QUESTIONMARK"
 #showtooltips
-/cast [@focus,harm]心灵冰冻;心灵冰冻
+/cast [@focus,harm]死亡之握;死亡之握
 END
 VER 3 0100000000000005 "@focus" "INV_MISC_QUESTIONMARK"
 #showtooltips
 /cast [@focus,harm]窒息;窒息
 END
-VER 3 0100000000000006 "@focus" "INV_MISC_QUESTIONMARK"
+VER 3 0100000000000004 "@focus" "INV_MISC_QUESTIONMARK"
 #showtooltips
-/cast [@focus,harm]死亡之握;死亡之握
+/cast [@focus,harm]心灵冰冻;心灵冰冻
 END
 VER 3 0100000000000001 "_" "INV_MISC_QUESTIONMARK"
 #showtooltips

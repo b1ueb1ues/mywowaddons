@@ -1,7 +1,5 @@
 
 OmniCC4Config = {
-	["groups"] = {
-	},
 	["version"] = "8.0.9",
 	["groupSettings"] = {
 		["base"] = {
@@ -42,5 +40,7 @@ OmniCC4Config = {
 			["fontSize"] = 15,
 			["minEffectDuration"] = 30,
 		},
+	},
+	["groups"] = {
 	},
 }

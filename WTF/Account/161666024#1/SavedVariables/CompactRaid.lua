@@ -63,7 +63,7 @@ CompactRaidDB = {
 					["disabled"] = 1,
 				},
 			},
-			["version"] = 4.33,
+			["version"] = 5.09,
 			["showPartyPets"] = 1,
 		},
 		["泠凊腤 - 拉文凯斯"] = {
@@ -192,23 +192,6 @@ CompactRaidDB = {
 			["version"] = 5.06,
 			["showPartyPets"] = 1,
 		},
-		["喵喵围炉斯 - 燃烧之刃"] = {
-			["modules"] = {
-				["Artwork"] = {
-					["disabled"] = 1,
-				},
-				["ClickSets"] = {
-					["disabled"] = 1,
-				},
-				["CornerIndicators"] = {
-					["disabled"] = 1,
-				},
-				["RaidDebuff"] = {
-				},
-			},
-			["version"] = 4.22,
-			["showPartyPets"] = 1,
-		},
 		["备前长光 - 白银之手"] = {
 			["modules"] = {
 				["RaidDebuff"] = {
@@ -221,6 +204,40 @@ CompactRaidDB = {
 				},
 				["Artwork"] = {
 					["disabled"] = 1,
+				},
+			},
+			["version"] = 4.33,
+			["showPartyPets"] = 1,
+		},
+		["Pantyazure - 燃烧之刃"] = {
+			["modules"] = {
+				["ClickSets"] = {
+					["talent2"] = {
+						["alt-1"] = "buildin:缓落术",
+						["1"] = "action:target",
+						["2"] = "action:togglemenu",
+					},
+					["talent3"] = {
+						["alt-1"] = "buildin:缓落术",
+						["1"] = "action:target",
+						["2"] = "action:togglemenu",
+					},
+					["talent1"] = {
+						["alt-1"] = "buildin:缓落术",
+						["1"] = "action:target",
+						["2"] = "action:togglemenu",
+					},
+				},
+				["CornerIndicators"] = {
+					["talent2"] = {
+						["TOPLEFT"] = "[ignoreVehicle]#1#[aura]#缓落术#",
+					},
+					["talent3"] = {
+						["TOPLEFT"] = "[ignoreVehicle]#1#[aura]#缓落术#",
+					},
+					["talent1"] = {
+						["TOPLEFT"] = "[ignoreVehicle]#1#[aura]#缓落术#",
+					},
 				},
 			},
 			["version"] = 4.33,
@@ -277,38 +294,21 @@ CompactRaidDB = {
 			["version"] = 5.06,
 			["showPartyPets"] = 1,
 		},
-		["Pantyazure - 燃烧之刃"] = {
+		["喵喵围炉斯 - 燃烧之刃"] = {
 			["modules"] = {
+				["Artwork"] = {
+					["disabled"] = 1,
+				},
 				["ClickSets"] = {
-					["talent2"] = {
-						["alt-1"] = "buildin:缓落术",
-						["1"] = "action:target",
-						["2"] = "action:togglemenu",
-					},
-					["talent3"] = {
-						["alt-1"] = "buildin:缓落术",
-						["1"] = "action:target",
-						["2"] = "action:togglemenu",
-					},
-					["talent1"] = {
-						["alt-1"] = "buildin:缓落术",
-						["1"] = "action:target",
-						["2"] = "action:togglemenu",
-					},
+					["disabled"] = 1,
 				},
 				["CornerIndicators"] = {
-					["talent2"] = {
-						["TOPLEFT"] = "[ignoreVehicle]#1#[aura]#缓落术#",
-					},
-					["talent3"] = {
-						["TOPLEFT"] = "[ignoreVehicle]#1#[aura]#缓落术#",
-					},
-					["talent1"] = {
-						["TOPLEFT"] = "[ignoreVehicle]#1#[aura]#缓落术#",
-					},
+					["disabled"] = 1,
+				},
+				["RaidDebuff"] = {
 				},
 			},
-			["version"] = 4.33,
+			["version"] = 4.22,
 			["showPartyPets"] = 1,
 		},
 		["暗言术喵 - 燃烧之刃"] = {
@@ -331,11 +331,11 @@ CompactRaidDB = {
 						["BOTTOMLEFT"] = "[ignoreVehicle]#1#[aura]#愈合祷言#",
 					},
 					["talent1"] = {
-						["TOPRIGHT"] = "[selfcast]#1#[ignoreVehicle]#1#[aura]#救赎#[b1]#0.0#[b2]#0.0#[b3]#0.0#[g1]#1.0#[g3]#0.0#[g2]#1.0#[r3]#1.0#[style]#3#[r1]#0.0#[r2]#1.0#",
-						["RIGHT"] = "[selfcast]#1#[aura]#救赎#[b1]#0.0#[b2]#0.0#[b3]#0.0#[g1]#1.0#[g3]#0.0#[g2]#1.0#[r3]#1.0#[r1]#0.0#[r2]#1.0#",
 						["TOPLEFT"] = "[selfcast]#1#[aura]#恢复#[style]#2#",
-						["BOTTOMLEFT"] = "[ignoreVehicle]#1#[aura]#愈合祷言#",
+						["RIGHT"] = "[selfcast]#1#[aura]#救赎#[b1]#0.0#[b2]#0.0#[b3]#0.0#[g1]#1.0#[g3]#0.0#[g2]#1.0#[r3]#1.0#[r1]#0.0#[r2]#1.0#",
 						["BOTTOMRIGHT"] = "[selfcast]#1#[aura]#救赎#[b1]#0.0#[b2]#0.0#[b3]#0.0#[g1]#1.0#[g3]#0.0#[g2]#1.0#[r3]#1.0#[style]#2#[r1]#0.0#[r2]#1.0#",
+						["BOTTOMLEFT"] = "[ignoreVehicle]#1#[aura]#愈合祷言#",
+						["TOPRIGHT"] = "[selfcast]#1#[ignoreVehicle]#1#[aura]#救赎#[b1]#0.0#[b2]#0.0#[b3]#0.0#[g1]#1.0#[g3]#0.0#[g2]#1.0#[r3]#1.0#[style]#3#[r1]#0.0#[r2]#1.0#",
 					},
 				},
 				["RaidDebuff"] = {

@@ -17,6 +17,72 @@ Bartender4DB = {
 		},
 		["ActionBars"] = {
 			["profiles"] = {
+				["喵言术嗷呜 - 燃烧之刃"] = {
+					["actionbars"] = {
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 41.75,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -227.5,
+								["x"] = -231.500091552734,
+								["point"] = "CENTER",
+							},
+						}, -- [2]
+						{
+							["padding"] = 5,
+							["rows"] = 12,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -82,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [3]
+						{
+							["padding"] = 5,
+							["rows"] = 12,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -42,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [4]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 94,
+								["x"] = 3,
+								["point"] = "BOTTOM",
+							},
+						}, -- [5]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 94,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						[10] = {
+						},
+					},
+				},
 				["尊严德 - 燃烧之刃"] = {
 					["actionbars"] = {
 						{
@@ -285,8 +351,8 @@ Bartender4DB = {
 							["alpha"] = 0.8,
 							["version"] = 3,
 							["position"] = {
-								["y"] = -121.573593139648,
-								["x"] = -153.431854248047,
+								["y"] = -117.934020996094,
+								["x"] = -117.499908447266,
 								["point"] = "CENTER",
 							},
 						}, -- [9]
@@ -297,8 +363,8 @@ Bartender4DB = {
 							["alpha"] = 0.8,
 							["version"] = 3,
 							["position"] = {
-								["y"] = 29.8954925537109,
-								["x"] = 103.883117675781,
+								["y"] = 34.5580444335938,
+								["x"] = 115.282348632813,
 								["point"] = "CENTER",
 							},
 						}, -- [10]
@@ -361,9 +427,9 @@ Bartender4DB = {
 							["autoassist"] = true,
 						}, -- [5]
 						{
+							["fadeout"] = true,
 							["version"] = 3,
 							["fadeoutalpha"] = 0,
-							["fadeout"] = true,
 							["position"] = {
 								["y"] = 115.137115478516,
 								["x"] = -339.352569580078,
@@ -500,6 +566,14 @@ Bartender4DB = {
 		},
 		["ExtraActionBar"] = {
 			["profiles"] = {
+				["喵言术嗷呜 - 燃烧之刃"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000015258789,
+						["x"] = -31.5001525878906,
+						["point"] = "BOTTOM",
+					},
+				},
 				["尊严德 - 燃烧之刃"] = {
 					["version"] = 3,
 					["position"] = {
@@ -544,6 +618,14 @@ Bartender4DB = {
 		},
 		["ZoneAbilityBar"] = {
 			["profiles"] = {
+				["喵言术嗷呜 - 燃烧之刃"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000015258789,
+						["x"] = -31.5000610351563,
+						["point"] = "BOTTOM",
+					},
+				},
 				["尊严德 - 燃烧之刃"] = {
 					["version"] = 3,
 					["position"] = {
@@ -588,6 +670,16 @@ Bartender4DB = {
 		},
 		["MicroMenu"] = {
 			["profiles"] = {
+				["喵言术嗷呜 - 燃烧之刃"] = {
+					["padding"] = -2,
+					["version"] = 3,
+					["position"] = {
+						["scale"] = 1,
+						["x"] = 37.5,
+						["point"] = "BOTTOM",
+						["y"] = 41.75,
+					},
+				},
 				["尊严德 - 燃烧之刃"] = {
 					["padding"] = -2,
 					["version"] = 3,
@@ -794,14 +886,6 @@ Bartender4DB = {
 						["point"] = "BOTTOMLEFT",
 					},
 				},
-				["b1ueb1ues"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 37.1371154785156,
-						["x"] = -493.771148681641,
-						["point"] = "BOTTOM",
-					},
-				},
 				["MONK"] = {
 					["enabled"] = true,
 					["version"] = 3,
@@ -819,10 +903,27 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
+				["b1ueb1ues"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 37.1371154785156,
+						["x"] = -493.771148681641,
+						["point"] = "BOTTOM",
+					},
+				},
 			},
 		},
 		["BlizzardArt"] = {
 			["profiles"] = {
+				["喵言术嗷呜 - 燃烧之刃"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47,
+						["x"] = -512,
+						["point"] = "BOTTOM",
+					},
+				},
 				["尊严德 - 燃烧之刃"] = {
 					["enabled"] = true,
 					["version"] = 3,
@@ -853,6 +954,14 @@ Bartender4DB = {
 		},
 		["Vehicle"] = {
 			["profiles"] = {
+				["喵言术嗷呜 - 燃烧之刃"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.4999389648438,
+						["x"] = 99.5,
+						["point"] = "CENTER",
+					},
+				},
 				["尊严德 - 燃烧之刃"] = {
 					["version"] = 3,
 					["position"] = {
@@ -897,6 +1006,14 @@ Bartender4DB = {
 		},
 		["BagBar"] = {
 			["profiles"] = {
+				["喵言术嗷呜 - 燃烧之刃"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 38.5,
+						["x"] = 345,
+						["point"] = "BOTTOM",
+					},
+				},
 				["尊严德 - 燃烧之刃"] = {
 					["version"] = 3,
 					["position"] = {
@@ -917,8 +1034,8 @@ Bartender4DB = {
 					["enabled"] = false,
 					["version"] = 3,
 					["position"] = {
-						["y"] = 69.3708572387695,
-						["x"] = -242.000244140625,
+						["y"] = 168.542144775391,
+						["x"] = -163.999755859375,
 						["point"] = "BOTTOMRIGHT",
 					},
 				},
@@ -943,6 +1060,14 @@ Bartender4DB = {
 		},
 		["StanceBar"] = {
 			["profiles"] = {
+				["喵言术嗷呜 - 燃烧之刃"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -14.9999542236328,
+						["x"] = -82.5000915527344,
+						["point"] = "CENTER",
+					},
+				},
 				["尊严德 - 燃烧之刃"] = {
 					["version"] = 3,
 					["position"] = {
@@ -987,6 +1112,14 @@ Bartender4DB = {
 		},
 		["PetBar"] = {
 			["profiles"] = {
+				["喵言术嗷呜 - 燃烧之刃"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 127,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+					},
+				},
 				["尊严德 - 燃烧之刃"] = {
 					["version"] = 3,
 					["position"] = {
@@ -1124,6 +1257,7 @@ Bartender4DB = {
 		},
 	},
 	["profileKeys"] = {
+		["喵言术嗷呜 - 燃烧之刃"] = "b1ueb1ues",
 		["自杀贼 - 燃烧之刃"] = "b1ueb1ues",
 		["尊严德 - 燃烧之刃"] = "b1ueb1ues",
 		["Testlze - 燃烧之刃"] = "暗言术喵 - 燃烧之刃",
@@ -1137,6 +1271,11 @@ Bartender4DB = {
 		["立二拆三 - 燃烧之刃"] = "暗言术喵 - 燃烧之刃",
 	},
 	["profiles"] = {
+		["喵言术嗷呜 - 燃烧之刃"] = {
+			["focuscastmodifier"] = false,
+			["blizzardVehicle"] = true,
+			["outofrange"] = "hotkey",
+		},
 		["尊严德 - 燃烧之刃"] = {
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,

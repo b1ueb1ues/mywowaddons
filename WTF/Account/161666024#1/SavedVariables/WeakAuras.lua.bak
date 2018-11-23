@@ -74,7 +74,10 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_class"] = true,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
 				["class"] = {
 					["single"] = "MONK",
 					["multi"] = {
@@ -84,25 +87,22 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["difficulty"] = {
-					["multi"] = {
-					},
-				},
+				["use_name"] = false,
 				["race"] = {
 					["multi"] = {
 					},
 				},
 				["name"] = "",
-				["faction"] = {
+				["use_spec"] = true,
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["use_name"] = false,
+				["use_class"] = true,
 				["spec"] = {
 					["single"] = 1,
 					["multi"] = {
@@ -147,18 +147,18 @@ WeakAurasSaved = {
 						["type"] = "custom",
 						["subeventSuffix"] = "_CAST_START",
 						["custom_type"] = "event",
-						["names"] = {
-						},
-						["spellIds"] = {
-						},
-						["genericShowOn"] = "showOnActive",
 						["unit"] = "player",
+						["events"] = "COMBAT_LOG_EVENT_UNFILTERED, PLAYER_TOTEM_UPDATE, PLAYER_ENTERING_WORLD, PLAYER_TARGET_CHANGED, UPDATE_MOUSEOVER_UNIT",
+						["genericShowOn"] = "showOnActive",
+						["subeventPrefix"] = "SPELL",
 						["customDuration"] = "function()\n    if (WA_BOS and WA_BOS.GUID) then\n        local ColorGradient = function(a, b, ...)\n            local perc\n            if(b == 0) then\n                perc = 0\n            else\n                perc = a / b\n            end\n            \n            if perc >= 1 then\n                local r, g, b = select(select('#', ...) - 2, ...)\n                return r, g, b\n            elseif perc <= 0 then\n                local r, g, b = ...\n                return r, g, b\n            end\n            \n            local num = select('#', ...) / 3\n            local segment, relperc = math.modf(perc*(num-1))\n            local r1, g1, b1, r2, g2, b2 = select((segment*3)+1, ...)\n            \n            return r1 + (r2-r1)*relperc, g1 + (g2-g1)*relperc, b1 + (b2-b1)*relperc\n        end\n        \n        local r, g, b = ColorGradient(WA_BOS.Health, WA_BOS.HealthMax, 1, 0, 0, 1, 1, 0, RAID_CLASS_COLORS[\"MONK\"].r, RAID_CLASS_COLORS[\"MONK\"].g , RAID_CLASS_COLORS[\"MONK\"].b)\n        \n        WeakAuras[\"regions\"][\"BlackOxStatue\"][\"region\"]:Color(r, g, b)\n        \n        return WA_BOS.Health, WA_BOS.HealthMax, true\n    end\nend",
 						["customName"] = "function()\n    return select(2, GetTotemInfo(1))\nend",
-						["events"] = "COMBAT_LOG_EVENT_UNFILTERED, PLAYER_TOTEM_UPDATE, PLAYER_ENTERING_WORLD, PLAYER_TARGET_CHANGED, UPDATE_MOUSEOVER_UNIT",
-						["customIcon"] = "function()\n    return select(5, GetTotemInfo(1))\nend",
 						["custom"] = "--****************************************\n--*あれがデネブ、アルタイル、ベガ，君は指さす夏の大三角\n--*Author: snyssss@gmail.com\n--*someone has fixed a bug: bblues@live.cn\n--****************************************\nfunction(event, ...)\n    WA_BOS = WA_BOS or { \n        GUID = nil,\n        Health = 0,  \n        HealthMax = 0\n    }\n    \n    if (event == \"COMBAT_LOG_EVENT_UNFILTERED\") then\n        local playerGUID = UnitGUID(\"player\")\n        local event, sourceGUID, destGUID, spellId = select(2, ...), select(4, ...), select(8, ...), select(12, ...)\n        if (event == \"SPELL_SUMMON\" and sourceGUID == playerGUID and spellId == 115315) then\n            WA_BOS.GUID = destGUID\n            WA_BOS.Health = UnitHealthMax(\"player\") * 0.5\n            WA_BOS.HealthMax = WA_BOS.Health\n        elseif(event == \"UNIT_DIED\" and destGUID == playerGUID) then\n            WA_BOS.GUID = nil\n            WA_BOS.Health = 0\n            WA_BOS.HealthMax = 0\n            return false\n        elseif (destGUID == WA_BOS.GUID) then\n            local amount\n            if (event == \"SWING_DAMAGE\") then\n                amount = select(12, ...)\n            elseif (event == \"SPELL_DAMAGE\") then\n                amount = select(15, ...)\n            elseif (event == \"SPELL_HEAL\") then\n                amount = 0 - select(15, ...)\n            end\n            if (amount) then\n                WA_BOS.Health = WA_BOS.Health - amount\n                if WA_BOS.Health > WA_BOS.HealthMax then\n                    WA_BOS.Health = WA_BOS.HealthMax\n                end\n            end\n        end\n    elseif (event == \"PLAYER_TARGET_CHANGED\") then\n        if GetTotemInfo(1) and not WA_BOS.GUID then\n            local BOS_NAME = select(2, GetTotemInfo(1))\n            local BOS_HMAX = UnitHealthMax(\"player\")\n            local unit\n            if (BOS_NAME == UnitName(\"target\") and BOS_HMAX == UnitHealthMax(\"target\") * 2) then\n                unit = \"target\"\n            elseif (BOS_NAME == UnitName(\"targettarget\") and BOS_HMAX == UnitHealthMax(\"targettarget\") * 2) then\n                unit = \"targettarget\"\n            end\n            if unit then\n                WA_BOS.GUID = UnitGUID(unit)\n                WA_BOS.Health = UnitHealth(unit)\n                WA_BOS.HealthMax = UnitHealthMax(unit)\n            end\n        end\n    elseif (event == \"UPDATE_MOUSEOVER_UNIT\") then\n        if GetTotemInfo(1) and not WA_BOS.GUID then\n            local BOS_NAME = select(2, GetTotemInfo(1))\n            local BOS_HMAX = UnitHealthMax(\"player\")\n            local unit\n            if (BOS_NAME == UnitName(\"mouseover\") and BOS_HMAX == UnitHealthMax(\"mouseover\") * 2) then\n                local playerName = UnitName(\"player\")\n                local BOS_TEXT = format(UNITNAME_SUMMON_TITLE16, playerName)\n                local lines = GameTooltip:NumLines()\n                for i = 1, lines do\n                    if (_G[\"GameTooltipTextLeft\"..i]:GetText() == BOS_TEXT) then\n                        unit = \"mouseover\"\n                        break\n                    end\n                end\n            elseif (BOS_NAME == UnitName(\"mouseovertarget\") and BOS_HMAX == UnitHealthMax(\"mouseovertarget\") * 2) then\n                unit = \"mouseovertarget\"\n            end\n            if unit then\n                WA_BOS.GUID = UnitGUID(unit)\n                WA_BOS.Health = UnitHealth(unit)\n                WA_BOS.HealthMax = UnitHealthMax(unit)    \n            end\n        end\n    end\n    \n    return GetTotemInfo(1)\nend",
-						["subeventPrefix"] = "SPELL",
+						["customIcon"] = "function()\n    return select(5, GetTotemInfo(1))\nend",
+						["spellIds"] = {
+						},
+						["names"] = {
+						},
 						["event"] = "Health",
 						["custom_hide"] = "custom",
 					},
@@ -277,10 +277,10 @@ WeakAurasSaved = {
 						["event"] = "Totem",
 						["totemName"] = "Black Ox Statue",
 						["unevent"] = "auto",
-						["custom"] = "function()\n    if (GetTotemInfo(1)) then\n        return false\n    end\n    return true\nend",
 						["events"] = "PLAYER_TOTEM_UPDATE",
 						["spellIds"] = {
 						},
+						["custom"] = "function()\n    if (GetTotemInfo(1)) then\n        return false\n    end\n    return true\nend",
 						["check"] = "event",
 						["unit"] = "player",
 						["subeventPrefix"] = "SPELL",
@@ -476,9 +476,6 @@ WeakAurasSaved = {
 			["text1Enabled"] = true,
 			["keepAspectRatio"] = false,
 			["selfPoint"] = "CENTER",
-			["glow"] = false,
-			["internalVersion"] = 9,
-			["stickyDuration"] = false,
 			["actions"] = {
 				["start"] = {
 				},
@@ -487,12 +484,19 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
+			["desaturate"] = false,
+			["text1Containment"] = "INSIDE",
+			["text2Font"] = "2002",
 			["text1Point"] = "CENTER",
-			["wordWrap"] = "WordWrap",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 45.172046661377,
-			["conditions"] = {
-			},
+			["fixedWidth"] = 200,
 			["load"] = {
 				["ingroup"] = {
 					["multi"] = {
@@ -530,16 +534,16 @@ WeakAurasSaved = {
 					},
 				},
 				["use_spec"] = true,
-				["use_vehicleUi"] = false,
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["use_vehicleUi"] = false,
 				["race"] = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -548,22 +552,44 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["desaturate"] = false,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+			["conditions"] = {
 			},
+			["stickyDuration"] = false,
 			["fontSize"] = 20,
 			["text2Containment"] = "INSIDE",
-			["automaticWidth"] = "Auto",
+			["font"] = "2002",
+			["text1Font"] = "2002",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["anchorFrameType"] = "SCREEN",
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text2FontSize"] = 12,
+			["frameStrata"] = 1,
+			["text1"] = "%s",
+			["justify"] = "LEFT",
+			["zoom"] = 0,
+			["text2"] = "%p",
+			["auto"] = false,
+			["glow"] = false,
+			["id"] = "Renewing Mist Counter",
+			["internalVersion"] = 9,
+			["alpha"] = 1,
+			["width"] = 45.1787643432617,
+			["wordWrap"] = "WordWrap",
+			["automaticWidth"] = "Auto",
+			["inverse"] = true,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -578,33 +604,7 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["anchorFrameType"] = "SCREEN",
-			["text1FontFlags"] = "OUTLINE",
-			["regionType"] = "icon",
-			["alpha"] = 1,
-			["text1Containment"] = "INSIDE",
-			["text2FontSize"] = 12,
-			["text2Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["text1"] = "%s",
-			["justify"] = "LEFT",
-			["zoom"] = 0,
-			["text2"] = "%p",
-			["auto"] = false,
-			["frameStrata"] = 1,
-			["id"] = "Renewing Mist Counter",
-			["text2Font"] = "2002",
-			["text2Enabled"] = false,
-			["width"] = 45.1787643432617,
-			["text1Font"] = "2002",
-			["font"] = "2002",
-			["inverse"] = true,
 			["displayIcon"] = 1360980,
-			["fixedWidth"] = 200,
 			["cooldown"] = false,
 			["cooldownTextEnabled"] = false,
 		},
@@ -674,8 +674,8 @@ WeakAurasSaved = {
 			["frameStrata"] = 4,
 			["glow"] = false,
 			["internalVersion"] = 9,
-			["text1Containment"] = "OUTSIDE",
-			["discrete_rotation"] = 0,
+			["stickyDuration"] = false,
+			["progressPrecision"] = 0,
 			["text1Point"] = "CENTER",
 			["xOffset"] = -120.154724121094,
 			["text2FontFlags"] = "OUTLINE",
@@ -737,7 +737,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["stickyDuration"] = false,
+			["discrete_rotation"] = 0,
 			["animation"] = {
 				["start"] = {
 					["preset"] = "slidetop",
@@ -754,10 +754,15 @@ WeakAurasSaved = {
 					["type"] = "preset",
 				},
 			},
-			["desaturate"] = false,
+			["text1Enabled"] = true,
 			["text2Containment"] = "INSIDE",
 			["rotation"] = 0,
-			["text1Font"] = "Friz Quadrata TT",
+			["text1Color"] = {
+				0.988235294117647, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			},
 			["icon"] = true,
 			["mirror"] = false,
 			["text2Color"] = {
@@ -778,18 +783,13 @@ WeakAurasSaved = {
 			["auto"] = true,
 			["zoom"] = 0,
 			["id"] = "铁骨酒",
-			["text1Color"] = {
-				0.988235294117647, -- [1]
-				1, -- [2]
-				0, -- [3]
-				1, -- [4]
-			},
+			["text1Font"] = "Friz Quadrata TT",
 			["text2Enabled"] = false,
 			["anchorFrameType"] = "SCREEN",
-			["progressPrecision"] = 0,
 			["cooldownTextEnabled"] = true,
+			["desaturate"] = false,
 			["inverse"] = false,
-			["text1Enabled"] = true,
+			["text1Containment"] = "OUTSIDE",
 			["conditions"] = {
 			},
 			["cooldown"] = false,
@@ -850,7 +850,7 @@ WeakAurasSaved = {
 						true, -- [1]
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -864,15 +864,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
+				["use_spec"] = true,
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["role"] = {
 					["multi"] = {
 					},
@@ -1095,12 +1095,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["use_spec"] = true,
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -1150,10 +1150,10 @@ WeakAurasSaved = {
 						["subeventPrefix"] = "SPELL",
 						["destUnit"] = "player",
 						["unevent"] = "timed",
+						["custom"] = "function(event, ...)\n    \n    local timestamp, subevent = select(1, ...)\n    \n    --target = player\n    if select(8, ...) == UnitGUID(\"player\") then\n        \n        --set selection offset to amount for baseline SWING_DAMAGE\n        local offset = 12\n        \n        --handle SPELL_ABSORBED events\n        if subevent == \"SPELL_ABSORBED\" then\n            \n            --if a spell gets absorbed instead of a melee hit, there are 3 additional parameters regarding which spell got absorbed, so move the offset 3 more places\n            local spellid, spellname = select(offset, ...)\n            if GetSpellInfo(spellid) == spellname then\n                --check for excluded spellids before moving the offset\n                if aura_env.exclude[spellid] then\n                    return\n                end\n                offset = offset + 3\n            end\n            \n            --absorb value is 7 places further\n            offset = offset + 7\n            table.insert(aura_env.dmgTaken, {GetTime(), (select(offset, ...)), timestamp})\n            \n            --handle regular XYZ_DAMAGE events\n        elseif subevent:find(\"_DAMAGE\") then\n            \n            --don't include environmental damage (like falling etc)\n            if not subevent:find(\"ENVIRONMENTAL\") then\n                \n                --move offset by 3 places for spell info for RANGE_ and SPELL_ prefixes\n                if subevent:find(\"SPELL\") then\n                    --check for excluded spellids before moving the offset\n                    local spellid = select(offset, ...)\n                    if aura_env.exclude[spellid] then\n                        return\n                    end\n                    offset = offset + 3\n                elseif subevent:find(\"RANGE\") then\n                    offset = offset + 3\n                end\n                \n                --damage event\n                table.insert(aura_env.dmgTaken, {GetTime(), (select(offset, ...)), timestamp})\n                \n            end\n            \n        end\n        \n    end\n    \nend",
 						["spellIds"] = {
 						},
 						["events"] = "COMBAT_LOG_EVENT_UNFILTERED",
-						["custom"] = "function(event, ...)\n    \n    local timestamp, subevent = select(1, ...)\n    \n    --target = player\n    if select(8, ...) == UnitGUID(\"player\") then\n        \n        --set selection offset to amount for baseline SWING_DAMAGE\n        local offset = 12\n        \n        --handle SPELL_ABSORBED events\n        if subevent == \"SPELL_ABSORBED\" then\n            \n            --if a spell gets absorbed instead of a melee hit, there are 3 additional parameters regarding which spell got absorbed, so move the offset 3 more places\n            local spellid, spellname = select(offset, ...)\n            if GetSpellInfo(spellid) == spellname then\n                --check for excluded spellids before moving the offset\n                if aura_env.exclude[spellid] then\n                    return\n                end\n                offset = offset + 3\n            end\n            \n            --absorb value is 7 places further\n            offset = offset + 7\n            table.insert(aura_env.dmgTaken, {GetTime(), (select(offset, ...)), timestamp})\n            \n            --handle regular XYZ_DAMAGE events\n        elseif subevent:find(\"_DAMAGE\") then\n            \n            --don't include environmental damage (like falling etc)\n            if not subevent:find(\"ENVIRONMENTAL\") then\n                \n                --move offset by 3 places for spell info for RANGE_ and SPELL_ prefixes\n                if subevent:find(\"SPELL\") then\n                    --check for excluded spellids before moving the offset\n                    local spellid = select(offset, ...)\n                    if aura_env.exclude[spellid] then\n                        return\n                    end\n                    offset = offset + 3\n                elseif subevent:find(\"RANGE\") then\n                    offset = offset + 3\n                end\n                \n                --damage event\n                table.insert(aura_env.dmgTaken, {GetTime(), (select(offset, ...)), timestamp})\n                \n            end\n            \n        end\n        \n    end\n    \nend",
 						["use_destUnit"] = false,
 						["genericShowOn"] = "showOnActive",
 						["debuffType"] = "HELPFUL",
@@ -1316,12 +1316,12 @@ WeakAurasSaved = {
 			["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_White",
 			["anchorPoint"] = "CENTER",
 			["internalVersion"] = 9,
-			["desaturate"] = false,
+			["width"] = 55,
 			["selfPoint"] = "CENTER",
 			["id"] = "受伤警报",
-			["width"] = 55,
-			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
+			["desaturate"] = false,
 			["discrete_rotation"] = 0,
 			["rotation"] = 0,
 			["frameStrata"] = 1,
@@ -1805,7 +1805,7 @@ WeakAurasSaved = {
 					["use_color"] = false,
 					["duration_type"] = "seconds",
 					["colorA"] = 1,
-					["duration"] = "0.1",
+					["scalex"] = 1,
 					["alpha"] = 0,
 					["colorType"] = "custom",
 					["y"] = 0,
@@ -1814,8 +1814,8 @@ WeakAurasSaved = {
 					["colorB"] = 1,
 					["colorFunc"] = "function(progress, r1, g1, b1, a1, r2, g2, b2, a2)\n    --print(\"Percent\", WA_STAGGER.percent)\n    local color = { \n        {r = 0.0, g = 1.0, b = 0.2}, --Light\n        {r = 1.0, g = 0.7, b = 0.0}, --Moderate\n        {r = 1.0, g = 0.0, b = 0.0} --Heavy\n    }\n    \n    if WA_STAGGER == nil then\n        return color[1].r, color[1].g, color[1].b\n    end\n    \n    WA_STAGGER.percent = WA_HEALTH.value / WA_HEALTH.maxValue\n    \n    --STAGGER_YELLOW_TRANSITION = 0.3\n    if (WA_STAGGER.percent > 0.3 and WA_STAGGER.percent < STAGGER_RED_TRANSITION) then\n        color = color[2]; --Moderate\n    elseif (WA_STAGGER.percent > STAGGER_RED_TRANSITION) then\n        color =color[3]; --Heavy\n    else\n        color = color[1]; --Light\n    end\n    \n    --print(\"Color\", color.r, color.g, color.b)\n    return color.r, color.g, color.b\nend",
 					["rotate"] = 0,
+					["duration"] = "0.1",
 					["scaley"] = 1,
-					["scalex"] = 1,
 				},
 				["finish"] = {
 					["duration_type"] = "seconds",
@@ -1969,17 +1969,17 @@ WeakAurasSaved = {
 						["custom_hide"] = "timed",
 						["unevent"] = "timed",
 						["custom_type"] = "event",
-						["unit"] = "player",
-						["event"] = "Combat Log",
 						["names"] = {
 						},
+						["event"] = "Combat Log",
+						["subeventPrefix"] = "SPELL",
 						["subeventSuffix"] = "_CAST_START",
-						["spellIds"] = {
-						},
 						["custom"] = "-----------------------------------------------------------------------\n-- Hidden aura that tracks damage taken by the Statue\n-- Author: Shandaren @  Zul'jin(US) \n-----------------------------------------------------------------------\n\nfunction(event, ...)\n    \n    local playerID = UnitGUID(\"player\")\n    local evnt,_,source,_,_,_,target,tname,_,_,spellId,spellName,_,damage = select(2,...)\n    \n    if not WA_BlackOx  then \n        WA_BlackOx  = { \n            GUID = 0,\n            hp = 0,  \n            maxHP = 1,\n            hpPercent = 0,\n            lastHit = 0,\n        }  \n    end\n    \n    -- If summoning a statue...\n    if evnt == \"SPELL_SUMMON\" and  source==playerID and spellId==115315 then\n        WA_BlackOx.GUID = target\n        WA_BlackOx.maxHP = UnitHealthMax(\"player\")  * 0.5\n        WA_BlackOx.hp = WA_BlackOx.maxHP\n        WA_BlackOx.hpPercent = 100\n    end    \n    \n    -- If the statue just took damage...\n    if string.find(evnt,\"_DAMAGE\") and target==WA_BlackOx.GUID then\n        if evnt == \"SWING_DAMAGE\" then \n            damage = spellId \n        end \n        WA_BlackOx.hp = WA_BlackOx.hp -  damage\n        WA_BlackOx.lastHit = GetTime()\n        WA_BlackOx.hpPercent = tonumber((\"%.0f\"):format(100*(WA_BlackOx.hp / WA_BlackOx.maxHP))) \n    end \n    \n    -- but u can heal ur statue   ---add by pantseblue\n    if evnt == \"SPELL_HEAL\" and target==WA_BlackOx.GUID then\n        WA_BlackOx.hp = WA_BlackOx.hp + damage\n        if WA_BlackOx.hp > WA_BlackOx.maxHP then\n            WA_BlackOx.hp = WA_BlackOx.maxHP\n        end\n        WA_BlackOx.hpPercent = tonumber((\"%.0f\"):format(100*(WA_BlackOx.hp / WA_BlackOx.maxHP)))   \n    end\n    if WA_BlackOx.hpPercent < 0 then\n        WA_BlackOx.hpPercent = 0    \n    end\n    \n    \n    return false\n    \nend",
 						["events"] = "COMBAT_LOG_EVENT_UNFILTERED",
+						["spellIds"] = {
+						},
 						["check"] = "event",
-						["subeventPrefix"] = "SPELL",
+						["unit"] = "player",
 						["genericShowOn"] = "showOnActive",
 						["debuffType"] = "HELPFUL",
 					},
@@ -2475,7 +2475,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -2484,11 +2484,11 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
 				["size"] = {
 					["multi"] = {
 					},
@@ -2701,7 +2701,7 @@ WeakAurasSaved = {
 					["scaley"] = 1,
 					["scalex"] = 1,
 					["colorB"] = 1,
-					["duration"] = "0.5",
+					["duration_type"] = "seconds",
 					["alpha"] = 0,
 					["colorType"] = "custom",
 					["y"] = 0,
@@ -2710,8 +2710,8 @@ WeakAurasSaved = {
 					["colorA"] = 1,
 					["colorFunc"] = "function(progress, r1, g1, b1, a1, r2, g2, b2, a2)\n    --print(\"Percent\", WA_STAGGER.percent)\n    local color = { \n        {r = 0.0, g = 1.0, b = 0.2}, --Light\n        {r = 1.0, g = 0.7, b = 0.0}, --Moderate\n        {r = 1.0, g = 0.0, b = 0.0} --Heavy\n    }\n    \n    if WA_STAGGER == nil then\n        return color[1].r, color[1].g, color[1].b\n    end\n    \n    WA_STAGGER.percent = WA_STAGGER.value / WA_STAGGER.maxValue\n    \n    --STAGGER_YELLOW_TRANSITION = 0.3\n    if (WA_STAGGER.percent > 0.3 and WA_STAGGER.percent < STAGGER_RED_TRANSITION) then\n        color = color[2]; --Moderate\n    elseif (WA_STAGGER.percent > STAGGER_RED_TRANSITION) then\n        color =color[3]; --Heavy\n    else\n        color = color[1]; --Light\n    end\n    \n    --print(\"Color\", color.r, color.g, color.b)\n    return color.r, color.g, color.b\nend",
 					["rotate"] = 0,
+					["duration"] = "0.5",
 					["use_color"] = true,
-					["duration_type"] = "seconds",
 				},
 				["finish"] = {
 					["type"] = "none",
@@ -2819,10 +2819,10 @@ WeakAurasSaved = {
 						["event"] = "Totem",
 						["totemType"] = 1,
 						["unevent"] = "auto",
-						["custom"] = "function()\n    if (GetTotemInfo(1)) then\n        return true\n    end\n    return false\nend",
 						["events"] = "PLAYER_TOTEM_UPDATE",
 						["spellIds"] = {
 						},
+						["custom"] = "function()\n    if (GetTotemInfo(1)) then\n        return true\n    end\n    return false\nend",
 						["check"] = "event",
 						["unit"] = "player",
 						["subeventPrefix"] = "SPELL",
@@ -3016,28 +3016,22 @@ WeakAurasSaved = {
 				["activeTriggerMode"] = 1,
 			},
 			["borderOffset"] = 5,
-			["borderEdge"] = "None",
-			["animation"] = {
+			["actions"] = {
 				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
 				},
 				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
+				},
+				["init"] = {
 				},
 			},
-			["id"] = "玄牛雕像",
 			["selfPoint"] = "BOTTOMLEFT",
+			["id"] = "玄牛雕像",
+			["internalVersion"] = 9,
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["internalVersion"] = 9,
-			["borderInset"] = 11,
 			["anchorPoint"] = "CENTER",
+			["borderInset"] = 11,
+			["borderEdge"] = "None",
 			["scale"] = 1,
 			["conditions"] = {
 			},
@@ -3097,12 +3091,18 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["actions"] = {
+			["animation"] = {
 				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
 				},
 				["finish"] = {
-				},
-				["init"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
 				},
 			},
 		},

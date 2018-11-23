@@ -69,7 +69,7 @@ MADB = {
 						"UIParent", -- [2]
 						"BOTTOM", -- [3]
 						0, -- [4]
-						96, -- [5]
+						96.0000076293945, -- [5]
 					},
 					["name"] = "TalkingHeadFrame",
 					["pos"] = {
@@ -105,7 +105,7 @@ MADB = {
 						"UIParent", -- [2]
 						"TOP", -- [3]
 						0, -- [4]
-						-170, -- [5]
+						-169.999984741211, -- [5]
 					},
 					["name"] = "ObjectiveTrackerBonusBannerFrame",
 					["pos"] = {

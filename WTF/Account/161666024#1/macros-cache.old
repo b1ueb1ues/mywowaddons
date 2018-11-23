@@ -273,9 +273,6 @@ VER 3 0000000000000075 "AAP_MACRO" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use 地精工程学手炮
 END
-VER 3 000000000000006E "move" "INV_MISC_QUESTIONMARK"
-/tukui move
-END
 VER 3 0000000000000077 "printk" "INV_MISC_QUESTIONMARK"
 /run local a,ar,k =select(2,UnitArmor("player")),C_PaperDollInfo.GetArmorEffectivenessAgainstTarget(select(2,UnitArmor("player"))) if ar then k = a/ar-a print(k) end
 END
@@ -287,9 +284,6 @@ VER 3 000000000000005C "roll" "INV_MISC_QUESTIONMARK"
 END
 VER 3 000000000000006A "rt bw" "132895"
 /rt bw
-END
-VER 3 000000000000007B "tangguo" "INV_MISC_QUESTIONMARK"
-/use 一把糖果
 END
 VER 3 0000000000000064 "tmw" "SPELL_MISC_PETHEAL"
 /tmw

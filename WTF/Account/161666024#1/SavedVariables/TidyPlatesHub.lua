@@ -145,6 +145,7 @@ TidyPlatesHubCache = {
 			["g"] = 0.999997794628143,
 			["r"] = 0.999997794628143,
 		},
+		["WidgetAuraTrackStealable"] = false,
 		["WidgetsMyBuff"] = false,
 		["ClassEnemyIcon"] = false,
 		["FocusAsTarget"] = false,
@@ -159,8 +160,8 @@ TidyPlatesHubCache = {
 			["g"] = 0.199999555945396,
 			["r"] = 0.999997794628143,
 		},
-		["OpacityFilterList"] = "爆炸物\n戈霍恩之嗣",
 		["UnitSpotlightOpacityEnable"] = true,
+		["OpacityFilterList"] = "爆炸物\n戈霍恩之嗣",
 		["UnitSpotlightScale"] = 1.4,
 		["TextColorHostilePlayer"] = {
 			["a"] = 0.999997794628143,
@@ -275,8 +276,8 @@ TidyPlatesHubCache = {
 		},
 		["ScaleCastingSpotlight"] = false,
 		["StyleFriendlyBarsOnNPC"] = false,
-		["TextUseBlizzardFont"] = false,
 		["OpacityFiltered"] = 1,
+		["TextUseBlizzardFont"] = false,
 	},
 }
 TidyPlatesHubGlobal = {

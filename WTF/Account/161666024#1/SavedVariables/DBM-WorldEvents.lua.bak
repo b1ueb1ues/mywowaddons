@@ -548,9 +548,9 @@ DBMWorldEvents_AllSavedVars = {
 			}, -- [1]
 		},
 	},
-	["喵言术嗷呜-燃烧之刃"] = {
+	["备前长光-白银之手"] = {
 		["d288"] = {
-			[2] = {
+			[3] = {
 				["Enabled"] = true,
 				["TrioActiveTimer"] = true,
 				["HealthFrame"] = false,
@@ -566,24 +566,23 @@ DBMWorldEvents_AllSavedVars = {
 				["Timer68821castTColor"] = 0,
 			},
 		},
-		["talent2"] = "复仇",
 		["d286"] = {
-			[2] = {
+			[3] = {
 				["Enabled"] = true,
 				["specWarnAttack"] = true,
 				["HealthFrame"] = false,
 				["specWarnAttackSWNote"] = true,
 				["Emerged"] = true,
 				["SubmergTimerTColor"] = 6,
-				["EmergeTimerTColor"] = 6,
 				["EmergeTimer"] = true,
+				["EmergeTimerTColor"] = 6,
 				["announce37751spell"] = true,
 				["specWarnAttackSWSound"] = 1,
 				["SubmergTimer"] = true,
 			},
 		},
 		["d287"] = {
-			[2] = {
+			[3] = {
 				["announceother51413target"] = true,
 				["Timer47340target"] = false,
 				["Timer51413target"] = true,
@@ -602,11 +601,11 @@ DBMWorldEvents_AllSavedVars = {
 				["Timer47340targetTColor"] = 0,
 				["Enabled"] = true,
 				["specWarnBrewSWNote"] = true,
-				["YellOnBarrel"] = true,
+				["YellOnBarrel"] = false,
 			},
 		},
 		["DemonInvasions"] = {
-			[2] = {
+			[3] = {
 				["SpecWarn238005dodgeSWNote"] = true,
 				["SpecWarn235085dodgeSWSound"] = 3,
 				["SpecWarn234660dodgeSWSound"] = 4,
@@ -621,7 +620,7 @@ DBMWorldEvents_AllSavedVars = {
 			},
 		},
 		["Greench"] = {
-			[2] = {
+			[3] = {
 				["announce101873spell"] = true,
 				["HealthFrame"] = false,
 				["Timer101873cdTColor"] = 0,
@@ -644,7 +643,7 @@ DBMWorldEvents_AllSavedVars = {
 			},
 		},
 		["PlantsVsZombies"] = {
-			[2] = {
+			[3] = {
 				["specWarnWave"] = true,
 				["announce91739spell"] = false,
 				["HealthFrame"] = false,
@@ -657,8 +656,9 @@ DBMWorldEvents_AllSavedVars = {
 				["specWarnWaveSWNote"] = true,
 			},
 		},
+		["talent3"] = "敏锐",
 		["d285"] = {
-			[2] = {
+			[3] = {
 				["warnHorsemanHead"] = true,
 				["announceother42380target"] = true,
 				["warnHorsemanSoldiers"] = true,
@@ -673,7 +673,7 @@ DBMWorldEvents_AllSavedVars = {
 			},
 		},
 		["Omen"] = {
-			[2] = {
+			[3] = {
 				["Enabled"] = true,
 				["announce26540spell"] = true,
 				["HealthFrame"] = false,
@@ -688,10 +688,136 @@ DBMWorldEvents_AllSavedVars = {
 			},
 		},
 		["Brew"] = {
-			[2] = {
+			[3] = {
 				["NormalizeVolume"] = true,
 				["Enabled"] = true,
 				["HealthFrame"] = false,
+			},
+		},
+	},
+	["喵言术嗷呜-燃烧之刃"] = {
+		["d288"] = {
+			[2] = {
+				["Enabled"] = true,
+				["TrioActiveTimer"] = true,
+				["Timer68821castTColor"] = 0,
+				["SpecWarn68927gtfoSWSound"] = 1,
+				["SpecWarn68927gtfo"] = true,
+				["TrioActiveTimerTColor"] = 1,
+				["announce68821cast"] = true,
+				["Timer68821cast"] = true,
+				["SpecWarn68927gtfoSWNote"] = true,
+			},
+		},
+		["talent2"] = "复仇",
+		["d286"] = {
+			[2] = {
+				["Enabled"] = true,
+				["specWarnAttack"] = true,
+				["specWarnAttackSWNote"] = true,
+				["Emerged"] = true,
+				["SubmergTimerTColor"] = 6,
+				["EmergeTimerTColor"] = 6,
+				["EmergeTimer"] = true,
+				["announce37751spell"] = true,
+				["specWarnAttackSWSound"] = 1,
+				["SubmergTimer"] = true,
+			},
+		},
+		["d287"] = {
+			[2] = {
+				["announceother51413target"] = true,
+				["Timer47340target"] = false,
+				["Timer51413target"] = true,
+				["specWarnBrew"] = true,
+				["specWarnBrewStun"] = true,
+				["specWarnBrewStunSWNote"] = true,
+				["specWarnBrewStunSWSound"] = 1,
+				["Timer47376targetTColor"] = 3,
+				["Timer51413targetTColor"] = 3,
+				["Timer47376target"] = false,
+				["specWarnBrewSWSound"] = 1,
+				["Yell47442"] = true,
+				["Timer47310cast2"] = true,
+				["Timer47310cast2TColor"] = 2,
+				["announce47310cast"] = true,
+				["Timer47340targetTColor"] = 3,
+				["Enabled"] = true,
+				["specWarnBrewSWNote"] = true,
+			},
+		},
+		["DemonInvasions"] = {
+			[2] = {
+				["SpecWarn238005dodgeSWNote"] = true,
+				["SpecWarn235085dodgeSWSound"] = 3,
+				["SpecWarn234660dodgeSWSound"] = 4,
+				["SpecWarn238005dodgeSWSound"] = 4,
+				["SpecWarn238005dodge"] = true,
+				["SpecWarn234660dodgeSWNote"] = true,
+				["SpecWarn235085dodge"] = true,
+				["SpecWarn235085dodgeSWNote"] = true,
+				["Enabled"] = true,
+				["SpecWarn234660dodge"] = true,
+			},
+		},
+		["Greench"] = {
+			[2] = {
+				["announce101873spell"] = true,
+				["Timer101873cdTColor"] = 2,
+				["SpecWarn101860moveSWNote"] = true,
+				["Timer101885cdTColor"] = 3,
+				["announce101938spell"] = true,
+				["Timer101907castTColor"] = 0,
+				["Timer101910cd"] = true,
+				["Timer101910cdTColor"] = 3,
+				["Enabled"] = true,
+				["announce101910spell"] = true,
+				["Timer101873cd"] = true,
+				["Timer101938cd"] = true,
+				["Timer101938cdTColor"] = 3,
+				["SpecWarn101860moveSWSound"] = 1,
+				["announce101907cast"] = true,
+				["SpecWarn101860move"] = true,
+				["Timer101885cd"] = true,
+				["Timer101907cast"] = true,
+			},
+		},
+		["PlantsVsZombies"] = {
+			[2] = {
+				["specWarnWave"] = true,
+				["announce91739spell"] = false,
+				["announce91834spell"] = false,
+				["announce92228spell"] = true,
+				["announce92606spell"] = true,
+				["Enabled"] = true,
+				["specWarnWaveSWSound"] = 2,
+				["warnTotalAdds"] = true,
+				["specWarnWaveSWNote"] = true,
+			},
+		},
+		["d285"] = {
+			[2] = {
+				["warnHorsemanHead"] = true,
+				["announceother42380target"] = true,
+				["warnHorsemanSoldiers"] = true,
+				["Timer42514target2TColor"] = 3,
+				["announceother42514target2"] = false,
+				["WarnPhase"] = true,
+				["Timer42380target"] = false,
+				["Timer42514target2"] = false,
+				["Enabled"] = true,
+				["Timer42380targetTColor"] = 3,
+			},
+		},
+		["Omen"] = {
+			[2] = {
+				["Enabled"] = true,
+			},
+		},
+		["Brew"] = {
+			[2] = {
+				["NormalizeVolume"] = true,
+				["Enabled"] = true,
 			},
 		},
 	},

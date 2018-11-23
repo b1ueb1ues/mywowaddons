@@ -1,6 +1,7 @@
 
 BasicMinimapSV = {
 	["profileKeys"] = {
+		["喵言术嗷呜 - 燃烧之刃"] = "Default",
 		["尊严德 - 燃烧之刃"] = "Default",
 		["萌娘百科 - 燃烧之刃"] = "Default",
 		["教授猫 - 白银之手"] = "Default",
@@ -11,7 +12,9 @@ BasicMinimapSV = {
 		["Default"] = {
 			["scale"] = 1.34,
 			["lock"] = true,
+			["trackingBtn"] = "RightButton",
 			["size"] = 155,
+			["calendarBtn"] = "MiddleButton",
 			["colorBorder"] = {
 				nil, -- [1]
 				0, -- [2]
@@ -20,7 +23,7 @@ BasicMinimapSV = {
 				"BOTTOMLEFT", -- [1]
 				"BOTTOMLEFT", -- [2]
 				288.413421630859, -- [3]
-				31.2233066558838, -- [4]
+				31.2233047485352, -- [4]
 			},
 		},
 	},

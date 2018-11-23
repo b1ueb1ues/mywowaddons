@@ -1488,7 +1488,33 @@ DCS_ClassSpecDB = {
 		}, -- [42]
 		{
 			["statKey"] = "SPEED",
+			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [43]
+		{
+			["statKey"] = "STAGGER",
+			["hideAt"] = 0,
+			["roles"] = {
+				"TANK", -- [1]
+			},
+		}, -- [44]
+		{
+			["statKey"] = "RatingCategory",
+		}, -- [45]
+		{
+			["statKey"] = "OffenseCategory",
+		}, -- [46]
+		{
+			["statKey"] = "GeneralCategory",
+		}, -- [47]
+		{
+			["statKey"] = "DefenseCategory",
+		}, -- [48]
+		{
+			["statKey"] = "SPEED_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [49]
 		["uniqueKey"] = "喵言术嗷呜:燃烧之刃:2",
 	},
 	["立二拆三:燃烧之刃:1"] = {
@@ -4118,7 +4144,33 @@ DCS_ClassSpecDB = {
 		}, -- [42]
 		{
 			["statKey"] = "SPEED",
+			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [43]
+		{
+			["statKey"] = "STAGGER",
+			["hideAt"] = 0,
+			["roles"] = {
+				"TANK", -- [1]
+			},
+		}, -- [44]
+		{
+			["statKey"] = "RatingCategory",
+		}, -- [45]
+		{
+			["statKey"] = "OffenseCategory",
+		}, -- [46]
+		{
+			["statKey"] = "GeneralCategory",
+		}, -- [47]
+		{
+			["statKey"] = "DefenseCategory",
+		}, -- [48]
+		{
+			["statKey"] = "SPEED_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [49]
 		["uniqueKey"] = "喵言术嗷呜:燃烧之刃:1",
 	},
 	["Pantyazure:燃烧之刃:3"] = {
