@@ -1,2 +1,0 @@
-IceHUD: enabled
-Buffet: enabled

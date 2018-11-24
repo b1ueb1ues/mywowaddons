@@ -1,5 +1,0 @@
-VER 3 0100000000000001 " " "INV_MISC_QUESTIONMARK"
-#showtooltips
-/petattack
-/cast 召唤恐惧猎犬
-END

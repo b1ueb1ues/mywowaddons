@@ -1,0 +1,16 @@
+del arHei.ttf
+del arKai_C.ttf
+del arKai_T.ttf
+del ZYKai_C.ttf
+del ZYKai_T.ttf 
+del FZJZJW.ttf 
+del FZLBJW.ttf 
+del FZXHJW.ttf 
+del FZXHLJW.ttf 
+del FRIZQT__.ttf 
+del FZBWJW.ttf 
+del ZYHei.TTF 
+del bHEI01B.TTF 
+del bLEI00D.TTF 
+del bHEI00M.TTF 
+del bKAI00M.TTF 
