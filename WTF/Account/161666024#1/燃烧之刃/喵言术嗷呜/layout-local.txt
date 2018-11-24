@@ -1,11 +1,4 @@
 Version: 1
-Frame: CompactRaidMainFrame
-FrameLevel: 1
-Anchor: RIGHT
-X: -357
-Y: -82
-W: 64
-H: 36
 Frame: ObjectiveTrackerBonusBannerFrame
 FrameLevel: 1
 Anchor: TOP
@@ -34,6 +27,13 @@ X: 429
 Y: 221
 W: 30
 H: 30
+Frame: CompactRaidMainFrame
+FrameLevel: 1
+Anchor: RIGHT
+X: -358
+Y: -49
+W: 64
+H: 36
 Frame: ChatBarFrame
 FrameLevel: 1
 Anchor: LEFT

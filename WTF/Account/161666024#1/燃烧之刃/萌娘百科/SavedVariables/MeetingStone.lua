@@ -5,15 +5,7 @@ MEETINGSTONE_CHARACTER_DB = {
 	},
 	["profiles"] = {
 		["萌娘百科 - 燃烧之刃"] = {
-			["settings"] = {
-				["panel"] = false,
-				["storage"] = {
-					["y"] = -78.3353271484375,
-					["x"] = -177.372924804688,
-					["point"] = "TOPRIGHT",
-					["scale"] = 1,
-				},
-			},
+			["version"] = "80000.05",
 			["appShine"] = "80000.05",
 			["minimap"] = {
 				["minimapPos"] = 176.017331171881,
@@ -26,7 +18,15 @@ MEETINGSTONE_CHARACTER_DB = {
 				"3-0-458-0", -- [5]
 			},
 			["lastSearchCode"] = "3-135-496-0",
-			["version"] = "80000.05",
+			["settings"] = {
+				["panel"] = false,
+				["storage"] = {
+					["y"] = -78.3353271484375,
+					["x"] = -177.372924804688,
+					["point"] = "TOPRIGHT",
+					["scale"] = 1,
+				},
+			},
 			["advShine"] = "80000.05",
 			["recent"] = {
 				["3-0-657-0"] = {

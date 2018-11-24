@@ -9,17 +9,17 @@ MasqueDB = {
 		["泠凊腤 - 拉文凯斯"] = "Default",
 		["立二拆三 - 燃烧之刃"] = "Default",
 		["Testlze - 燃烧之刃"] = "Default",
-		["尊严德 - 燃烧之刃"] = "Default",
-		["泠凊之腤 - 白银之手"] = "Default",
-		["备前长船 - 阿克蒙德"] = "Default",
-		["备前长光 - 白银之手"] = "Default",
-		["喵喵围炉斯 - 燃烧之刃"] = "Default",
-		["萌娘百科 - 燃烧之刃"] = "Default",
-		["喵喵了个咪肉 - 燃烧之刃"] = "Default",
-		["教授猫 - 白银之手"] = "Default",
-		["Pantyazure - 燃烧之刃"] = "Default",
-		["暗言术喵 - 燃烧之刃"] = "Default",
 		["自杀贼 - 燃烧之刃"] = "Default",
+		["备前长船 - 阿克蒙德"] = "Default",
+		["泠凊之腤 - 白银之手"] = "Default",
+		["喵喵围炉斯 - 燃烧之刃"] = "Default",
+		["Pantyazure - 燃烧之刃"] = "Default",
+		["喵喵了个咪肉 - 燃烧之刃"] = "Default",
+		["萌娘百科 - 燃烧之刃"] = "Default",
+		["教授猫 - 白银之手"] = "Default",
+		["备前长光 - 白银之手"] = "Default",
+		["暗言术喵 - 燃烧之刃"] = "Default",
+		["尊严德 - 燃烧之刃"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -110,13 +110,13 @@ MasqueDB = {
 					["SkinID"] = "Caith",
 					["Inherit"] = false,
 				},
-				["WeakAuras_有雕像"] = {
+				["WeakAuras_dk-blood_death_strike"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Caith",
 				},
-				["Bartender4_MicroMenu"] = {
-					["SkinID"] = "Caith",
+				["TellMeWhen_分组: 15"] = {
 					["Inherit"] = false,
+					["SkinID"] = "Caith",
 				},
 				["TrufiGCD_All Icons"] = {
 					["Inherit"] = false,
@@ -126,41 +126,25 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Caith",
 				},
-				["Bartender4_2"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Caith",
-				},
-				["oRA3 Cooldowns_Default"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Caith",
-				},
 				["WeakAuras_铁骨酒"] = {
 					["SkinID"] = "Caith",
-				},
-				["Bartender4"] = {
-					["SkinID"] = "Caith",
-					["Inherit"] = false,
-				},
-				["TellMeWhen"] = {
-					["SkinID"] = "Caith",
-					["Inherit"] = false,
 				},
 				["Bartender4_BagBar"] = {
 					["SkinID"] = "Caith",
 				},
-				["Bartender4_9"] = {
-					["SkinID"] = "Caith",
+				["Bartender4_2"] = {
 					["Inherit"] = false,
+					["SkinID"] = "Caith",
 				},
 				["TellMeWhen_分组: 8"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Caith",
 				},
-				["TellMeWhen_分组: 6"] = {
-					["Inherit"] = false,
+				["TellMeWhen"] = {
 					["SkinID"] = "Caith",
+					["Inherit"] = false,
 				},
-				["TellMeWhen_分组: 5"] = {
+				["oRA3 Cooldowns_Default"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Caith",
 				},
@@ -168,7 +152,23 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Caith",
 				},
+				["TellMeWhen_分组: 4"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Caith",
+				},
 				["TellMeWhen_分组: 10"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Caith",
+				},
+				["TellMeWhen_分组: 5"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Caith",
+				},
+				["TellMeWhen_分组: 11"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Caith",
+				},
+				["TrufiGCD"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Caith",
 				},
@@ -180,17 +180,17 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Caith",
 				},
-				["TrufiGCD"] = {
+				["TellMeWhen_分组: 6"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Caith",
 				},
-				["TellMeWhen_分组: 11"] = {
-					["Inherit"] = false,
+				["Bartender4_9"] = {
 					["SkinID"] = "Caith",
+					["Inherit"] = false,
 				},
-				["TellMeWhen_分组: 4"] = {
-					["Inherit"] = false,
+				["Bartender4"] = {
 					["SkinID"] = "Caith",
+					["Inherit"] = false,
 				},
 				["TellMeWhen_分组: 9"] = {
 					["Inherit"] = false,
@@ -200,11 +200,11 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Caith",
 				},
-				["TellMeWhen_分组: 15"] = {
-					["Inherit"] = false,
+				["Bartender4_MicroMenu"] = {
 					["SkinID"] = "Caith",
+					["Inherit"] = false,
 				},
-				["WeakAuras_dk-blood_death_strike"] = {
+				["WeakAuras_有雕像"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Caith",
 				},

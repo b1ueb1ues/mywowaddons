@@ -1,0 +1,21 @@
+del fonts\arHei.ttf
+del fonts\arKai_C.ttf
+del fonts\arKai_T.ttf
+del fonts\ZYKai_C.ttf
+del fonts\ZYKai_T.ttf 
+del fonts\FZJZJW.ttf 
+del fonts\FZLBJW.ttf 
+del fonts\FZXHJW.ttf 
+del fonts\FZXHLJW.ttf 
+del fonts\FRIZQT__.ttf 
+del fonts\FZBWJW.ttf 
+del fonts\ZYHei.TTF 
+del fonts\bHEI01B.TTF 
+del fonts\bLEI00D.TTF 
+del fonts\bHEI00M.TTF 
+del fonts\bKAI00M.TTF 
+del Interface\AddOns\Tukui\medias\fonts\combat_font.ttf 
+del Interface\AddOns\Tukui\medias\fonts\invisible_font.ttf 
+del Interface\AddOns\Tukui\medias\fonts\uf_font.ttf 
+del Interface\AddOns\Tukui\medias\fonts\normal_font.ttf 
+

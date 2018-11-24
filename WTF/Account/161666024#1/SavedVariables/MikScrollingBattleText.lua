@@ -2,27 +2,34 @@
 MSBTProfiles_SavedVars = {
 	["profiles"] = {
 		["Default"] = {
-			["enableBlizzardDamage"] = false,
-			["healThreshold"] = 1000,
-			["hotThrottleDuration"] = 0,
 			["hideNames"] = true,
+			["throttleList"] = {
+				["吸取生命"] = false,
+				["反射护盾"] = false,
+				["吸血鬼的拥抱"] = false,
+				["吸血鬼之触"] = false,
+				["暗影愈合"] = false,
+				["冰霜灵气"] = false,
+			},
+			["hotThrottleDuration"] = 0,
+			["enableBlizzardDamage"] = false,
 			["animationSpeed"] = 30,
-			["hideMergeTrailer"] = true,
+			["stickyCritsDisabled"] = true,
 			["dotThrottleDuration"] = 0,
 			["creationVersion"] = "5.6.113",
 			["critFontSize"] = 20,
-			["enableBlizzardHealing"] = false,
+			["normalFontAlpha"] = 75,
 			["events"] = {
 				["INCOMING_HOT"] = {
 					["scrollArea"] = "Custom1",
 				},
 				["INCOMING_HEAL_CRIT"] = {
-					["fontAlpha"] = 100,
 					["scrollArea"] = "Custom1",
+					["fontAlpha"] = 100,
 				},
 				["INCOMING_HEAL"] = {
-					["fontAlpha"] = 100,
 					["scrollArea"] = "Custom1",
+					["fontAlpha"] = 100,
 				},
 				["INCOMING_HOT_CRIT"] = {
 					["scrollArea"] = "Custom1",
@@ -30,17 +37,17 @@ MSBTProfiles_SavedVars = {
 			},
 			["scrollAreas"] = {
 				["Notification"] = {
-					["offsetY"] = 192,
-					["scrollWidth"] = 190,
 					["disabled"] = true,
+					["scrollWidth"] = 190,
 					["offsetX"] = -436,
+					["offsetY"] = 192,
 				},
-				["Outgoing"] = {
+				["Incoming"] = {
+					["stickyDirection"] = "Up",
 					["scrollHeight"] = 200,
-					["offsetX"] = 35,
-					["animationSpeed"] = 150,
+					["offsetX"] = -89,
+					["stickyBehavior"] = "Normal",
 					["offsetY"] = 219,
-					["direction"] = "Up",
 				},
 				["Static"] = {
 					["offsetY"] = 92,
@@ -55,74 +62,29 @@ MSBTProfiles_SavedVars = {
 					["animationStyle"] = "Parabola",
 					["name"] = "受到治疗",
 				},
-				["Incoming"] = {
-					["stickyDirection"] = "Up",
+				["Outgoing"] = {
 					["scrollHeight"] = 200,
-					["offsetX"] = -89,
-					["stickyBehavior"] = "Normal",
+					["offsetX"] = 35,
+					["animationSpeed"] = 150,
 					["offsetY"] = 219,
+					["direction"] = "Up",
 				},
 			},
-			["normalFontAlpha"] = 75,
-			["stickyCritsDisabled"] = true,
-			["throttleList"] = {
-				["吸取生命"] = false,
-				["反射护盾"] = false,
-				["吸血鬼的拥抱"] = false,
-				["吸血鬼之触"] = false,
-				["暗影愈合"] = false,
-				["冰霜灵气"] = false,
-			},
+			["enableBlizzardHealing"] = false,
+			["hideMergeTrailer"] = true,
+			["healThreshold"] = 1000,
 			["normalFontSize"] = 15,
 		},
 		["b1ueb1ues"] = {
-			["stickyCritsDisabled"] = true,
-			["throttleList"] = {
-				["吸血鬼之触"] = false,
-				["重度醉拳"] = 5,
-				["醉拳"] = 5,
-				["吸血鬼的拥抱"] = false,
-				["中度醉拳"] = 5,
-				["暗影愈合"] = false,
-				["轻度醉拳"] = 5,
-			},
-			["hotThrottleDuration"] = 0,
 			["hideNames"] = true,
+			["hideMergeTrailer"] = true,
+			["hotThrottleDuration"] = 0,
+			["stickyCritsDisabled"] = true,
 			["animationSpeed"] = 30,
-			["normalFontAlpha"] = 75,
+			["enableBlizzardDamage"] = false,
 			["dotThrottleDuration"] = 0,
 			["creationVersion"] = "5.6.113",
 			["critFontSize"] = 20,
-			["enableBlizzardHealing"] = false,
-			["events"] = {
-				["SELF_HOT"] = {
-					["scrollArea"] = "Outgoing",
-				},
-				["INCOMING_HEAL_CRIT"] = {
-					["scrollArea"] = "Custom1",
-					["fontAlpha"] = 100,
-				},
-				["INCOMING_HOT_CRIT"] = {
-					["scrollArea"] = "Custom1",
-				},
-				["SELF_HOT_CRIT"] = {
-					["scrollArea"] = "Outgoing",
-				},
-				["INCOMING_HOT"] = {
-					["scrollArea"] = "Custom1",
-				},
-				["SELF_HEAL_CRIT"] = {
-					["scrollArea"] = "Outgoing",
-				},
-				["INCOMING_HEAL"] = {
-					["scrollArea"] = "Custom1",
-					["fontAlpha"] = 100,
-				},
-				["SELF_HEAL"] = {
-					["scrollArea"] = "Outgoing",
-				},
-			},
-			["hideFullHoTOverheals"] = false,
 			["scrollAreas"] = {
 				["Incoming"] = {
 					["stickyDirection"] = "Up",
@@ -131,11 +93,12 @@ MSBTProfiles_SavedVars = {
 					["stickyBehavior"] = "Normal",
 					["offsetY"] = 219,
 				},
-				["Notification"] = {
-					["scrollWidth"] = 190,
-					["offsetY"] = 192,
-					["offsetX"] = -436,
-					["disabled"] = true,
+				["Outgoing"] = {
+					["direction"] = "Up",
+					["offsetX"] = 35,
+					["animationSpeed"] = 150,
+					["offsetY"] = 219,
+					["scrollHeight"] = 200,
 				},
 				["Static"] = {
 					["offsetY"] = 92,
@@ -150,16 +113,53 @@ MSBTProfiles_SavedVars = {
 					["animationStyle"] = "Parabola",
 					["offsetX"] = -304,
 				},
-				["Outgoing"] = {
-					["direction"] = "Up",
-					["offsetX"] = 35,
-					["animationSpeed"] = 150,
-					["offsetY"] = 219,
-					["scrollHeight"] = 200,
+				["Notification"] = {
+					["offsetX"] = -436,
+					["offsetY"] = 192,
+					["disabled"] = true,
+					["scrollWidth"] = 190,
 				},
 			},
-			["enableBlizzardDamage"] = false,
-			["hideMergeTrailer"] = true,
+			["events"] = {
+				["INCOMING_HOT"] = {
+					["scrollArea"] = "Custom1",
+				},
+				["INCOMING_HEAL_CRIT"] = {
+					["fontAlpha"] = 100,
+					["scrollArea"] = "Custom1",
+				},
+				["INCOMING_HOT_CRIT"] = {
+					["scrollArea"] = "Custom1",
+				},
+				["SELF_HOT_CRIT"] = {
+					["scrollArea"] = "Outgoing",
+				},
+				["SELF_HOT"] = {
+					["scrollArea"] = "Outgoing",
+				},
+				["INCOMING_HEAL"] = {
+					["fontAlpha"] = 100,
+					["scrollArea"] = "Custom1",
+				},
+				["SELF_HEAL_CRIT"] = {
+					["scrollArea"] = "Outgoing",
+				},
+				["SELF_HEAL"] = {
+					["scrollArea"] = "Outgoing",
+				},
+			},
+			["hideFullHoTOverheals"] = false,
+			["enableBlizzardHealing"] = false,
+			["normalFontAlpha"] = 75,
+			["throttleList"] = {
+				["吸血鬼之触"] = false,
+				["重度醉拳"] = 5,
+				["醉拳"] = 5,
+				["吸血鬼的拥抱"] = false,
+				["中度醉拳"] = 5,
+				["暗影愈合"] = false,
+				["轻度醉拳"] = 5,
+			},
 			["normalFontSize"] = 15,
 		},
 	},

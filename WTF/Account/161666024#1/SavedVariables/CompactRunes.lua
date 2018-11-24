@@ -1,45 +1,14 @@
 
 CompactRunesDB = {
 	["profileKeys"] = {
-		["泠凊之腤 - 白银之手"] = "Default",
 		["萌娘百科 - 燃烧之刃"] = "Default",
+		["泠凊之腤 - 白银之手"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
-			["profileVersion"] = 2,
-			["bars"] = {
-				["BloodPlagueBar"] = {
-					["enabled"] = false,
-				},
-				["DarkTransformationBar"] = {
-					["enabled"] = false,
-				},
-				["VampiricBloodBar"] = {
-				},
-				["EpidemicBar"] = {
-					["enabled"] = false,
-				},
-				["RunicPowerBar"] = {
-				},
-				["BloodBoilBar"] = {
-					["enabled"] = false,
-				},
-				["SoulReaperBar"] = {
-					["enabled"] = false,
-				},
-				["BloodTapBar"] = {
-					["enabled"] = false,
-				},
-				["BoneShieldBar"] = {
-					["enabled"] = false,
-					["progress"] = "None",
-				},
-			},
-			["procs"] = false,
-			["locked"] = true,
-			["frame"] = {
-				["y"] = 75.9259338378906,
-				["x"] = 115.338745117188,
+			["minimap"] = {
+				["minimapPos"] = 207.821356202164,
+				["hide"] = false,
 			},
 			["cdbars"] = {
 				["Unholy"] = {
@@ -108,10 +77,41 @@ CompactRunesDB = {
 					},
 				},
 			},
-			["minimap"] = {
-				["minimapPos"] = 207.821356202164,
-				["hide"] = false,
+			["procs"] = false,
+			["locked"] = true,
+			["frame"] = {
+				["y"] = 75.9259338378906,
+				["x"] = 115.338745117188,
 			},
+			["bars"] = {
+				["BloodPlagueBar"] = {
+					["enabled"] = false,
+				},
+				["DarkTransformationBar"] = {
+					["enabled"] = false,
+				},
+				["VampiricBloodBar"] = {
+				},
+				["EpidemicBar"] = {
+					["enabled"] = false,
+				},
+				["RunicPowerBar"] = {
+				},
+				["BloodBoilBar"] = {
+					["enabled"] = false,
+				},
+				["SoulReaperBar"] = {
+					["enabled"] = false,
+				},
+				["BloodTapBar"] = {
+					["enabled"] = false,
+				},
+				["BoneShieldBar"] = {
+					["enabled"] = false,
+					["progress"] = "None",
+				},
+			},
+			["profileVersion"] = 2,
 		},
 	},
 }
