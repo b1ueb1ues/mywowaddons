@@ -8,9 +8,9 @@ TidyPlatesOptions = {
 	["ThirdSpecProfile"] = "Damage",
 	["ForceBlizzardFont"] = false,
 	["DisableCastBars"] = false,
+	["CompatibilityMode"] = false,
 	["ActiveTheme"] = "Neon",
 	["ActiveProfile"] = "Damage",
-	["CompatibilityMode"] = false,
 	["WelcomeShown"] = true,
 	["FirstSpecProfile"] = "Damage",
 }

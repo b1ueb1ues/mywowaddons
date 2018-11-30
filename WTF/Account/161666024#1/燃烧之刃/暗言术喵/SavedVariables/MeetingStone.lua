@@ -5,7 +5,6 @@ MEETINGSTONE_CHARACTER_DB = {
 	},
 	["profiles"] = {
 		["暗言术喵 - 燃烧之刃"] = {
-			["appShine"] = "70200.01",
 			["settings"] = {
 				["storage"] = {
 					["y"] = 0,
@@ -14,6 +13,7 @@ MEETINGSTONE_CHARACTER_DB = {
 				},
 			},
 			["version"] = "80000.05",
+			["appShine"] = "70200.01",
 			["advShine"] = "70200.01",
 			["lastSearchCode"] = "3-123-0-0",
 			["searchInputHistory"] = {

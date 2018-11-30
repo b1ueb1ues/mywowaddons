@@ -5,6 +5,7 @@ DeathGraphsDBDeaths = {
 		["type"] = "deaths",
 		["name"] = "占星师艾塔乌斯",
 		["id"] = 1732,
+		["diff"] = 15,
 		["boss_table"] = {
 			["diff_string"] = "英雄",
 			["index"] = 8,
@@ -14,37 +15,37 @@ DeathGraphsDBDeaths = {
 			["try_number"] = 1,
 			["name"] = "占星师艾塔乌斯",
 			["diff"] = 15,
-			["ej_instance_id"] = 786,
 			["id"] = 1863,
+			["ej_instance_id"] = 786,
 			["killed"] = true,
 		},
 		["player_db"] = {
 			["暗言术喵"] = {
+				["name"] = "暗言术喵",
 				["class"] = "PRIEST",
-				["deaths"] = {
-				},
 				["overall"] = {
 					[206954] = 4201237,
 				},
-				["name"] = "暗言术喵",
-			},
-			["传统美徳"] = {
-				["class"] = "DRUID",
 				["deaths"] = {
 				},
+			},
+			["传统美徳"] = {
+				["name"] = "传统美徳",
+				["class"] = "DRUID",
 				["overall"] = {
 					[206954] = 3911819,
 				},
-				["name"] = "传统美徳",
+				["deaths"] = {
+				},
 			},
 		},
-		["diff"] = 15,
 	},
 	["176115"] = {
 		["hash"] = "176115",
 		["type"] = "deaths",
 		["name"] = "高级植物学家特尔安",
 		["id"] = 1761,
+		["diff"] = 15,
 		["boss_table"] = {
 			["diff_string"] = "英雄",
 			["index"] = 7,
@@ -53,40 +54,40 @@ DeathGraphsDBDeaths = {
 			["mapid"] = 1530,
 			["try_number"] = 1,
 			["name"] = "高级植物学家特尔安",
-			["diff"] = 15,
-			["ej_instance_id"] = 786,
 			["encounter"] = "高级植物学家特尔安",
+			["ej_instance_id"] = 786,
+			["diff"] = 15,
 		},
 		["player_db"] = {
 			["传统美徳"] = {
+				["name"] = "传统美徳",
 				["class"] = "DRUID",
-				["deaths"] = {
-				},
 				["overall"] = {
 					[218780] = 1555524,
 					[218155] = 3876843,
 				},
-				["name"] = "传统美徳",
-			},
-			["咕宝宝哒萌萌"] = {
-				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
+			},
+			["咕宝宝哒萌萌"] = {
+				["name"] = "咕宝宝哒萌萌",
+				["class"] = "WARLOCK",
 				["overall"] = {
 					[218470] = 2192319,
 					[218838] = 116933,
 					[223414] = 689548,
 				},
-				["name"] = "咕宝宝哒萌萌",
+				["deaths"] = {
+				},
 			},
 		},
-		["diff"] = 15,
 	},
 	["172615"] = {
 		["hash"] = "172615",
 		["type"] = "deaths",
 		["name"] = "萨维斯",
 		["id"] = 1726,
+		["diff"] = 15,
 		["boss_table"] = {
 			["diff_string"] = "英雄",
 			["index"] = 7,
@@ -96,15 +97,14 @@ DeathGraphsDBDeaths = {
 			["try_number"] = 1,
 			["name"] = "萨维斯",
 			["diff"] = 15,
-			["ej_instance_id"] = 768,
 			["id"] = 1864,
+			["ej_instance_id"] = 768,
 			["killed"] = true,
 		},
 		["player_db"] = {
 			["记忆得夏天"] = {
+				["name"] = "记忆得夏天",
 				["class"] = "PALADIN",
-				["deaths"] = {
-				},
 				["overall"] = {
 					[195256] = 18597,
 					[217020] = 62877,
@@ -112,16 +112,17 @@ DeathGraphsDBDeaths = {
 					[12654] = 111838,
 					[196771] = 147943,
 				},
-				["name"] = "记忆得夏天",
+				["deaths"] = {
+				},
 			},
 		},
-		["diff"] = 15,
 	},
 	["170415"] = {
 		["hash"] = "170415",
 		["type"] = "deaths",
 		["name"] = "梦魇之龙",
 		["id"] = 1704,
+		["diff"] = 15,
 		["boss_table"] = {
 			["diff_string"] = "英雄",
 			["index"] = 5,
@@ -131,52 +132,161 @@ DeathGraphsDBDeaths = {
 			["try_number"] = 1,
 			["name"] = "梦魇之龙",
 			["diff"] = 15,
-			["ej_instance_id"] = 768,
 			["id"] = 1854,
+			["ej_instance_id"] = 768,
 			["killed"] = true,
 		},
 		["player_db"] = {
 			["磐石之心"] = {
+				["name"] = "磐石之心",
 				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
 				["overall"] = {
 					[203124] = 60927,
 					[203771] = 1451883,
 					[203102] = 54157,
 				},
-				["name"] = "磐石之心",
+				["deaths"] = {
+				},
 			},
 		},
-		["diff"] = 15,
 	},
-	["176215"] = {
-		["hash"] = "176215",
+	["175015"] = {
+		["hash"] = "175015",
 		["type"] = "deaths",
-		["name"] = "提克迪奥斯",
-		["id"] = 1762,
+		["name"] = "塞纳留斯",
+		["id"] = 1750,
+		["diff"] = 15,
 		["boss_table"] = {
 			["diff_string"] = "英雄",
-			["index"] = 5,
-			["zone"] = "暗夜要塞",
-			["encounter"] = "提克迪奥斯",
-			["mapid"] = 1530,
+			["index"] = 6,
+			["zone"] = "翡翠梦魇",
+			["id"] = 1877,
+			["mapid"] = 1520,
 			["try_number"] = 1,
-			["name"] = "提克迪奥斯",
+			["name"] = "塞纳留斯",
+			["encounter"] = "塞纳留斯",
+			["ej_instance_id"] = 768,
 			["diff"] = 15,
-			["ej_instance_id"] = 786,
-			["id"] = 1862,
-			["killed"] = true,
 		},
 		["player_db"] = {
+			["别哔哔丶"] = {
+				["name"] = "别哔哔丶",
+				["class"] = "DEATHKNIGHT",
+				["overall"] = {
+					[210337] = 95850,
+					[210279] = 131227,
+					[211178] = 229231,
+					[214308] = 570169,
+				},
+				["deaths"] = {
+				},
+			},
+			["訫兰"] = {
+				["name"] = "訫兰",
+				["class"] = "ROGUE",
+				["overall"] = {
+					[210342] = 323812,
+					[214712] = 284529,
+				},
+				["deaths"] = {
+				},
+			},
+			["磐石之心"] = {
+				["name"] = "磐石之心",
+				["class"] = "WARRIOR",
+				["overall"] = {
+					[210337] = 192243,
+					[210279] = 103866,
+					[211178] = 280901,
+				},
+				["deaths"] = {
+				},
+			},
+			["蝙蝠披风"] = {
+				["name"] = "蝙蝠披风",
+				["class"] = "PALADIN",
+				["overall"] = {
+					[210337] = 70627,
+					[214308] = 409004,
+					[214712] = 417019,
+				},
+				["deaths"] = {
+				},
+			},
+			["暗言术喵"] = {
+				["name"] = "暗言术喵",
+				["class"] = "PRIEST",
+				["overall"] = {
+					[210279] = 127173,
+					[210315] = 194348,
+					[211178] = 265431,
+					[214308] = 571165,
+				},
+				["deaths"] = {
+				},
+			},
+			["画甲肖张"] = {
+				["name"] = "画甲肖张",
+				["class"] = "DEATHKNIGHT",
+				["overall"] = {
+					[211507] = 195814,
+					[210342] = 549975,
+					[210279] = 28176,
+				},
+				["deaths"] = {
+				},
+			},
+			["奥格玛重拳"] = {
+				["name"] = "奥格玛重拳",
+				["class"] = "WARRIOR",
+				["overall"] = {
+					511987, -- [1]
+					[211178] = 116226,
+					[210279] = 341012,
+				},
+				["deaths"] = {
+				},
+			},
+			["币开头小德"] = {
+				["name"] = "币开头小德",
+				["class"] = "SHAMAN",
+				["overall"] = {
+					[210342] = 91876,
+					[214712] = 174342,
+					[210279] = 38464,
+				},
+				["deaths"] = {
+				},
+			},
+			["嘀嘀叭叭丶"] = {
+				["name"] = "嘀嘀叭叭丶",
+				["class"] = "DEMONHUNTER",
+				["overall"] = {
+					[210279] = 195533,
+					[210342] = 270482,
+				},
+				["deaths"] = {
+				},
+			},
+			["玖渚蓝蓝"] = {
+				["name"] = "玖渚蓝蓝",
+				["class"] = "PALADIN",
+				["overall"] = {
+					[210337] = 135602,
+					[214308] = 407504,
+					[214712] = 203001,
+				},
+				["deaths"] = {
+				},
+			},
 		},
-		["diff"] = 15,
 	},
 	["173815"] = {
 		["hash"] = "173815",
 		["type"] = "deaths",
 		["name"] = "伊格诺斯，腐蚀之心",
 		["id"] = 1738,
+		["diff"] = 15,
 		["boss_table"] = {
 			["diff_string"] = "英雄",
 			["index"] = 3,
@@ -186,150 +296,41 @@ DeathGraphsDBDeaths = {
 			["try_number"] = 1,
 			["name"] = "伊格诺斯，腐蚀之心",
 			["diff"] = 15,
-			["ej_instance_id"] = 768,
 			["id"] = 1873,
+			["ej_instance_id"] = 768,
 			["killed"] = true,
 		},
 		["player_db"] = {
 		},
-		["diff"] = 15,
 	},
-	["175015"] = {
-		["hash"] = "175015",
+	["176215"] = {
+		["hash"] = "176215",
 		["type"] = "deaths",
-		["name"] = "塞纳留斯",
-		["id"] = 1750,
+		["name"] = "提克迪奥斯",
+		["id"] = 1762,
+		["diff"] = 15,
 		["boss_table"] = {
 			["diff_string"] = "英雄",
-			["index"] = 6,
-			["zone"] = "翡翠梦魇",
-			["id"] = 1877,
-			["mapid"] = 1520,
+			["index"] = 5,
+			["zone"] = "暗夜要塞",
+			["encounter"] = "提克迪奥斯",
+			["mapid"] = 1530,
 			["try_number"] = 1,
-			["name"] = "塞纳留斯",
+			["name"] = "提克迪奥斯",
 			["diff"] = 15,
-			["ej_instance_id"] = 768,
-			["encounter"] = "塞纳留斯",
+			["id"] = 1862,
+			["ej_instance_id"] = 786,
+			["killed"] = true,
 		},
 		["player_db"] = {
-			["别哔哔丶"] = {
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-				["overall"] = {
-					[210337] = 95850,
-					[210279] = 131227,
-					[211178] = 229231,
-					[214308] = 570169,
-				},
-				["name"] = "别哔哔丶",
-			},
-			["訫兰"] = {
-				["class"] = "ROGUE",
-				["deaths"] = {
-				},
-				["overall"] = {
-					[210342] = 323812,
-					[214712] = 284529,
-				},
-				["name"] = "訫兰",
-			},
-			["磐石之心"] = {
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-				["overall"] = {
-					[210337] = 192243,
-					[210279] = 103866,
-					[211178] = 280901,
-				},
-				["name"] = "磐石之心",
-			},
-			["蝙蝠披风"] = {
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-				["overall"] = {
-					[210337] = 70627,
-					[214308] = 409004,
-					[214712] = 417019,
-				},
-				["name"] = "蝙蝠披风",
-			},
-			["暗言术喵"] = {
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-				["overall"] = {
-					[210315] = 194348,
-					[214308] = 571165,
-					[211178] = 265431,
-					[210279] = 127173,
-				},
-				["name"] = "暗言术喵",
-			},
-			["画甲肖张"] = {
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-				["overall"] = {
-					[211507] = 195814,
-					[210342] = 549975,
-					[210279] = 28176,
-				},
-				["name"] = "画甲肖张",
-			},
-			["玖渚蓝蓝"] = {
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-				["overall"] = {
-					[210337] = 135602,
-					[214308] = 407504,
-					[214712] = 203001,
-				},
-				["name"] = "玖渚蓝蓝",
-			},
-			["币开头小德"] = {
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-				["overall"] = {
-					[210342] = 91876,
-					[214712] = 174342,
-					[210279] = 38464,
-				},
-				["name"] = "币开头小德",
-			},
-			["嘀嘀叭叭丶"] = {
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-					[210279] = 195533,
-					[210342] = 270482,
-				},
-				["name"] = "嘀嘀叭叭丶",
-			},
-			["奥格玛重拳"] = {
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-				["overall"] = {
-					511987, -- [1]
-					[211178] = 116226,
-					[210279] = 341012,
-				},
-				["name"] = "奥格玛重拳",
-			},
 		},
-		["diff"] = 15,
 	},
 	["174415"] = {
 		["hash"] = "174415",
 		["type"] = "deaths",
 		["name"] = "艾乐瑞瑟·雷弗拉尔",
 		["id"] = 1744,
+		["diff"] = 15,
 		["boss_table"] = {
 			["diff_string"] = "英雄",
 			["index"] = 2,
@@ -339,25 +340,24 @@ DeathGraphsDBDeaths = {
 			["try_number"] = 1,
 			["name"] = "艾乐瑞瑟·雷弗拉尔",
 			["diff"] = 15,
-			["ej_instance_id"] = 768,
 			["id"] = 1876,
+			["ej_instance_id"] = 768,
 			["killed"] = true,
 		},
 		["player_db"] = {
 			["溴溴豞"] = {
+				["name"] = "溴溴豞",
 				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
 				["overall"] = {
 					153459, -- [1]
 					[222037] = 4005793,
 					[210228] = 15056,
 					[213790] = 484043,
 				},
-				["name"] = "溴溴豞",
+				["deaths"] = {
+				},
 			},
 		},
-		["diff"] = 15,
 	},
 }
 DeathGraphsDBEndurance = {
@@ -366,6 +366,7 @@ DeathGraphsDBEndurance = {
 		["type"] = "endurance",
 		["name"] = "占星师艾塔乌斯",
 		["id"] = 1732,
+		["diff"] = 15,
 		["boss_table"] = {
 			["diff_string"] = "英雄",
 			["index"] = 8,
@@ -375,64 +376,63 @@ DeathGraphsDBEndurance = {
 			["try_number"] = 1,
 			["name"] = "占星师艾塔乌斯",
 			["diff"] = 15,
-			["ej_instance_id"] = 786,
 			["id"] = 1863,
+			["ej_instance_id"] = 786,
 			["killed"] = true,
 		},
 		["player_db"] = {
 			["三途汌"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DRUID",
 				["deaths"] = {
 				},
+				["class"] = "DRUID",
 			},
 			["长门号"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MAGE",
 				["deaths"] = {
 				},
+				["class"] = "MAGE",
 			},
 			["血女不丑"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "PRIEST",
 				["deaths"] = {
 				},
+				["class"] = "PRIEST",
 			},
 			["瑗瑗的黑眼圈"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MAGE",
 				["deaths"] = {
 				},
+				["class"] = "MAGE",
 			},
 			["丨海纳百川丨"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
+				["class"] = "WARRIOR",
 			},
 			["糖稀鸡蛋"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "PALADIN",
 				["deaths"] = {
 				},
+				["class"] = "PALADIN",
 			},
 			["飍风"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
+				["class"] = "WARRIOR",
 			},
 			["暗言术喵"] = {
 				["encounters"] = 1,
 				["points"] = 90,
-				["class"] = "PRIEST",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -440,74 +440,74 @@ DeathGraphsDBEndurance = {
 						"严寒新星 |cFFFF33334,201,237|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "PRIEST",
 			},
 			["霜与火的协奏"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MAGE",
 				["deaths"] = {
 				},
+				["class"] = "MAGE",
 			},
 			["浪子回归"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
+				["class"] = "DEMONHUNTER",
 			},
 			["灵魂小贼"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "HUNTER",
 				["deaths"] = {
 				},
+				["class"] = "HUNTER",
 			},
 			["星辰时光"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["deaths"] = {
+				},
 				["class"] = "ROGUE",
-				["deaths"] = {
-				},
 			},
-			["溴溴豞"] = {
+			["咕宝宝哒萌萌"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
-			},
-			["丨寂静岭丶"] = {
-				["encounters"] = 1,
-				["points"] = 100,
 				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Toblzhon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
 			},
 			["不想搭理你"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Toblzhon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+			},
+			["丨寂静岭丶"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
 			},
 			["熊熊妞妞"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DRUID",
 				["deaths"] = {
 				},
+				["class"] = "DRUID",
 			},
 			["传统美徳"] = {
 				["encounters"] = 1,
 				["points"] = 90,
-				["class"] = "DRUID",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -515,36 +515,37 @@ DeathGraphsDBEndurance = {
 						"严寒新星 |cFFFF33333,911,819|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "DRUID",
 			},
 			["奥格玛重拳"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
+				["class"] = "WARRIOR",
 			},
 			["天凉王破"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
+				["class"] = "WARLOCK",
 			},
-			["咕宝宝哒萌萌"] = {
+			["溴溴豞"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
+				["class"] = "WARRIOR",
 			},
 		},
-		["diff"] = 15,
 	},
 	["176115"] = {
 		["hash"] = "176115",
 		["type"] = "endurance",
 		["name"] = "高级植物学家特尔安",
 		["id"] = 1761,
+		["diff"] = 15,
 		["boss_table"] = {
 			["diff_string"] = "英雄",
 			["index"] = 7,
@@ -553,64 +554,63 @@ DeathGraphsDBEndurance = {
 			["mapid"] = 1530,
 			["try_number"] = 1,
 			["name"] = "高级植物学家特尔安",
-			["diff"] = 15,
-			["ej_instance_id"] = 786,
 			["encounter"] = "高级植物学家特尔安",
+			["ej_instance_id"] = 786,
+			["diff"] = 15,
 		},
 		["player_db"] = {
 			["三途汌"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DRUID",
 				["deaths"] = {
 				},
+				["class"] = "DRUID",
 			},
 			["长门号"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MAGE",
 				["deaths"] = {
 				},
+				["class"] = "MAGE",
 			},
 			["血女不丑"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "PRIEST",
 				["deaths"] = {
 				},
+				["class"] = "PRIEST",
 			},
 			["瑗瑗的黑眼圈"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MAGE",
 				["deaths"] = {
 				},
+				["class"] = "MAGE",
 			},
 			["丨海纳百川丨"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
+				["class"] = "WARRIOR",
 			},
 			["糖稀鸡蛋"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "PALADIN",
 				["deaths"] = {
 				},
+				["class"] = "PALADIN",
 			},
 			["飍风"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
+				["class"] = "WARRIOR",
 			},
 			["传统美徳"] = {
 				["encounters"] = 1,
 				["points"] = 90,
-				["class"] = "DRUID",
 				["deaths"] = {
 					{
 						3, -- [1]
@@ -618,95 +618,39 @@ DeathGraphsDBEndurance = {
 						"离子爆炸 |cFFFF3333777,762|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "DRUID",
 			},
 			["霜与火的协奏"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MAGE",
 				["deaths"] = {
 				},
+				["class"] = "MAGE",
 			},
 			["浪子回归"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
+				["class"] = "DEMONHUNTER",
 			},
 			["灵魂小贼"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "HUNTER",
 				["deaths"] = {
 				},
+				["class"] = "HUNTER",
 			},
 			["星辰时光"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["deaths"] = {
+				},
 				["class"] = "ROGUE",
-				["deaths"] = {
-				},
-			},
-			["暗言术喵"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
-			["丨寂静岭丶"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Toblzhon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-			},
-			["不想搭理你"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-			},
-			["熊熊妞妞"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["溴溴豞"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-			},
-			["奥格玛重拳"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-			},
-			["天凉王破"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
 			},
 			["咕宝宝哒萌萌"] = {
 				["encounters"] = 1,
 				["points"] = 90,
-				["class"] = "WARLOCK",
 				["deaths"] = {
 					{
 						3, -- [1]
@@ -714,15 +658,72 @@ DeathGraphsDBEndurance = {
 						"寄生镣铐 |cFFFF3333355,896|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "WARLOCK",
+			},
+			["不想搭理你"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Toblzhon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+			},
+			["丨寂静岭丶"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["熊熊妞妞"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["溴溴豞"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+			},
+			["奥格玛重拳"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+			},
+			["天凉王破"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["暗言术喵"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
 			},
 		},
-		["diff"] = 15,
 	},
 	["172615"] = {
 		["hash"] = "172615",
 		["type"] = "endurance",
 		["name"] = "萨维斯",
 		["id"] = 1726,
+		["diff"] = 15,
 		["boss_table"] = {
 			["diff_string"] = "英雄",
 			["index"] = 7,
@@ -732,64 +733,63 @@ DeathGraphsDBEndurance = {
 			["try_number"] = 1,
 			["name"] = "萨维斯",
 			["diff"] = 15,
-			["ej_instance_id"] = 768,
 			["id"] = 1864,
+			["ej_instance_id"] = 768,
 			["killed"] = true,
 		},
 		["player_db"] = {
 			["Undertakér"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MAGE",
 				["deaths"] = {
 				},
+				["class"] = "MAGE",
 			},
 			["訫兰"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "ROGUE",
 				["deaths"] = {
 				},
+				["class"] = "ROGUE",
 			},
 			["蝙蝠披风"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "PALADIN",
 				["deaths"] = {
 				},
+				["class"] = "PALADIN",
 			},
 			["溴溴豞"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
+				["class"] = "WARRIOR",
 			},
 			["糖稀鸡蛋"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "PALADIN",
 				["deaths"] = {
 				},
+				["class"] = "PALADIN",
 			},
 			["暗言术喵"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "PRIEST",
 				["deaths"] = {
 				},
+				["class"] = "PRIEST",
 			},
 			["画甲肖张"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 				},
+				["class"] = "DEATHKNIGHT",
 			},
 			["记忆得夏天"] = {
 				["encounters"] = 2,
 				["points"] = 170,
-				["class"] = "PALADIN",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -802,85 +802,86 @@ DeathGraphsDBEndurance = {
 						"点燃 (DoT) |cFFFF333347,946|r", -- [3]
 					}, -- [2]
 				},
+				["class"] = "PALADIN",
 			},
 			["嘀嘀叭叭丶"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
+				["class"] = "DEMONHUNTER",
 			},
 			["别哔哔丶"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 				},
+				["class"] = "DEATHKNIGHT",
 			},
 			["磐石之心"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
+				["class"] = "WARRIOR",
 			},
 			["迷糊的小绵羊"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
+				["class"] = "DEMONHUNTER",
 			},
 			["雷霆妞妞"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["deaths"] = {
+				},
 				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["丨寂静岭丶"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["玖渚蓝蓝"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-			},
-			["币开头小德"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-			},
-			["奥格玛重拳"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
 			},
 			["Pandahero"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MONK",
 				["deaths"] = {
 				},
+				["class"] = "MONK",
+			},
+			["奥格玛重拳"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+			},
+			["币开头小德"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+			},
+			["玖渚蓝蓝"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+			},
+			["丨寂静岭丶"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
 			},
 		},
-		["diff"] = 15,
 	},
 	["170415"] = {
 		["hash"] = "170415",
 		["type"] = "endurance",
 		["name"] = "梦魇之龙",
 		["id"] = 1704,
+		["diff"] = 15,
 		["boss_table"] = {
 			["diff_string"] = "英雄",
 			["index"] = 5,
@@ -890,85 +891,84 @@ DeathGraphsDBEndurance = {
 			["try_number"] = 1,
 			["name"] = "梦魇之龙",
 			["diff"] = 15,
-			["ej_instance_id"] = 768,
 			["id"] = 1854,
+			["ej_instance_id"] = 768,
 			["killed"] = true,
 		},
 		["player_db"] = {
 			["Undertakér"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MAGE",
 				["deaths"] = {
 				},
+				["class"] = "MAGE",
 			},
 			["訫兰"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "ROGUE",
 				["deaths"] = {
 				},
+				["class"] = "ROGUE",
 			},
 			["蝙蝠披风"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "PALADIN",
 				["deaths"] = {
 				},
+				["class"] = "PALADIN",
 			},
 			["溴溴豞"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
+				["class"] = "WARRIOR",
 			},
 			["糖稀鸡蛋"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "PALADIN",
 				["deaths"] = {
 				},
+				["class"] = "PALADIN",
 			},
 			["暗言术喵"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "PRIEST",
 				["deaths"] = {
 				},
+				["class"] = "PRIEST",
 			},
 			["画甲肖张"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 				},
+				["class"] = "DEATHKNIGHT",
 			},
 			["记忆得夏天"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "PALADIN",
 				["deaths"] = {
 				},
+				["class"] = "PALADIN",
 			},
 			["嘀嘀叭叭丶"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
+				["class"] = "DEMONHUNTER",
 			},
 			["别哔哔丶"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 				},
+				["class"] = "DEATHKNIGHT",
 			},
 			["磐石之心"] = {
 				["encounters"] = 1,
 				["points"] = 90,
-				["class"] = "WARRIOR",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -976,226 +976,220 @@ DeathGraphsDBEndurance = {
 						"亵渎喷发 |cFFFF33331,451,883|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "WARRIOR",
 			},
 			["迷糊的小绵羊"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
+				["class"] = "DEMONHUNTER",
 			},
 			["雷霆妞妞"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DRUID",
 				["deaths"] = {
 				},
+				["class"] = "DRUID",
 			},
-			["丨寂静岭丶"] = {
+			["奥格玛重拳"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
+				["class"] = "WARRIOR",
 			},
 			["币开头小德"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "SHAMAN",
 				["deaths"] = {
 				},
+				["class"] = "SHAMAN",
 			},
 			["玖渚蓝蓝"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["deaths"] = {
+				},
 				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-			},
-			["奥格玛重拳"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-			},
-		},
-		["diff"] = 15,
-	},
-	["176215"] = {
-		["hash"] = "176215",
-		["type"] = "endurance",
-		["name"] = "提克迪奥斯",
-		["id"] = 1762,
-		["boss_table"] = {
-			["diff_string"] = "英雄",
-			["index"] = 5,
-			["zone"] = "暗夜要塞",
-			["encounter"] = "提克迪奥斯",
-			["mapid"] = 1530,
-			["try_number"] = 1,
-			["name"] = "提克迪奥斯",
-			["diff"] = 15,
-			["ej_instance_id"] = 786,
-			["id"] = 1862,
-			["killed"] = true,
-		},
-		["player_db"] = {
-			["三途汌"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["长门号"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["血女不丑"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
-			["瑗瑗的黑眼圈"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["丨海纳百川丨"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-			},
-			["糖稀鸡蛋"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-			},
-			["飍风"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-			},
-			["传统美徳"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["霜与火的协奏"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["浪子回归"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-			},
-			["灵魂小贼"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-			},
-			["星辰时光"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "ROGUE",
-				["deaths"] = {
-				},
-			},
-			["暗言术喵"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
 			},
 			["丨寂静岭丶"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["deaths"] = {
+				},
 				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Toblzhon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-			},
-			["不想搭理你"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-			},
-			["熊熊妞妞"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["溴溴豞"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-			},
-			["奥格玛重拳"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-			},
-			["天凉王破"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["咕宝宝哒萌萌"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
 			},
 		},
+	},
+	["175015"] = {
+		["hash"] = "175015",
+		["type"] = "endurance",
+		["name"] = "塞纳留斯",
+		["id"] = 1750,
 		["diff"] = 15,
+		["boss_table"] = {
+			["diff_string"] = "英雄",
+			["index"] = 6,
+			["zone"] = "翡翠梦魇",
+			["id"] = 1877,
+			["mapid"] = 1520,
+			["try_number"] = 1,
+			["name"] = "塞纳留斯",
+			["encounter"] = "塞纳留斯",
+			["ej_instance_id"] = 768,
+			["diff"] = 15,
+		},
+		["player_db"] = {
+			["Undertakér"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Pandahero"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+			},
+			["蝙蝠披风"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+			},
+			["溴溴豞"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+			},
+			["糖稀鸡蛋"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+			},
+			["暗言术喵"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+			},
+			["画甲肖张"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["deaths"] = {
+					{
+						1, -- [1]
+						124.709999999963, -- [2]
+						"恐惧荆棘 |cFFFF3333549,975|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["记忆得夏天"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+			},
+			["嘀嘀叭叭丶"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+			},
+			["别哔哔丶"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["磐石之心"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+			},
+			["迷糊的小绵羊"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+			},
+			["雷霆妞妞"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["訫兰"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["deaths"] = {
+					{
+						1, -- [1]
+						117.866999999969, -- [2]
+						"恐惧荆棘 |cFFFF3333132,750|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "ROGUE",
+			},
+			["奥格玛重拳"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+			},
+			["币开头小德"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["deaths"] = {
+					{
+						1, -- [1]
+						118.868999999948, -- [2]
+						"恐惧荆棘 |cFFFF333316,660|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "SHAMAN",
+			},
+			["玖渚蓝蓝"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+			},
+			["丨寂静岭丶"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+		},
 	},
 	["173815"] = {
 		["hash"] = "173815",
 		["type"] = "endurance",
 		["name"] = "伊格诺斯，腐蚀之心",
 		["id"] = 1738,
+		["diff"] = 15,
 		["boss_table"] = {
 			["diff_string"] = "英雄",
 			["index"] = 3,
@@ -1205,307 +1199,314 @@ DeathGraphsDBEndurance = {
 			["try_number"] = 1,
 			["name"] = "伊格诺斯，腐蚀之心",
 			["diff"] = 15,
-			["ej_instance_id"] = 768,
 			["id"] = 1873,
+			["ej_instance_id"] = 768,
 			["killed"] = true,
 		},
 		["player_db"] = {
 			["Undertakér"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MAGE",
 				["deaths"] = {
 				},
+				["class"] = "MAGE",
 			},
 			["Pandahero"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MONK",
 				["deaths"] = {
 				},
+				["class"] = "MONK",
 			},
 			["蝙蝠披风"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "PALADIN",
 				["deaths"] = {
 				},
+				["class"] = "PALADIN",
 			},
 			["溴溴豞"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
+				["class"] = "WARRIOR",
 			},
 			["糖稀鸡蛋"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "PALADIN",
 				["deaths"] = {
 				},
+				["class"] = "PALADIN",
 			},
 			["暗言术喵"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "PRIEST",
 				["deaths"] = {
 				},
+				["class"] = "PRIEST",
 			},
 			["画甲肖张"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 				},
+				["class"] = "DEATHKNIGHT",
 			},
 			["记忆得夏天"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "PALADIN",
 				["deaths"] = {
 				},
+				["class"] = "PALADIN",
 			},
 			["嘀嘀叭叭丶"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
+				["class"] = "DEMONHUNTER",
 			},
 			["别哔哔丶"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 				},
+				["class"] = "DEATHKNIGHT",
 			},
 			["磐石之心"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
+				["class"] = "WARRIOR",
 			},
 			["迷糊的小绵羊"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
+				["class"] = "DEMONHUNTER",
 			},
 			["雷霆妞妞"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["deaths"] = {
+				},
 				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["丨寂静岭丶"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["玖渚蓝蓝"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-			},
-			["币开头小德"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-			},
-			["奥格玛重拳"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
 			},
 			["訫兰"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "ROGUE",
 				["deaths"] = {
 				},
+				["class"] = "ROGUE",
+			},
+			["奥格玛重拳"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+			},
+			["币开头小德"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+			},
+			["玖渚蓝蓝"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+			},
+			["丨寂静岭丶"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
 			},
 		},
-		["diff"] = 15,
 	},
-	["175015"] = {
-		["hash"] = "175015",
+	["176215"] = {
+		["hash"] = "176215",
 		["type"] = "endurance",
-		["name"] = "塞纳留斯",
-		["id"] = 1750,
+		["name"] = "提克迪奥斯",
+		["id"] = 1762,
+		["diff"] = 15,
 		["boss_table"] = {
 			["diff_string"] = "英雄",
-			["index"] = 6,
-			["zone"] = "翡翠梦魇",
-			["id"] = 1877,
-			["mapid"] = 1520,
+			["index"] = 5,
+			["zone"] = "暗夜要塞",
+			["encounter"] = "提克迪奥斯",
+			["mapid"] = 1530,
 			["try_number"] = 1,
-			["name"] = "塞纳留斯",
+			["name"] = "提克迪奥斯",
 			["diff"] = 15,
-			["ej_instance_id"] = 768,
-			["encounter"] = "塞纳留斯",
+			["id"] = 1862,
+			["ej_instance_id"] = 786,
+			["killed"] = true,
 		},
 		["player_db"] = {
-			["Undertakér"] = {
-				["encounters"] = 2,
-				["points"] = 200,
+			["三途汌"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["长门号"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
 				["class"] = "MAGE",
+			},
+			["血女不丑"] = {
+				["encounters"] = 1,
+				["points"] = 100,
 				["deaths"] = {
 				},
+				["class"] = "PRIEST",
 			},
-			["Pandahero"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "MONK",
+			["瑗瑗的黑眼圈"] = {
+				["encounters"] = 1,
+				["points"] = 100,
 				["deaths"] = {
 				},
+				["class"] = "MAGE",
 			},
-			["蝙蝠披风"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "PALADIN",
+			["丨海纳百川丨"] = {
+				["encounters"] = 1,
+				["points"] = 100,
 				["deaths"] = {
 				},
-			},
-			["溴溴豞"] = {
-				["encounters"] = 2,
-				["points"] = 200,
 				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
 			},
 			["糖稀鸡蛋"] = {
-				["encounters"] = 2,
-				["points"] = 200,
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
 				["class"] = "PALADIN",
+			},
+			["飍风"] = {
+				["encounters"] = 1,
+				["points"] = 100,
 				["deaths"] = {
 				},
-			},
-			["暗言术喵"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
-			["画甲肖张"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-					{
-						1, -- [1]
-						124.709999999963, -- [2]
-						"恐惧荆棘 |cFFFF3333549,975|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["记忆得夏天"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-			},
-			["嘀嘀叭叭丶"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-			},
-			["别哔哔丶"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-			},
-			["磐石之心"] = {
-				["encounters"] = 2,
-				["points"] = 200,
 				["class"] = "WARRIOR",
+			},
+			["传统美徳"] = {
+				["encounters"] = 1,
+				["points"] = 100,
 				["deaths"] = {
 				},
-			},
-			["迷糊的小绵羊"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-			},
-			["雷霆妞妞"] = {
-				["encounters"] = 2,
-				["points"] = 200,
 				["class"] = "DRUID",
+			},
+			["霜与火的协奏"] = {
+				["encounters"] = 1,
+				["points"] = 100,
 				["deaths"] = {
 				},
+				["class"] = "MAGE",
+			},
+			["浪子回归"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+			},
+			["灵魂小贼"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+			},
+			["星辰时光"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "ROGUE",
+			},
+			["咕宝宝哒萌萌"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["不想搭理你"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Toblzhon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
 			},
 			["丨寂静岭丶"] = {
-				["encounters"] = 2,
-				["points"] = 200,
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
 				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
 			},
-			["玖渚蓝蓝"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "PALADIN",
+			["熊熊妞妞"] = {
+				["encounters"] = 1,
+				["points"] = 100,
 				["deaths"] = {
 				},
+				["class"] = "DRUID",
 			},
-			["币开头小德"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["class"] = "SHAMAN",
+			["溴溴豞"] = {
+				["encounters"] = 1,
+				["points"] = 100,
 				["deaths"] = {
-					{
-						1, -- [1]
-						118.868999999948, -- [2]
-						"恐惧荆棘 |cFFFF333316,660|r", -- [3]
-					}, -- [1]
 				},
+				["class"] = "WARRIOR",
 			},
 			["奥格玛重拳"] = {
-				["encounters"] = 2,
-				["points"] = 200,
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
 				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
 			},
-			["訫兰"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["class"] = "ROGUE",
+			["天凉王破"] = {
+				["encounters"] = 1,
+				["points"] = 100,
 				["deaths"] = {
-					{
-						1, -- [1]
-						117.866999999969, -- [2]
-						"恐惧荆棘 |cFFFF3333132,750|r", -- [3]
-					}, -- [1]
 				},
+				["class"] = "WARLOCK",
+			},
+			["暗言术喵"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
 			},
 		},
-		["diff"] = 15,
 	},
 	["174415"] = {
 		["hash"] = "174415",
 		["type"] = "endurance",
 		["name"] = "艾乐瑞瑟·雷弗拉尔",
 		["id"] = 1744,
+		["diff"] = 15,
 		["boss_table"] = {
 			["diff_string"] = "英雄",
 			["index"] = 2,
@@ -1515,36 +1516,35 @@ DeathGraphsDBEndurance = {
 			["try_number"] = 1,
 			["name"] = "艾乐瑞瑟·雷弗拉尔",
 			["diff"] = 15,
-			["ej_instance_id"] = 768,
 			["id"] = 1876,
+			["ej_instance_id"] = 768,
 			["killed"] = true,
 		},
 		["player_db"] = {
 			["Undertakér"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MAGE",
 				["deaths"] = {
 				},
+				["class"] = "MAGE",
 			},
 			["Pandahero"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MONK",
 				["deaths"] = {
 				},
+				["class"] = "MONK",
 			},
 			["蝙蝠披风"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "PALADIN",
 				["deaths"] = {
 				},
+				["class"] = "PALADIN",
 			},
 			["溴溴豞"] = {
 				["encounters"] = 1,
 				["points"] = 90,
-				["class"] = "WARRIOR",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -1552,107 +1552,107 @@ DeathGraphsDBEndurance = {
 						"邪掠之爪 |cFFFF33334,005,793|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "WARRIOR",
 			},
 			["糖稀鸡蛋"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "PALADIN",
 				["deaths"] = {
 				},
+				["class"] = "PALADIN",
 			},
 			["暗言术喵"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "PRIEST",
 				["deaths"] = {
 				},
+				["class"] = "PRIEST",
 			},
 			["画甲肖张"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 				},
+				["class"] = "DEATHKNIGHT",
 			},
 			["记忆得夏天"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "PALADIN",
 				["deaths"] = {
 				},
+				["class"] = "PALADIN",
 			},
 			["嘀嘀叭叭丶"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
+				["class"] = "DEMONHUNTER",
 			},
 			["别哔哔丶"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 				},
+				["class"] = "DEATHKNIGHT",
 			},
 			["磐石之心"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
+				["class"] = "WARRIOR",
 			},
 			["迷糊的小绵羊"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
+				["class"] = "DEMONHUNTER",
 			},
 			["雷霆妞妞"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["deaths"] = {
+				},
 				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["丨寂静岭丶"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["玖渚蓝蓝"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-			},
-			["币开头小德"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-			},
-			["奥格玛重拳"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
 			},
 			["訫兰"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "ROGUE",
 				["deaths"] = {
 				},
+				["class"] = "ROGUE",
+			},
+			["奥格玛重拳"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+			},
+			["币开头小德"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+			},
+			["玖渚蓝蓝"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+			},
+			["丨寂静岭丶"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
 			},
 		},
-		["diff"] = 15,
 	},
 }
 DeathGraphsDBCurrent = {
@@ -1662,6 +1662,9 @@ DeathGraphsDBCurrent = {
 				["maxhealth"] = 3785220,
 				["timeofdeath"] = 140.408000000054,
 				["name"] = "传统美徳",
+				["time"] = 1496323851.94,
+				["class"] = "DRUID",
+				["timestring"] = "2m 20s",
 				["events"] = {
 					{
 						2, -- [1]
@@ -2154,14 +2157,14 @@ DeathGraphsDBCurrent = {
 						"传统美徳", -- [6]
 					}, -- [47]
 				},
-				["class"] = "DRUID",
-				["timestring"] = "2m 20s",
-				["time"] = 1496323851.94,
 			}, -- [1]
 			{
 				["maxhealth"] = 3952920,
 				["timeofdeath"] = 195.724000000162,
 				["name"] = "咕宝宝哒萌萌",
+				["time"] = 1496323907.256,
+				["class"] = "WARLOCK",
+				["timestring"] = "3m 15s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -2672,9 +2675,6 @@ DeathGraphsDBCurrent = {
 						"咕宝宝哒萌萌", -- [6]
 					}, -- [46]
 				},
-				["class"] = "WARLOCK",
-				["timestring"] = "3m 15s",
-				["time"] = 1496323907.256,
 			}, -- [2]
 		},
 		["bossname"] = "高级植物学家特尔安",
@@ -2694,6 +2694,9 @@ DeathGraphsDBCurrent = {
 				["maxhealth"] = 3337020,
 				["timeofdeath"] = 69.2589999998454,
 				["name"] = "暗言术喵",
+				["time"] = 1496322989.701,
+				["class"] = "PRIEST",
+				["timestring"] = "1m 9s",
 				["events"] = {
 					{
 						2, -- [1]
@@ -3176,14 +3179,14 @@ DeathGraphsDBCurrent = {
 						"暗言术喵", -- [6]
 					}, -- [47]
 				},
-				["class"] = "PRIEST",
-				["timestring"] = "1m 9s",
-				["time"] = 1496322989.701,
 			}, -- [1]
 			{
 				["maxhealth"] = 3785220,
 				["timeofdeath"] = 69.2589999998454,
 				["name"] = "传统美徳",
+				["time"] = 1496322989.701,
+				["class"] = "DRUID",
+				["timestring"] = "1m 9s",
 				["events"] = {
 					{
 						2, -- [1]
@@ -3668,9 +3671,6 @@ DeathGraphsDBCurrent = {
 						"传统美徳", -- [6]
 					}, -- [47]
 				},
-				["class"] = "DRUID",
-				["timestring"] = "1m 9s",
-				["time"] = 1496322989.701,
 			}, -- [2]
 		},
 		["bossname"] = "占星师艾塔乌斯",
@@ -4100,26 +4100,6 @@ DeathGraphsDBGraph = {
 					1496323166, -- [2]
 				}, -- [23]
 			},
-			["见证虚空"] = {
-				{
-					214, -- [1]
-					1496323166, -- [2]
-				}, -- [1]
-				{
-					228, -- [1]
-					1496323166, -- [2]
-				}, -- [2]
-				{
-					243, -- [1]
-					1496323166, -- [2]
-				}, -- [3]
-			},
-			["虚空新星"] = {
-				{
-					211, -- [1]
-					1496323166, -- [2]
-				}, -- [1]
-			},
 			["爆裂虚空"] = {
 				{
 					184, -- [1]
@@ -4138,6 +4118,26 @@ DeathGraphsDBGraph = {
 					1496323166, -- [2]
 				}, -- [4]
 			},
+			["虚空新星"] = {
+				{
+					211, -- [1]
+					1496323166, -- [2]
+				}, -- [1]
+			},
+			["见证虚空"] = {
+				{
+					214, -- [1]
+					1496323166, -- [2]
+				}, -- [1]
+				{
+					228, -- [1]
+					1496323166, -- [2]
+				}, -- [2]
+				{
+					243, -- [1]
+					1496323166, -- [2]
+				}, -- [3]
+			},
 		},
 		["ids"] = {
 			["寒冰喷射"] = 206936,
@@ -4151,9 +4151,9 @@ DeathGraphsDBGraph = {
 			["邪能新星"] = 206517,
 			["星爆"] = 205486,
 			["虚空爆炸"] = 214486,
-			["见证虚空"] = 207720,
-			["虚空新星"] = 207439,
 			["爆裂虚空"] = 227492,
+			["虚空新星"] = 207439,
+			["见证虚空"] = 207720,
 		},
 	},
 	["172615"] = {
@@ -4268,6 +4268,46 @@ DeathGraphsDBGraph = {
 					1484315609, -- [2]
 				}, -- [4]
 			},
+			["恐惧连结"] = {
+				{
+					119, -- [1]
+					1484315609, -- [2]
+				}, -- [1]
+				{
+					134, -- [1]
+					1484315609, -- [2]
+				}, -- [2]
+				{
+					149, -- [1]
+					1484315609, -- [2]
+				}, -- [3]
+				{
+					163, -- [1]
+					1484315609, -- [2]
+				}, -- [4]
+				{
+					179, -- [1]
+					1484315609, -- [2]
+				}, -- [5]
+				{
+					194, -- [1]
+					1484315609, -- [2]
+				}, -- [6]
+			},
+			["扭动深渊"] = {
+				{
+					211, -- [1]
+					1484315609, -- [2]
+				}, -- [1]
+				{
+					231, -- [1]
+					1484315609, -- [2]
+				}, -- [2]
+				{
+					253, -- [1]
+					1484315609, -- [2]
+				}, -- [3]
+			},
 			["折磨感染"] = {
 				{
 					21, -- [1]
@@ -4289,6 +4329,118 @@ DeathGraphsDBGraph = {
 					104, -- [1]
 					1484315609, -- [2]
 				}, -- [5]
+			},
+			["腐蚀：毁灭之影"] = {
+				{
+					16, -- [1]
+					1484315609, -- [2]
+				}, -- [1]
+				{
+					27, -- [1]
+					1484315609, -- [2]
+				}, -- [2]
+				{
+					38, -- [1]
+					1484315609, -- [2]
+				}, -- [3]
+				{
+					49, -- [1]
+					1484315609, -- [2]
+				}, -- [4]
+				{
+					60, -- [1]
+					1484315609, -- [2]
+				}, -- [5]
+				{
+					71, -- [1]
+					1484315609, -- [2]
+				}, -- [6]
+				{
+					82, -- [1]
+					1484315609, -- [2]
+				}, -- [7]
+				{
+					93, -- [1]
+					1484315609, -- [2]
+				}, -- [8]
+				{
+					102, -- [1]
+					1484315609, -- [2]
+				}, -- [9]
+				{
+					113, -- [1]
+					1484315609, -- [2]
+				}, -- [10]
+				{
+					124, -- [1]
+					1484315609, -- [2]
+				}, -- [11]
+				{
+					135, -- [1]
+					1484315609, -- [2]
+				}, -- [12]
+				{
+					146, -- [1]
+					1484315609, -- [2]
+				}, -- [13]
+				{
+					157, -- [1]
+					1484315609, -- [2]
+				}, -- [14]
+				{
+					168, -- [1]
+					1484315609, -- [2]
+				}, -- [15]
+				{
+					179, -- [1]
+					1484315609, -- [2]
+				}, -- [16]
+				{
+					189, -- [1]
+					1484315609, -- [2]
+				}, -- [17]
+				{
+					201, -- [1]
+					1484315609, -- [2]
+				}, -- [18]
+				{
+					212, -- [1]
+					1484315609, -- [2]
+				}, -- [19]
+				{
+					222, -- [1]
+					1484315609, -- [2]
+				}, -- [20]
+				{
+					234, -- [1]
+					1484315609, -- [2]
+				}, -- [21]
+				{
+					243, -- [1]
+					1484315609, -- [2]
+				}, -- [22]
+				{
+					254, -- [1]
+					1484315609, -- [2]
+				}, -- [23]
+				{
+					265, -- [1]
+					1484315609, -- [2]
+				}, -- [24]
+			},
+			["折磨挥击"] = {
+				{
+					70, -- [1]
+					1484315609, -- [2]
+				}, -- [1]
+				{
+					82, -- [1]
+					1484315609, -- [2]
+				}, -- [2]
+				{
+					94, -- [1]
+					1484315609, -- [2]
+				}, -- [3]
 			},
 			["梦魇箭"] = {
 				{
@@ -4440,131 +4592,21 @@ DeathGraphsDBGraph = {
 					1484315609, -- [2]
 				}, -- [37]
 			},
-			["梦魇灌注"] = {
+			["梦魇召唤"] = {
 				{
-					137, -- [1]
+					138, -- [1]
 					1484315609, -- [2]
 				}, -- [1]
 				{
-					199, -- [1]
+					178, -- [1]
 					1484315609, -- [2]
 				}, -- [2]
-				{
-					261, -- [1]
-					1484315609, -- [2]
-				}, -- [3]
 			},
-			["腐蚀：毁灭之影"] = {
+			["显形腐蚀"] = {
 				{
-					16, -- [1]
+					59, -- [1]
 					1484315609, -- [2]
 				}, -- [1]
-				{
-					27, -- [1]
-					1484315609, -- [2]
-				}, -- [2]
-				{
-					38, -- [1]
-					1484315609, -- [2]
-				}, -- [3]
-				{
-					49, -- [1]
-					1484315609, -- [2]
-				}, -- [4]
-				{
-					60, -- [1]
-					1484315609, -- [2]
-				}, -- [5]
-				{
-					71, -- [1]
-					1484315609, -- [2]
-				}, -- [6]
-				{
-					82, -- [1]
-					1484315609, -- [2]
-				}, -- [7]
-				{
-					93, -- [1]
-					1484315609, -- [2]
-				}, -- [8]
-				{
-					102, -- [1]
-					1484315609, -- [2]
-				}, -- [9]
-				{
-					113, -- [1]
-					1484315609, -- [2]
-				}, -- [10]
-				{
-					124, -- [1]
-					1484315609, -- [2]
-				}, -- [11]
-				{
-					135, -- [1]
-					1484315609, -- [2]
-				}, -- [12]
-				{
-					146, -- [1]
-					1484315609, -- [2]
-				}, -- [13]
-				{
-					157, -- [1]
-					1484315609, -- [2]
-				}, -- [14]
-				{
-					168, -- [1]
-					1484315609, -- [2]
-				}, -- [15]
-				{
-					179, -- [1]
-					1484315609, -- [2]
-				}, -- [16]
-				{
-					189, -- [1]
-					1484315609, -- [2]
-				}, -- [17]
-				{
-					201, -- [1]
-					1484315609, -- [2]
-				}, -- [18]
-				{
-					212, -- [1]
-					1484315609, -- [2]
-				}, -- [19]
-				{
-					222, -- [1]
-					1484315609, -- [2]
-				}, -- [20]
-				{
-					234, -- [1]
-					1484315609, -- [2]
-				}, -- [21]
-				{
-					243, -- [1]
-					1484315609, -- [2]
-				}, -- [22]
-				{
-					254, -- [1]
-					1484315609, -- [2]
-				}, -- [23]
-				{
-					265, -- [1]
-					1484315609, -- [2]
-				}, -- [24]
-			},
-			["折磨挥击"] = {
-				{
-					70, -- [1]
-					1484315609, -- [2]
-				}, -- [1]
-				{
-					82, -- [1]
-					1484315609, -- [2]
-				}, -- [2]
-				{
-					94, -- [1]
-					1484315609, -- [2]
-				}, -- [3]
 			},
 			["晦暗灵魂"] = {
 				{
@@ -4616,77 +4658,35 @@ DeathGraphsDBGraph = {
 					1484315609, -- [2]
 				}, -- [12]
 			},
-			["梦魇召唤"] = {
+			["梦魇灌注"] = {
 				{
-					138, -- [1]
+					137, -- [1]
 					1484315609, -- [2]
 				}, -- [1]
 				{
-					178, -- [1]
-					1484315609, -- [2]
-				}, -- [2]
-			},
-			["显形腐蚀"] = {
-				{
-					59, -- [1]
-					1484315609, -- [2]
-				}, -- [1]
-			},
-			["扭动深渊"] = {
-				{
-					211, -- [1]
-					1484315609, -- [2]
-				}, -- [1]
-				{
-					231, -- [1]
+					199, -- [1]
 					1484315609, -- [2]
 				}, -- [2]
 				{
-					253, -- [1]
+					261, -- [1]
 					1484315609, -- [2]
 				}, -- [3]
-			},
-			["恐惧连结"] = {
-				{
-					119, -- [1]
-					1484315609, -- [2]
-				}, -- [1]
-				{
-					134, -- [1]
-					1484315609, -- [2]
-				}, -- [2]
-				{
-					149, -- [1]
-					1484315609, -- [2]
-				}, -- [3]
-				{
-					163, -- [1]
-					1484315609, -- [2]
-				}, -- [4]
-				{
-					179, -- [1]
-					1484315609, -- [2]
-				}, -- [5]
-				{
-					194, -- [1]
-					1484315609, -- [2]
-				}, -- [6]
 			},
 		},
 		["ids"] = {
 			["黑化灵魂"] = 209158,
 			["腐蚀新星"] = 207830,
 			["折磨锁定"] = 205771,
+			["恐惧连结"] = 209034,
+			["扭动深渊"] = 226194,
 			["折磨感染"] = 217990,
-			["梦魇箭"] = 206920,
-			["梦魇灌注"] = 209443,
 			["腐蚀：毁灭之影"] = 208748,
 			["折磨挥击"] = 224649,
-			["晦暗灵魂"] = 206651,
+			["梦魇箭"] = 206920,
 			["梦魇召唤"] = 205588,
 			["显形腐蚀"] = 210264,
-			["扭动深渊"] = 226194,
-			["恐惧连结"] = 209034,
+			["晦暗灵魂"] = 206651,
+			["梦魇灌注"] = 209443,
 		},
 	},
 	["170415"] = {
@@ -4901,13 +4901,13 @@ DeathGraphsDBGraph = {
 			[138] = {
 				1484314781, -- [1]
 			},
-			[141] = {
+			[117] = {
 				1484314781, -- [1]
 			},
 			[118] = {
 				1484314781, -- [1]
 			},
-			[117] = {
+			[141] = {
 				1484314781, -- [1]
 			},
 		},
@@ -4988,6 +4988,16 @@ DeathGraphsDBGraph = {
 					1484314781, -- [2]
 				}, -- [9]
 			},
+			["轻蔑之触"] = {
+				{
+					107, -- [1]
+					1484314781, -- [2]
+				}, -- [1]
+				{
+					127, -- [1]
+					1484314781, -- [2]
+				}, -- [2]
+			},
 			["梦魇之矛"] = {
 				{
 					112, -- [1]
@@ -5006,24 +5016,14 @@ DeathGraphsDBGraph = {
 					1484314781, -- [2]
 				}, -- [4]
 			},
-			["轻蔑之触"] = {
-				{
-					107, -- [1]
-					1484314781, -- [2]
-				}, -- [1]
-				{
-					127, -- [1]
-					1484314781, -- [2]
-				}, -- [2]
-			},
 		},
 		["ids"] = {
 			["脱水践踏"] = 211073,
 			["梦魇长枪"] = 211498,
 			["梦魇大军"] = 212726,
 			["腐败之息"] = 211192,
-			["梦魇之矛"] = 214529,
 			["轻蔑之触"] = 211471,
+			["梦魇之矛"] = 214529,
 		},
 	},
 	["176115"] = {
@@ -5420,12 +5420,6 @@ DeathGraphsDBGraph = {
 					1484313958, -- [2]
 				}, -- [4]
 			},
-			["黑暗风暴"] = {
-				{
-					120, -- [1]
-					1484313958, -- [2]
-				}, -- [1]
-			},
 			["扭曲暗影"] = {
 				{
 					97, -- [1]
@@ -5439,6 +5433,12 @@ DeathGraphsDBGraph = {
 					159, -- [1]
 					1484313958, -- [2]
 				}, -- [3]
+			},
+			["黑暗风暴"] = {
+				{
+					120, -- [1]
+					1484313958, -- [2]
+				}, -- [1]
 			},
 			["召云聚气"] = {
 				{
@@ -5459,8 +5459,8 @@ DeathGraphsDBGraph = {
 			["剧毒之池"] = 213123,
 			["死灵毒液"] = 215443,
 			["邪掠之爪"] = 222037,
-			["黑暗风暴"] = 210948,
 			["扭曲暗影"] = 210864,
+			["黑暗风暴"] = 210948,
 			["召云聚气"] = 212707,
 			["剃刀之翼"] = 210547,
 		},
