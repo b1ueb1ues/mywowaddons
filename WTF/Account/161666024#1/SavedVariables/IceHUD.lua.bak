@@ -22,11 +22,11 @@ IceCoreDB = {
 		["泠凊之腤 - 白银之手"] = "Default",
 		["蓝蓝哦 - 阿克蒙德"] = "Default",
 		["更深的藍 - 古尔丹"] = "Default",
-		["备前长光 - 白银之手"] = "Default",
+		["喵喵围炉斯 - 燃烧之刃"] = "Default",
 		["萌娘百科 - 燃烧之刃"] = "Default",
 		["腤泠凊 - 古尔丹"] = "Default",
 		["教授猫 - 白银之手"] = "Default",
-		["喵喵围炉斯 - 燃烧之刃"] = "Default",
+		["备前长光 - 白银之手"] = "Default",
 		["暗言术喵 - 燃烧之刃"] = "Default",
 		["更深的藍 - 阿克蒙德"] = "Default",
 	},
@@ -42,10 +42,10 @@ IceCoreDB = {
 			["modules"] = {
 				["PlayerAlternatePower"] = {
 					["lowThresholdFlash"] = false,
-					["barHorizontalOffset"] = -162,
-					["myTagVersion"] = 3,
 					["updatedReverseInverse"] = true,
+					["myTagVersion"] = 3,
 					["updatedInverseExpand"] = true,
+					["barHorizontalOffset"] = -162,
 				},
 				["TargetInfo"] = {
 					["enabled"] = false,
@@ -57,17 +57,17 @@ IceCoreDB = {
 					["updateAurasIntoTable"] = true,
 					["auras"] = {
 						["buff"] = {
-							["show"] = false,
+							["ownSize"] = 30,
 							["anchorTo"] = "TOPRIGHT",
 							["growDirection"] = "Right",
-							["ownSize"] = 30,
+							["show"] = false,
 							["size"] = 30,
 						},
 						["debuff"] = {
-							["show"] = false,
+							["ownSize"] = 30,
 							["anchorTo"] = "TOPLEFT",
 							["growDirection"] = "Left",
-							["ownSize"] = 30,
+							["show"] = false,
 							["size"] = 30,
 						},
 					},
@@ -75,28 +75,28 @@ IceCoreDB = {
 				["TargetCast"] = {
 					["updatedReverseInverse"] = true,
 					["auraIconYOffset"] = -91,
-					["auraIconXOffset"] = 19,
+					["updatedInverseExpand"] = true,
 					["auraIconScale"] = 2.35,
 					["myTagVersion"] = 3,
 					["displayAuraIcon"] = true,
-					["updatedInverseExpand"] = true,
+					["auraIconXOffset"] = 19,
 				},
 				["PetHealth"] = {
 					["offset"] = 7,
-					["barHorizontalOffset"] = 146,
-					["updatedReverseInverse"] = true,
-					["myTagVersion"] = 3,
+					["updatedInverseExpand"] = true,
 					["textVisible"] = {
 						["upper"] = false,
 						["lower"] = false,
 					},
 					["barVerticalOffset"] = 48,
-					["updatedInverseExpand"] = true,
+					["myTagVersion"] = 3,
+					["updatedReverseInverse"] = true,
+					["barHorizontalOffset"] = 146,
 				},
 				["PlayerHealth"] = {
 					["updatedReverseInverse"] = true,
-					["myTagVersion"] = 3,
 					["barFontSize"] = 20,
+					["myTagVersion"] = 3,
 					["textVisible"] = {
 						["lower"] = false,
 					},
@@ -119,46 +119,13 @@ IceCoreDB = {
 				},
 				["TargetOfTarget"] = {
 					["enabled"] = false,
-					["scale"] = 2,
 					["vpos"] = -186,
+					["scale"] = 2,
 				},
 				["PlayerAltMana"] = {
 					["updatedReverseInverse"] = true,
 					["myTagVersion"] = 3,
 					["updatedInverseExpand"] = true,
-				},
-				["SunderCount"] = {
-				},
-				["TargetHealth"] = {
-					["updatedReverseInverse"] = true,
-					["myTagVersion"] = 3,
-					["barFontSize"] = 15,
-					["textVisible"] = {
-						["lower"] = false,
-					},
-					["updatedInverseExpand"] = true,
-				},
-				["MonkMana"] = {
-					["updatedReverseInverse"] = true,
-					["myTagVersion"] = 3,
-					["updatedInverseExpand"] = true,
-				},
-				["PlayerMana"] = {
-					["updatedReverseInverse"] = true,
-					["lowThresholdColor"] = true,
-					["lowThreshold"] = 0.2,
-					["barFontSize"] = 20,
-					["myTagVersion"] = 3,
-					["textVisible"] = {
-						["lower"] = false,
-					},
-					["updatedInverseExpand"] = true,
-				},
-				["Runes"] = {
-					["scale"] = 1.5,
-					["showWhenNotFull"] = true,
-					["alwaysFullAlpha"] = true,
-					["cooldownMode"] = "Both",
 				},
 				["PlayerInfo"] = {
 					["vpos"] = 528,
@@ -177,6 +144,43 @@ IceCoreDB = {
 						},
 					},
 				},
+				["TargetHealth"] = {
+					["updatedReverseInverse"] = true,
+					["barFontSize"] = 15,
+					["myTagVersion"] = 3,
+					["textVisible"] = {
+						["lower"] = false,
+					},
+					["updatedInverseExpand"] = true,
+				},
+				["MonkMana"] = {
+					["updatedReverseInverse"] = true,
+					["myTagVersion"] = 3,
+					["updatedInverseExpand"] = true,
+				},
+				["PlayerMana"] = {
+					["updatedReverseInverse"] = true,
+					["barFontSize"] = 20,
+					["lowThreshold"] = 0.2,
+					["lowThresholdColor"] = true,
+					["myTagVersion"] = 3,
+					["textVisible"] = {
+						["lower"] = false,
+					},
+					["updatedInverseExpand"] = true,
+				},
+				["Runes"] = {
+					["scale"] = 1.5,
+					["showWhenNotFull"] = true,
+					["alwaysFullAlpha"] = true,
+					["cooldownMode"] = "Both",
+				},
+				["Threat"] = {
+					["enabled"] = true,
+					["myTagVersion"] = 3,
+					["updatedReverseInverse"] = true,
+					["updatedInverseExpand"] = true,
+				},
 				["PetMana"] = {
 					["enabled"] = false,
 					["myTagVersion"] = 3,
@@ -189,15 +193,24 @@ IceCoreDB = {
 					["alwaysFullAlpha"] = true,
 					["updatedInverseExpand"] = true,
 				},
-				["RangeCheck"] = {
-					["vpos"] = 3,
-					["scale"] = 2,
-					["enabled"] = true,
-				},
-				["FocusAbsorb"] = {
-					["updatedReverseInverse"] = true,
+				["PlayerAbsorb"] = {
+					["enabled"] = false,
 					["myTagVersion"] = 3,
+					["updatedReverseInverse"] = true,
 					["updatedInverseExpand"] = true,
+				},
+				["TargetAbsorb"] = {
+					["side"] = "LEFT",
+					["forceJustifyText"] = "LEFT",
+					["textVisible"] = {
+						["lower"] = false,
+					},
+					["updatedInverseExpand"] = true,
+					["updatedReverseInverse"] = true,
+					["textVerticalOffset"] = -18,
+					["myTagVersion"] = 3,
+					["barFontSize"] = 15,
+					["textHorizontalOffset"] = -54,
 				},
 				["TargetMana"] = {
 					["updatedReverseInverse"] = true,
@@ -210,8 +223,8 @@ IceCoreDB = {
 				["GlobalCoolDown"] = {
 					["updatedReverseInverse"] = true,
 					["myTagVersion"] = 3,
-					["desiredLerpTime"] = 1.371,
 					["updatedInverseExpand"] = true,
+					["desiredLerpTime"] = 1.371,
 				},
 				["Stagger"] = {
 					["enabled"] = false,
@@ -229,30 +242,17 @@ IceCoreDB = {
 				},
 				["MaelstromCount"] = {
 				},
-				["Threat"] = {
+				["FocusAbsorb"] = {
+					["updatedReverseInverse"] = true,
+					["myTagVersion"] = 3,
+					["updatedInverseExpand"] = true,
+				},
+				["RangeCheck"] = {
 					["enabled"] = true,
-					["myTagVersion"] = 3,
-					["updatedReverseInverse"] = true,
-					["updatedInverseExpand"] = true,
+					["vpos"] = 3,
+					["scale"] = 2,
 				},
-				["TargetAbsorb"] = {
-					["side"] = "LEFT",
-					["forceJustifyText"] = "LEFT",
-					["textHorizontalOffset"] = -54,
-					["updatedInverseExpand"] = true,
-					["updatedReverseInverse"] = true,
-					["textVerticalOffset"] = -18,
-					["myTagVersion"] = 3,
-					["textVisible"] = {
-						["lower"] = false,
-					},
-					["barFontSize"] = 15,
-				},
-				["PlayerAbsorb"] = {
-					["enabled"] = false,
-					["myTagVersion"] = 3,
-					["updatedReverseInverse"] = true,
-					["updatedInverseExpand"] = true,
+				["SunderCount"] = {
 				},
 				["Lacerates"] = {
 					["countFontSize"] = 20,
@@ -286,15 +286,6 @@ IceCoreDB = {
 					["customBarType"] = "Counter",
 				},
 			},
-			["colors"] = {
-				["ScaledManaColor"] = {
-					["r"] = 1,
-				},
-				["ScaledHealthColor"] = {
-					["g"] = 0,
-					["r"] = 1,
-				},
-			},
 			["barPreset"] = "CleanCurvesOut",
 			["alphaic"] = 1,
 			["minimap"] = {
@@ -307,12 +298,12 @@ IceCoreDB = {
 			["modules"] = {
 				["TargetCast"] = {
 					["auraIconYOffset"] = -91,
-					["displayAuraIcon"] = true,
 					["auraIconXOffset"] = 19,
+					["displayAuraIcon"] = true,
+					["updatedReverseInverse"] = true,
 					["myTagVersion"] = 3,
 					["auraIconScale"] = 2.35,
 					["updatedInverseExpand"] = true,
-					["updatedReverseInverse"] = true,
 				},
 				["PetHealth"] = {
 					["offset"] = 7,
@@ -340,16 +331,11 @@ IceCoreDB = {
 					["updatedReverseInverse"] = true,
 					["updatedInverseExpand"] = true,
 				},
-				["PlayerMana"] = {
-					["myTagVersion"] = 3,
-					["lowThreshold"] = 0.2,
-					["textVisible"] = {
-						["lower"] = false,
-					},
-					["updatedInverseExpand"] = true,
-					["lowThresholdColor"] = true,
-					["barFontSize"] = 20,
+				["PlayerAbsorb"] = {
+					["enabled"] = false,
 					["updatedReverseInverse"] = true,
+					["myTagVersion"] = 3,
+					["updatedInverseExpand"] = true,
 				},
 				["TargetMana"] = {
 					["myTagVersion"] = 3,
@@ -377,16 +363,16 @@ IceCoreDB = {
 					["auras"] = {
 						["buff"] = {
 							["anchorTo"] = "TOPRIGHT",
-							["show"] = false,
-							["growDirection"] = "Right",
 							["ownSize"] = 30,
+							["growDirection"] = "Right",
+							["show"] = false,
 							["size"] = 30,
 						},
 						["debuff"] = {
 							["anchorTo"] = "TOPLEFT",
-							["show"] = false,
-							["growDirection"] = "Left",
 							["ownSize"] = 30,
+							["growDirection"] = "Left",
+							["show"] = false,
 							["size"] = 30,
 						},
 					},
@@ -425,9 +411,9 @@ IceCoreDB = {
 				["SunderCount"] = {
 				},
 				["RangeCheck"] = {
-					["enabled"] = true,
-					["scale"] = 2,
 					["vpos"] = 3,
+					["scale"] = 2,
+					["enabled"] = true,
 				},
 				["CastBar"] = {
 					["barVisible"] = {
@@ -466,9 +452,9 @@ IceCoreDB = {
 				["Runes"] = {
 					["enabled"] = false,
 					["showWhenNotFull"] = true,
-					["cooldownMode"] = "Both",
 					["scale"] = 1.5,
 					["alwaysFullAlpha"] = true,
+					["cooldownMode"] = "Both",
 				},
 				["PlayerInfo"] = {
 					["scale"] = 1.6,
@@ -520,12 +506,6 @@ IceCoreDB = {
 				},
 				["MaelstromCount"] = {
 				},
-				["Threat"] = {
-					["enabled"] = true,
-					["myTagVersion"] = 3,
-					["updatedInverseExpand"] = true,
-					["updatedReverseInverse"] = true,
-				},
 				["TargetAbsorb"] = {
 					["textVerticalOffset"] = -18,
 					["myTagVersion"] = 3,
@@ -539,11 +519,22 @@ IceCoreDB = {
 					["barFontSize"] = 15,
 					["updatedReverseInverse"] = true,
 				},
-				["PlayerAbsorb"] = {
-					["enabled"] = false,
+				["PlayerMana"] = {
+					["myTagVersion"] = 3,
+					["lowThreshold"] = 0.2,
+					["textVisible"] = {
+						["lower"] = false,
+					},
+					["updatedInverseExpand"] = true,
+					["lowThresholdColor"] = true,
+					["barFontSize"] = 20,
 					["updatedReverseInverse"] = true,
+				},
+				["Threat"] = {
+					["enabled"] = true,
 					["myTagVersion"] = 3,
 					["updatedInverseExpand"] = true,
+					["updatedReverseInverse"] = true,
 				},
 				["PlayerAltMana"] = {
 					["updatedReverseInverse"] = true,

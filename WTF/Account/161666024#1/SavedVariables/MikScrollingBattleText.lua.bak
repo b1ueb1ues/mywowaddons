@@ -30,10 +30,10 @@ MSBTProfiles_SavedVars = {
 			},
 			["scrollAreas"] = {
 				["Notification"] = {
-					["offsetY"] = 192,
 					["scrollWidth"] = 190,
-					["disabled"] = true,
+					["offsetY"] = 192,
 					["offsetX"] = -436,
+					["disabled"] = true,
 				},
 				["Outgoing"] = {
 					["scrollHeight"] = 200,
@@ -89,11 +89,11 @@ MSBTProfiles_SavedVars = {
 			["hotThrottleDuration"] = 0,
 			["hideNames"] = true,
 			["animationSpeed"] = 30,
-			["normalFontAlpha"] = 75,
+			["enableBlizzardHealing"] = false,
 			["dotThrottleDuration"] = 0,
 			["creationVersion"] = "5.6.113",
 			["critFontSize"] = 20,
-			["enableBlizzardHealing"] = false,
+			["normalFontAlpha"] = 75,
 			["events"] = {
 				["SELF_HOT"] = {
 					["scrollArea"] = "Outgoing",
@@ -132,10 +132,10 @@ MSBTProfiles_SavedVars = {
 					["offsetY"] = 219,
 				},
 				["Notification"] = {
-					["scrollWidth"] = 190,
 					["offsetY"] = 192,
-					["offsetX"] = -436,
+					["scrollWidth"] = 190,
 					["disabled"] = true,
+					["offsetX"] = -436,
 				},
 				["Static"] = {
 					["offsetY"] = 92,

@@ -38,8 +38,8 @@ TipTac_Config = {
 	["classification_rare"] = "%s|r (Rare) ",
 	["if_showItemLevelAndId"] = false,
 	["colorGuildByReaction"] = true,
-	["optionsBottom"] = 306.653656005859,
 	["left"] = 1178.44458007812,
+	["optionsBottom"] = 306.653656005859,
 	["hideWorldTips"] = false,
 	["gradientTip"] = false,
 	["reactColoredBackdrop"] = false,
@@ -47,9 +47,9 @@ TipTac_Config = {
 	["classification_trivial"] = "~%s ",
 	["classification_worldboss"] = "%s|r (Boss) ",
 	["backdropInsets"] = 4,
-	["classification_rareelite"] = "+%s|r (Rare) ",
-	["manaBar"] = false,
 	["classColoredBorder"] = false,
+	["manaBar"] = false,
+	["colSameGuild"] = "|cffff32ff",
 	["colorNameByClass"] = false,
 	["gradientColor"] = {
 		0.8, -- [1]
@@ -57,7 +57,7 @@ TipTac_Config = {
 		0.8, -- [3]
 		0.2, -- [4]
 	},
-	["colSameGuild"] = "|cffff32ff",
+	["classification_rareelite"] = "+%s|r (Rare) ",
 	["healthBarColor"] = {
 		0.3, -- [1]
 		0.9, -- [2]

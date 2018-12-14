@@ -12,12 +12,12 @@ MasqueDB = {
 		["尊严德 - 燃烧之刃"] = "Default",
 		["泠凊之腤 - 白银之手"] = "Default",
 		["备前长船 - 阿克蒙德"] = "Default",
+		["喵喵围炉斯 - 燃烧之刃"] = "Default",
 		["Pantyazure - 燃烧之刃"] = "Default",
-		["备前长光 - 白银之手"] = "Default",
 		["萌娘百科 - 燃烧之刃"] = "Default",
 		["喵喵了个咪肉 - 燃烧之刃"] = "Default",
 		["教授猫 - 白银之手"] = "Default",
-		["喵喵围炉斯 - 燃烧之刃"] = "Default",
+		["备前长光 - 白银之手"] = "Default",
 		["暗言术喵 - 燃烧之刃"] = "Default",
 		["自杀贼 - 燃烧之刃"] = "Default",
 	},
@@ -137,9 +137,9 @@ MasqueDB = {
 				["WeakAuras_铁骨酒"] = {
 					["SkinID"] = "Caith",
 				},
-				["Bartender4_8"] = {
-					["SkinID"] = "Caith",
+				["TellMeWhen_分组: 6"] = {
 					["Inherit"] = false,
+					["SkinID"] = "Caith",
 				},
 				["TellMeWhen"] = {
 					["SkinID"] = "Caith",
@@ -148,15 +148,15 @@ MasqueDB = {
 				["Bartender4_BagBar"] = {
 					["SkinID"] = "Caith",
 				},
-				["TellMeWhen_分组: 11"] = {
+				["TellMeWhen_分组: 7"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Caith",
 				},
-				["TellMeWhen_分组: 4"] = {
+				["TellMeWhen_分组: 8"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Caith",
 				},
-				["Bartender4"] = {
+				["Bartender4_8"] = {
 					["SkinID"] = "Caith",
 					["Inherit"] = false,
 				},
@@ -164,19 +164,7 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Caith",
 				},
-				["Bartender4_9"] = {
-					["SkinID"] = "Caith",
-					["Inherit"] = false,
-				},
-				["TrufiGCD"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Caith",
-				},
-				["TellMeWhen_分组: 6"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Caith",
-				},
-				["WeakAuras_雕像受伤光环"] = {
+				["TellMeWhen_分组: 11"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Caith",
 				},
@@ -184,11 +172,23 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Caith",
 				},
-				["TellMeWhen_分组: 7"] = {
+				["Bartender4"] = {
+					["SkinID"] = "Caith",
+					["Inherit"] = false,
+				},
+				["WeakAuras_雕像受伤光环"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Caith",
 				},
-				["TellMeWhen_分组: 8"] = {
+				["TrufiGCD"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Caith",
+				},
+				["Bartender4_9"] = {
+					["SkinID"] = "Caith",
+					["Inherit"] = false,
+				},
+				["TellMeWhen_分组: 4"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Caith",
 				},

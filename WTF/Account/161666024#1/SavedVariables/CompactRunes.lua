@@ -6,8 +6,13 @@ CompactRunesDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
-			["locked"] = true,
+			["profileVersion"] = 2,
+			["frame"] = {
+				["y"] = 75.9259338378906,
+				["x"] = 115.338745117188,
+			},
 			["procs"] = false,
+			["locked"] = true,
 			["bars"] = {
 				["BloodPlagueBar"] = {
 					["enabled"] = false,
@@ -28,17 +33,13 @@ CompactRunesDB = {
 				["SoulReaperBar"] = {
 					["enabled"] = false,
 				},
+				["BloodTapBar"] = {
+					["enabled"] = false,
+				},
 				["BoneShieldBar"] = {
 					["enabled"] = false,
 					["progress"] = "None",
 				},
-				["BloodTapBar"] = {
-					["enabled"] = false,
-				},
-			},
-			["minimap"] = {
-				["minimapPos"] = 207.821356202164,
-				["hide"] = false,
 			},
 			["cdbars"] = {
 				["Unholy"] = {
@@ -107,11 +108,10 @@ CompactRunesDB = {
 					},
 				},
 			},
-			["frame"] = {
-				["y"] = 75.9259338378906,
-				["x"] = 115.338745117188,
+			["minimap"] = {
+				["minimapPos"] = 207.821356202164,
+				["hide"] = false,
 			},
-			["profileVersion"] = 2,
 		},
 	},
 }

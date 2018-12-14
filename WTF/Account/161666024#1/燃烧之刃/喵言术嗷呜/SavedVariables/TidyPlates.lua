@@ -9,8 +9,8 @@ TidyPlatesOptions = {
 	["ForceBlizzardFont"] = false,
 	["DisableCastBars"] = false,
 	["CompatibilityMode"] = false,
-	["ActiveTheme"] = "Quatre",
 	["ActiveProfile"] = "Damage",
+	["ActiveTheme"] = "Quatre",
 	["WelcomeShown"] = true,
 	["FirstSpecProfile"] = "Tank",
 }

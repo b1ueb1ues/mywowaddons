@@ -108,8 +108,7 @@ Blizzard_CombatLog_Filters = {
 						["b"] = 0.7,
 					},
 				},
-				["highlightedEvents"] = {
-					["PARTY_KILL"] = true,
+				["eventColoring"] = {
 				},
 				["defaults"] = {
 					["spell"] = {
@@ -125,7 +124,8 @@ Blizzard_CombatLog_Filters = {
 						["b"] = 0,
 					},
 				},
-				["eventColoring"] = {
+				["highlightedEvents"] = {
+					["PARTY_KILL"] = true,
 				},
 			},
 			["hasQuickButton"] = true,
@@ -156,8 +156,8 @@ Blizzard_CombatLog_Filters = {
 				["braces"] = true,
 				["unitBraces"] = true,
 				["schoolNameHighlighting"] = true,
-				["unitIcons"] = true,
 				["hideBuffs"] = false,
+				["unitIcons"] = true,
 				["unitColoring"] = false,
 				["amountSchoolColoring"] = false,
 				["amountColoring"] = false,
@@ -203,10 +203,10 @@ Blizzard_CombatLog_Filters = {
 						["SPELL_AURA_REFRESH"] = true,
 						["SPELL_BUILDING_HEAL"] = true,
 						["SPELL_AURA_APPLIED"] = true,
-						["SPELL_AURA_REMOVED_DOSE"] = false,
+						["ENCHANT_APPLIED"] = true,
 						["SPELL_PERIODIC_LEECH"] = true,
 						["SPELL_CAST_FAILED"] = false,
-						["ENCHANT_APPLIED"] = true,
+						["SPELL_AURA_REMOVED_DOSE"] = false,
 						["SPELL_DISPEL_FAILED"] = true,
 						["RANGE_MISSED"] = true,
 						["SPELL_AURA_REMOVED"] = true,
@@ -361,8 +361,7 @@ Blizzard_CombatLog_Filters = {
 						["b"] = 0.7,
 					},
 				},
-				["highlightedEvents"] = {
-					["PARTY_KILL"] = true,
+				["eventColoring"] = {
 				},
 				["defaults"] = {
 					["spell"] = {
@@ -378,7 +377,8 @@ Blizzard_CombatLog_Filters = {
 						["b"] = 0,
 					},
 				},
-				["eventColoring"] = {
+				["highlightedEvents"] = {
+					["PARTY_KILL"] = true,
 				},
 			},
 			["hasQuickButton"] = true,
@@ -409,8 +409,8 @@ Blizzard_CombatLog_Filters = {
 				["braces"] = false,
 				["unitBraces"] = true,
 				["schoolNameHighlighting"] = true,
-				["unitIcons"] = true,
 				["hideBuffs"] = true,
+				["unitIcons"] = true,
 				["unitColoring"] = false,
 				["amountSchoolColoring"] = false,
 				["amountColoring"] = false,

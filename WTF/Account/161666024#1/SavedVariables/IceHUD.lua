@@ -24,8 +24,8 @@ IceCoreDB = {
 		["腤泠凊 - 阿克蒙德"] = "Default",
 		["泠凊之腤 - 白银之手"] = "Default",
 		["蓝蓝哦 - 阿克蒙德"] = "Default",
-		["喵喵围炉斯 - 燃烧之刃"] = "Default",
 		["备前长光 - 白银之手"] = "Default",
+		["喵喵围炉斯 - 燃烧之刃"] = "Default",
 		["腤泠凊 - 古尔丹"] = "Default",
 		["萌娘百科 - 燃烧之刃"] = "Default",
 		["教授猫 - 白银之手"] = "Default",
@@ -184,16 +184,16 @@ IceCoreDB = {
 					["auras"] = {
 						["debuff"] = {
 							["anchorTo"] = "TOPLEFT",
-							["ownSize"] = 30,
-							["growDirection"] = "Left",
 							["show"] = false,
+							["growDirection"] = "Left",
+							["ownSize"] = 30,
 							["size"] = 30,
 						},
 						["buff"] = {
 							["anchorTo"] = "TOPRIGHT",
-							["ownSize"] = 30,
-							["growDirection"] = "Right",
 							["show"] = false,
+							["growDirection"] = "Right",
+							["ownSize"] = 30,
 							["size"] = 30,
 						},
 					},
@@ -232,9 +232,9 @@ IceCoreDB = {
 				["SunderCount"] = {
 				},
 				["RangeCheck"] = {
-					["vpos"] = 3,
-					["scale"] = 2,
 					["enabled"] = true,
+					["scale"] = 2,
+					["vpos"] = 3,
 				},
 				["CastBar"] = {
 					["barVisible"] = {
@@ -273,15 +273,26 @@ IceCoreDB = {
 				["Runes"] = {
 					["enabled"] = false,
 					["showWhenNotFull"] = true,
+					["cooldownMode"] = "Both",
 					["scale"] = 1.5,
 					["alwaysFullAlpha"] = true,
-					["cooldownMode"] = "Both",
 				},
-				["Threat"] = {
-					["enabled"] = true,
+				["PlayerInfo"] = {
+					["scale"] = 1.6,
 					["myTagVersion"] = 3,
-					["updatedInverseExpand"] = true,
-					["updatedReverseInverse"] = true,
+					["debuffSizeFixup"] = true,
+					["vpos"] = 528,
+					["updateAurasIntoTable"] = true,
+					["auras"] = {
+						["buff"] = {
+							["ownSize"] = 40,
+							["size"] = 30,
+						},
+						["debuff"] = {
+							["ownSize"] = 40,
+							["size"] = 30,
+						},
+					},
 				},
 				["PetMana"] = {
 					["enabled"] = false,
@@ -316,33 +327,22 @@ IceCoreDB = {
 				},
 				["MaelstromCount"] = {
 				},
-				["PlayerAbsorb"] = {
-					["enabled"] = false,
-					["updatedReverseInverse"] = true,
+				["Threat"] = {
+					["enabled"] = true,
 					["myTagVersion"] = 3,
 					["updatedInverseExpand"] = true,
+					["updatedReverseInverse"] = true,
 				},
 				["PlayerAltMana"] = {
 					["updatedReverseInverse"] = true,
 					["myTagVersion"] = 3,
 					["updatedInverseExpand"] = true,
 				},
-				["PlayerInfo"] = {
-					["scale"] = 1.6,
+				["PlayerAbsorb"] = {
+					["enabled"] = false,
+					["updatedReverseInverse"] = true,
 					["myTagVersion"] = 3,
-					["debuffSizeFixup"] = true,
-					["vpos"] = 528,
-					["updateAurasIntoTable"] = true,
-					["auras"] = {
-						["buff"] = {
-							["ownSize"] = 40,
-							["size"] = 30,
-						},
-						["debuff"] = {
-							["ownSize"] = 40,
-							["size"] = 30,
-						},
-					},
+					["updatedInverseExpand"] = true,
 				},
 				["TargetAbsorb"] = {
 					["textVerticalOffset"] = -18,
@@ -682,10 +682,10 @@ IceCoreDB = {
 			["modules"] = {
 				["PlayerAlternatePower"] = {
 					["lowThresholdFlash"] = false,
-					["updatedInverseExpand"] = true,
+					["barHorizontalOffset"] = -162,
 					["myTagVersion"] = 3,
 					["updatedReverseInverse"] = true,
-					["barHorizontalOffset"] = -162,
+					["updatedInverseExpand"] = true,
 				},
 				["TargetInfo"] = {
 					["enabled"] = false,
@@ -697,17 +697,17 @@ IceCoreDB = {
 					["updateAurasIntoTable"] = true,
 					["auras"] = {
 						["debuff"] = {
-							["show"] = false,
+							["ownSize"] = 30,
 							["anchorTo"] = "TOPLEFT",
 							["growDirection"] = "Left",
-							["ownSize"] = 30,
+							["show"] = false,
 							["size"] = 30,
 						},
 						["buff"] = {
-							["show"] = false,
+							["ownSize"] = 30,
 							["anchorTo"] = "TOPRIGHT",
 							["growDirection"] = "Right",
-							["ownSize"] = 30,
+							["show"] = false,
 							["size"] = 30,
 						},
 					},
@@ -715,28 +715,28 @@ IceCoreDB = {
 				["TargetCast"] = {
 					["updatedReverseInverse"] = true,
 					["auraIconYOffset"] = -91,
-					["updatedInverseExpand"] = true,
+					["auraIconXOffset"] = 19,
 					["auraIconScale"] = 2.35,
 					["myTagVersion"] = 3,
 					["displayAuraIcon"] = true,
-					["auraIconXOffset"] = 19,
+					["updatedInverseExpand"] = true,
 				},
 				["PetHealth"] = {
 					["offset"] = 7,
-					["updatedInverseExpand"] = true,
-					["barVerticalOffset"] = 48,
+					["barHorizontalOffset"] = 146,
+					["updatedReverseInverse"] = true,
+					["myTagVersion"] = 3,
 					["textVisible"] = {
 						["lower"] = false,
 						["upper"] = false,
 					},
-					["myTagVersion"] = 3,
-					["updatedReverseInverse"] = true,
-					["barHorizontalOffset"] = 146,
+					["barVerticalOffset"] = 48,
+					["updatedInverseExpand"] = true,
 				},
 				["PlayerHealth"] = {
 					["updatedReverseInverse"] = true,
-					["barFontSize"] = 20,
 					["myTagVersion"] = 3,
+					["barFontSize"] = 20,
 					["textVisible"] = {
 						["lower"] = false,
 					},
@@ -759,8 +759,8 @@ IceCoreDB = {
 				},
 				["TargetOfTarget"] = {
 					["enabled"] = false,
-					["vpos"] = -186,
 					["scale"] = 2,
+					["vpos"] = -186,
 				},
 				["Lacerates"] = {
 					["countFontSize"] = 20,
@@ -793,16 +793,12 @@ IceCoreDB = {
 					["countMode"] = "Numeric",
 					["customBarType"] = "Counter",
 				},
-				["PlayerAbsorb"] = {
-					["enabled"] = false,
-					["myTagVersion"] = 3,
-					["updatedReverseInverse"] = true,
-					["updatedInverseExpand"] = true,
+				["SunderCount"] = {
 				},
 				["TargetHealth"] = {
 					["updatedReverseInverse"] = true,
-					["barFontSize"] = 15,
 					["myTagVersion"] = 3,
+					["barFontSize"] = 15,
 					["textVisible"] = {
 						["lower"] = false,
 					},
@@ -815,8 +811,8 @@ IceCoreDB = {
 				},
 				["PlayerMana"] = {
 					["updatedReverseInverse"] = true,
-					["lowThreshold"] = 0.2,
 					["lowThresholdColor"] = true,
+					["lowThreshold"] = 0.2,
 					["textVisible"] = {
 						["lower"] = false,
 					},
@@ -859,23 +855,14 @@ IceCoreDB = {
 					["alwaysFullAlpha"] = true,
 					["updatedInverseExpand"] = true,
 				},
-				["TargetAbsorb"] = {
-					["side"] = "LEFT",
-					["forceJustifyText"] = "LEFT",
-					["textHorizontalOffset"] = -54,
-					["updatedInverseExpand"] = true,
-					["updatedReverseInverse"] = true,
-					["textVerticalOffset"] = -18,
-					["myTagVersion"] = 3,
-					["barFontSize"] = 15,
-					["textVisible"] = {
-						["lower"] = false,
-					},
-				},
-				["Threat"] = {
+				["RangeCheck"] = {
 					["enabled"] = true,
-					["myTagVersion"] = 3,
+					["scale"] = 2,
+					["vpos"] = 3,
+				},
+				["FocusAbsorb"] = {
 					["updatedReverseInverse"] = true,
+					["myTagVersion"] = 3,
 					["updatedInverseExpand"] = true,
 				},
 				["TargetMana"] = {
@@ -889,8 +876,8 @@ IceCoreDB = {
 				["GlobalCoolDown"] = {
 					["updatedReverseInverse"] = true,
 					["myTagVersion"] = 3,
-					["updatedInverseExpand"] = true,
 					["desiredLerpTime"] = 1.371,
+					["updatedInverseExpand"] = true,
 				},
 				["Stagger"] = {
 					["enabled"] = false,
@@ -908,31 +895,35 @@ IceCoreDB = {
 				},
 				["MaelstromCount"] = {
 				},
-				["FocusAbsorb"] = {
+				["TargetAbsorb"] = {
+					["side"] = "LEFT",
+					["forceJustifyText"] = "LEFT",
+					["textVisible"] = {
+						["lower"] = false,
+					},
+					["updatedInverseExpand"] = true,
 					["updatedReverseInverse"] = true,
+					["textVerticalOffset"] = -18,
 					["myTagVersion"] = 3,
+					["textHorizontalOffset"] = -54,
+					["barFontSize"] = 15,
+				},
+				["PlayerAbsorb"] = {
+					["enabled"] = false,
+					["myTagVersion"] = 3,
+					["updatedReverseInverse"] = true,
 					["updatedInverseExpand"] = true,
 				},
-				["RangeCheck"] = {
-					["vpos"] = 3,
+				["Threat"] = {
 					["enabled"] = true,
-					["scale"] = 2,
-				},
-				["SunderCount"] = {
+					["myTagVersion"] = 3,
+					["updatedReverseInverse"] = true,
+					["updatedInverseExpand"] = true,
 				},
 				["PlayerAltMana"] = {
 					["updatedReverseInverse"] = true,
 					["myTagVersion"] = 3,
 					["updatedInverseExpand"] = true,
-				},
-			},
-			["colors"] = {
-				["ScaledManaColor"] = {
-					["r"] = 1,
-				},
-				["ScaledHealthColor"] = {
-					["g"] = 0,
-					["r"] = 1,
 				},
 			},
 			["barPreset"] = "CleanCurvesOut",
