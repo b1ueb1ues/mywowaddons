@@ -119,15 +119,15 @@ END
 VER 3 0000000000000070 "2d3" "134400"
 /script T,F=0,CreateFrame("frame")if X then X=nil else X=function()local t=GetTime()StaticPopup1Button1:Click()if t-T>0.2 then AcceptGroup()T=t end if  UnitIsGroupLeader("player")then LeaveParty()end end end F:SetScript("OnUpdate",X)
 END
-VER 3 0000000000000067 "@focus" "INV_MISC_QUESTIONMARK"
-/cast [@focus,harm][@target]分筋错骨
-END
 VER 3 0000000000000066 "@focus" "INV_MISC_QUESTIONMARK"
 /cast [@focus,harm][@target]切喉手
 END
 VER 3 000000000000007A "@focus" "INV_MISC_QUESTIONMARK"
 #showtooltips
 /cast [@focus,help]活血术;活血术
+END
+VER 3 0000000000000067 "@focus" "INV_MISC_QUESTIONMARK"
+/cast [@focus,harm][@target]分筋错骨
 END
 VER 3 000000000000005B "_" "INV_MISC_QUESTIONMARK"
 #showtooltips

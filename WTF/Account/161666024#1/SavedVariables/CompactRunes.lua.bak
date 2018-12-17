@@ -6,36 +6,6 @@ CompactRunesDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
-			["locked"] = true,
-			["procs"] = false,
-			["bars"] = {
-				["BloodPlagueBar"] = {
-					["enabled"] = false,
-				},
-				["DarkTransformationBar"] = {
-					["enabled"] = false,
-				},
-				["VampiricBloodBar"] = {
-				},
-				["EpidemicBar"] = {
-					["enabled"] = false,
-				},
-				["RunicPowerBar"] = {
-				},
-				["BloodBoilBar"] = {
-					["enabled"] = false,
-				},
-				["SoulReaperBar"] = {
-					["enabled"] = false,
-				},
-				["BoneShieldBar"] = {
-					["enabled"] = false,
-					["progress"] = "None",
-				},
-				["BloodTapBar"] = {
-					["enabled"] = false,
-				},
-			},
 			["minimap"] = {
 				["minimapPos"] = 207.821356202164,
 				["hide"] = false,
@@ -107,9 +77,39 @@ CompactRunesDB = {
 					},
 				},
 			},
+			["procs"] = false,
+			["locked"] = true,
 			["frame"] = {
 				["y"] = 75.9259338378906,
 				["x"] = 115.338745117188,
+			},
+			["bars"] = {
+				["BloodPlagueBar"] = {
+					["enabled"] = false,
+				},
+				["DarkTransformationBar"] = {
+					["enabled"] = false,
+				},
+				["VampiricBloodBar"] = {
+				},
+				["EpidemicBar"] = {
+					["enabled"] = false,
+				},
+				["RunicPowerBar"] = {
+				},
+				["BloodBoilBar"] = {
+					["enabled"] = false,
+				},
+				["SoulReaperBar"] = {
+					["enabled"] = false,
+				},
+				["BloodTapBar"] = {
+					["enabled"] = false,
+				},
+				["BoneShieldBar"] = {
+					["enabled"] = false,
+					["progress"] = "None",
+				},
 			},
 			["profileVersion"] = 2,
 		},

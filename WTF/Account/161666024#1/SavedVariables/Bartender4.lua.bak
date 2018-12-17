@@ -427,9 +427,9 @@ Bartender4DB = {
 							["autoassist"] = true,
 						}, -- [5]
 						{
-							["fadeout"] = true,
 							["version"] = 3,
 							["fadeoutalpha"] = 0,
+							["fadeout"] = true,
 							["position"] = {
 								["y"] = 115.137115478516,
 								["x"] = -339.352569580078,
@@ -770,14 +770,14 @@ Bartender4DB = {
 						["scale"] = 0.949999988079071,
 					},
 				},
-				["暗言术喵 - 燃烧之刃"] = {
+				["b1ueb1ues"] = {
 					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
-						["y"] = 22.0980074016921,
+						["y"] = 37,
 						["x"] = -499.800819814433,
 						["point"] = "BOTTOM",
-						["scale"] = 0.949999988079071,
+						["scale"] = 1.05,
 					},
 				},
 				["萌娘百科 - 燃烧之刃"] = {
@@ -800,23 +800,13 @@ Bartender4DB = {
 						["scale"] = 0.949999988079071,
 					},
 				},
-				["b1ueb1ues"] = {
+				["暗言术喵 - 燃烧之刃"] = {
 					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
-						["y"] = 37,
+						["y"] = 22.0980074016921,
 						["x"] = -499.800819814433,
 						["point"] = "BOTTOM",
-						["scale"] = 1.05,
-					},
-				},
-				["喵乎一人之心 - 燃烧之刃"] = {
-					["enabled"] = true,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 15.2000034332275,
-						["x"] = 411.6294748152,
-						["point"] = "BOTTOMLEFT",
 						["scale"] = 0.949999988079071,
 					},
 				},
@@ -827,6 +817,16 @@ Bartender4DB = {
 						["y"] = 57,
 						["x"] = -516,
 						["point"] = "BOTTOM",
+					},
+				},
+				["喵乎一人之心 - 燃烧之刃"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 15.2000034332275,
+						["x"] = 411.6294748152,
+						["point"] = "BOTTOMLEFT",
+						["scale"] = 0.949999988079071,
 					},
 				},
 			},
@@ -886,6 +886,14 @@ Bartender4DB = {
 						["point"] = "BOTTOMLEFT",
 					},
 				},
+				["b1ueb1ues"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 37.1371154785156,
+						["x"] = -493.771148681641,
+						["point"] = "BOTTOM",
+					},
+				},
 				["MONK"] = {
 					["enabled"] = true,
 					["version"] = 3,
@@ -896,14 +904,6 @@ Bartender4DB = {
 					},
 				},
 				["暗言术喵 - 燃烧之刃"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 37.1371154785156,
-						["x"] = -493.771148681641,
-						["point"] = "BOTTOM",
-					},
-				},
-				["b1ueb1ues"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 37.1371154785156,
@@ -1199,7 +1199,7 @@ Bartender4DB = {
 						["point"] = "BOTTOMLEFT",
 					},
 				},
-				["暗言术喵 - 燃烧之刃"] = {
+				["b1ueb1ues"] = {
 					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
@@ -1226,12 +1226,21 @@ Bartender4DB = {
 						["point"] = "BOTTOMLEFT",
 					},
 				},
-				["b1ueb1ues"] = {
+				["暗言术喵 - 燃烧之刃"] = {
 					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
 						["y"] = 3.00000047683716,
 						["x"] = -470.705474853516,
+						["point"] = "BOTTOM",
+					},
+				},
+				["MONK"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 65,
+						["x"] = -516,
 						["point"] = "BOTTOM",
 					},
 				},
@@ -1242,15 +1251,6 @@ Bartender4DB = {
 						["y"] = 12.0000085830688,
 						["x"] = 387.608154296875,
 						["point"] = "BOTTOMLEFT",
-					},
-				},
-				["MONK"] = {
-					["enabled"] = true,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 65,
-						["x"] = -516,
-						["point"] = "BOTTOM",
 					},
 				},
 			},

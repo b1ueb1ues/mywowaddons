@@ -37,10 +37,10 @@ MSBTProfiles_SavedVars = {
 			},
 			["scrollAreas"] = {
 				["Notification"] = {
-					["disabled"] = true,
-					["scrollWidth"] = 190,
 					["offsetX"] = -436,
 					["offsetY"] = 192,
+					["disabled"] = true,
+					["scrollWidth"] = 190,
 				},
 				["Incoming"] = {
 					["stickyDirection"] = "Up",
@@ -114,10 +114,10 @@ MSBTProfiles_SavedVars = {
 					["offsetX"] = -304,
 				},
 				["Notification"] = {
-					["offsetX"] = -436,
-					["offsetY"] = 192,
 					["disabled"] = true,
 					["scrollWidth"] = 190,
+					["offsetX"] = -436,
+					["offsetY"] = 192,
 				},
 			},
 			["events"] = {
@@ -149,8 +149,8 @@ MSBTProfiles_SavedVars = {
 				},
 			},
 			["hideFullHoTOverheals"] = false,
-			["enableBlizzardHealing"] = false,
 			["normalFontAlpha"] = 75,
+			["enableBlizzardHealing"] = false,
 			["throttleList"] = {
 				["吸血鬼之触"] = false,
 				["重度醉拳"] = 5,

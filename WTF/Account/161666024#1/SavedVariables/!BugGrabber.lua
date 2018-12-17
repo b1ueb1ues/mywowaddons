@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
 	["lastSanitation"] = 3,
-	["session"] = 1529,
+	["session"] = 1539,
 	["errors"] = {
 		{
 			["message"] = "[ADDON_ACTION_FORBIDDEN] 插件 'TitanLocation' 尝试调用保护功能 'UseQuestLogSpecialItem()'。",
@@ -389,66 +389,66 @@ BugGrabberDB = {
 			["counter"] = 8,
 		}, -- [50]
 		{
-			["message"] = "Usage: local spellID = C_SpecializationInfo.GetSpellsDisplay(specializationID)",
-			["time"] = "2018/09/21 13:32:17",
-			["locals"] = "(*temporary) = \"Usage: local spellID = C_SpecializationInfo.GetSpellsDisplay(specializationID)\"\n",
-			["stack"] = "[C]: in function `GetSpellsDisplay'\n...rface\\AddOns\\Blizzard_TalentUI\\Blizzard_TalentUI.lua:1247: in function `PlayerTalentFrame_UpdateSpecFrame'\n...rface\\AddOns\\Blizzard_TalentUI\\Blizzard_TalentUI.lua:417: in function `PlayerTalentFrame_Refresh'\n...rface\\AddOns\\Blizzard_TalentUI\\Blizzard_TalentUI.lua:306: in function <...rface\\AddOns\\Blizzard_TalentUI\\Blizzard_TalentUI.lua:299>",
-			["session"] = 1474,
-			["counter"] = 7,
-		}, -- [51]
-		{
-			["message"] = "...face\\AddOns\\Blizzard_GuildControlUI\\Localization.lua:4: attempt to index global 'GuildControlUIRankSettingsFrameRosterLabel' (a nil value)",
-			["time"] = "2018/09/14 17:47:28",
-			["locals"] = "(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"TOPLEFT\"\n(*temporary) = GuildControlUIRankSettingsFrameBankBg {\n 0 = <userdata>\n}\n(*temporary) = 7\n(*temporary) = -4\n(*temporary) = \"attempt to index global 'GuildControlUIRankSettingsFrameRosterLabel' (a nil value)\"\n",
-			["stack"] = "...face\\AddOns\\Blizzard_GuildControlUI\\Localization.lua:4: in main chunk\n[C]: in function `LoadAddOn'\nInterface\\FrameXML\\UIParent.lua:446: in function `UIParentLoadAddOn'\nInterface\\FrameXML\\UIParent.lua:692: in function `Communities_LoadUI'\nInterface\\FrameXML\\UIParent.lua:926: in function `ToggleCommunitiesFrame'\nInterface\\FrameXML\\UIParent.lua:813: in function <Interface\\FrameXML\\UIParent.lua:792>",
-			["session"] = 1507,
-			["counter"] = 106,
-		}, -- [52]
-		{
 			["message"] = "Interface\\FrameXML\\PetActionBarFrame.lua:246: attempt to perform arithmetic on a nil value",
 			["time"] = "2018/11/13 20:38:01",
 			["locals"] = "InCombatSkipped",
 			["stack"] = "Interface\\FrameXML\\PetActionBarFrame.lua:246: in function `PetActionBar_UpdatePositionValues'\nInterface\\FrameXML\\UIParent.lua:3008: in function `UIParentManageFramePositions'\nInterface\\FrameXML\\UIParent.lua:2329: in function <Interface\\FrameXML\\UIParent.lua:2316>\n[C]: in function `SetAttribute'\nInterface\\FrameXML\\UIParent.lua:3118: in function <Interface\\FrameXML\\UIParent.lua:3116>\n[C]: in function `UIParent_ManageFramePositions'\nInterface\\FrameXML\\MainMenuBar.lua:172: in function <Interface\\FrameXML\\MainMenuBar.lua:149>\n[C]: in function `MainMenuBarVehicleLeaveButton_Update'\nInterface\\FrameXML\\MainMenuBar.lua:146: in function <Interface\\FrameXML\\MainMenuBar.lua:145>",
 			["session"] = 1515,
 			["counter"] = 3,
-		}, -- [53]
+		}, -- [51]
+		{
+			["message"] = "Usage: local spellID = C_SpecializationInfo.GetSpellsDisplay(specializationID)",
+			["time"] = "2018/09/21 13:32:17",
+			["locals"] = "(*temporary) = \"Usage: local spellID = C_SpecializationInfo.GetSpellsDisplay(specializationID)\"\n",
+			["stack"] = "[C]: in function `GetSpellsDisplay'\n...rface\\AddOns\\Blizzard_TalentUI\\Blizzard_TalentUI.lua:1247: in function `PlayerTalentFrame_UpdateSpecFrame'\n...rface\\AddOns\\Blizzard_TalentUI\\Blizzard_TalentUI.lua:417: in function `PlayerTalentFrame_Refresh'\n...rface\\AddOns\\Blizzard_TalentUI\\Blizzard_TalentUI.lua:306: in function <...rface\\AddOns\\Blizzard_TalentUI\\Blizzard_TalentUI.lua:299>",
+			["session"] = 1538,
+			["counter"] = 8,
+		}, -- [52]
 		{
 			["message"] = "Interface\\AddOns\\ItemLevelDisplay\\RelNotes.lua:3: Usage: GetAddon(name): 'name' - Cannot find an AceAddon 'ItemLevelDisplay'.",
 			["time"] = "2018/09/14 18:05:51",
 			["locals"] = "(*temporary) = \"Usage: GetAddon(name): 'name' - Cannot find an AceAddon 'ItemLevelDisplay'.\"\n",
 			["stack"] = "[C]: ?\nInterface\\AddOns\\Ace3\\AceAddon-3.0\\AceAddon-3.0-12.lua:186: in function `GetAddon'\nInterface\\AddOns\\ItemLevelDisplay\\RelNotes.lua:3: in main chunk",
-			["session"] = 1529,
-			["counter"] = 373,
-		}, -- [54]
+			["session"] = 1539,
+			["counter"] = 383,
+		}, -- [53]
 		{
 			["message"] = "Interface\\AddOns\\ItemLevelDisplay\\Bags.lua:38: attempt to index local 'addon' (a nil value)",
 			["time"] = "2018/09/14 18:05:51",
 			["locals"] = "me = \"ILD-Blizzard\"\nns = <table> {\n SetDefaultModuleLibraries = <function> defined @Interface\\AddOns\\Ace3\\AceAddon-3.0\\AceAddon-3.0.lua:398\n Enable = <function> defined @Interface\\AddOns\\Ace3\\AceAddon-3.0\\AceAddon-3.0.lua:325\n RegisterChatCommand = <function> defined @Interface\\AddOns\\Ace3\\AceConsole-3.0\\AceConsole-3.0.lua:85\n print = <function> defined @Interface\\AddOns\\ItemLevelDisplay\\Bags.lua:27\n EnableModule = <function> defined @Interface\\AddOns\\Ace3\\AceAddon-3.0\\AceAddon-3.0.lua:363\n modules = <table> {\n }\n GetModule = <function> defined @Interface\\AddOns\\Ace3\\AceAddon-3.0\\AceAddon-3.0.lua:241\n IterateEmbeds = <function> defined @Interface\\AddOns\\Ace3\\AceAddon-3.0\\AceAddon-3.0.lua:473\n SecureHook = <function> defined @Interface\\AddOns\\Ace3\\AceHook-3.0\\AceHook-3.0.lua:336\n defaultModuleLibraries = <table> {\n }\n TimeLeft = <function> defined @Interface\\AddOns\\Ace3\\AceTimer-3.0\\AceTimer-3.0.lua:172\n UnregisterChatCommand = <function> defined @Interface\\AddOns\\Ace3\\AceConsole-3.0\\AceConsole-3.0.lua:111\n RawHookScript = <function> defined @Interface\\AddOns\\Ace3\\AceHook-3.0\\AceHook-3.0.lua:395\n ScheduleRepeatingTimer = <function> defined @Interface\\AddOns\\Ace3\\AceTimer-3.0\\AceTimer-3.0.lua:129\n CancelAllTimers = <function> defined @Interface\\AddOns\\Ace3\\AceTimer-3.0\\AceTimer-3.0.lua:160\n Printf = <function> defined @Interface\\AddOns\\Ace3\\AceConsole-3.0\\AceConsole-3.0.lua:69\n GetName = <function> defined @Interface\\AddOns\\Ace3\\AceAddon-3.0\\AceAddon-3.0.lua:310\n name = \"ILD-Blizzard\"\n IsEnabled = <function> defined @Interface\\AddOns\\Ace3\\AceAddon-3.0\\AceAddon-3.0.lua:482\n orderedModules = <table> {\n }\n ScheduleTimer = <function> defined @Interface\\AddOns\\Ace3\\AceTimer-3.0\\AceTimer-3.0.lua:94\n DisableModule = <function> defined @Interface\\AddOns\\Ace3\\AceAddon-3.0\\AceAddon-3.0.lua:381\n RegisterMessage = <function> defined @Interface\\AddOns\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:116\n GetArgs = <function> defined @Interface\\AddOns\\Ace3\\AceConsole-3.0\\AceConsole-3.0.lua:144\n Print = <function> defined @Interface\\AddOns\\Ace3\\AceConsole-3.0\\AceConsole-3.0.lua:54\n IsHooked = <function> defined @Interface\\AddOns\\Ace3\\AceHook-3.0\\AceHook-3.0.lua:493\n CancelTimer = <function> defined @Interface\\AddOns\\Ace3\\AceTimer-3.0\\AceTimer-3.0.lua:147\n hooks = <table> {\n }\n IsModule = <function> defined @Interface\\AddOns\\Ace3\\AceAddon-3.0\\AceAddon-3.0.lua:499\n UnregisterAllEvents = <function> defined @Interface\\AddOns\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:200\n SetDefaultModuleState = <function> defined @Interface\\AddOns\\Ace3\\AceAddon-3.0\\AceAddon-3.0.lua:418\n SendMessage = <function> defined @Interface\\AddOns\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:85\n UnregisterMessage = <function> defined @Interface\\AddOns\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:179\n SetEnabledState = <function> defined @Interface\\AddOns\\Ace3\\AceAddon-3.0\\AceAddon-3.0.lua:455\n Hook = <function> defined @Interface\\AddOns\\Ace3\\AceHook-3.0\\AceHook-3.0.lua:274\n enabledState = true\n defaultModuleState = true\n RegisterEvent = <function> defined @Interface\\AddOns\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:116\n UnregisterAllMessages = <function> defined @Interface\\AddOns\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:200\n HookScript = <function> defined @Interface\\AddOns\\Ace3\\AceHook-3.0\\AceHook-3.0.lua:366\n UnhookAll = <function> defined @Interface\\AddOns\\Ace3\\AceHook-3.0\\AceHook-3.0.lua:477\n Unhook = <function> defined @Interface\\AddOns\\Ace3\\AceHook-3.0\\AceHook-3.0.lua:418\n IterateModules = <function> defined @Interface\\AddOns\\Ace3\\AceAddon-3.0\\AceAddon-3.0.lua:468\n SecureHookScript = <function> defined @Interface\\AddOns\\Ace3\\AceHook-3.0\\AceHook-3.0.lua:410\n RawHook = <function> defined @Interface\\AddOns\\Ace3\\AceHook-3.0\\AceHook-3.0.lua:313\n NewModule = <function> defined @Interface\\AddOns\\Ace3\\AceAddon-3.0\\AceAddon-3.0.lua:266\n SetDefaultModulePrototype = <function> defined @Interface\\AddOns\\Ace3\\AceAddon-3.0\\AceAddon-3.0.lua:440\n UnregisterEvent = <function> defined @Interface\\AddOns\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:",
 			["stack"] = "Interface\\AddOns\\ItemLevelDisplay\\Bags.lua:38: in main chunk",
-			["session"] = 1529,
-			["counter"] = 373,
-		}, -- [55]
+			["session"] = 1539,
+			["counter"] = 383,
+		}, -- [54]
 		{
 			["message"] = "Interface\\AddOns\\ILD-Blizzard\\core.lua:4: attempt to index local 'module' (a nil value)",
 			["time"] = "2018/09/14 18:05:51",
 			["locals"] = "me = \"ILD-Blizzard\"\nns = <table> {\n SetDefaultModuleLibraries = <function> defined @Interface\\AddOns\\Ace3\\AceAddon-3.0\\AceAddon-3.0.lua:398\n Enable = <function> defined @Interface\\AddOns\\Ace3\\AceAddon-3.0\\AceAddon-3.0.lua:325\n RegisterChatCommand = <function> defined @Interface\\AddOns\\Ace3\\AceConsole-3.0\\AceConsole-3.0.lua:85\n print = <function> defined @Interface\\AddOns\\ItemLevelDisplay\\Bags.lua:27\n EnableModule = <function> defined @Interface\\AddOns\\Ace3\\AceAddon-3.0\\AceAddon-3.0.lua:363\n modules = <table> {\n }\n GetModule = <function> defined @Interface\\AddOns\\Ace3\\AceAddon-3.0\\AceAddon-3.0.lua:241\n IterateEmbeds = <function> defined @Interface\\AddOns\\Ace3\\AceAddon-3.0\\AceAddon-3.0.lua:473\n SecureHook = <function> defined @Interface\\AddOns\\Ace3\\AceHook-3.0\\AceHook-3.0.lua:336\n defaultModuleLibraries = <table> {\n }\n TimeLeft = <function> defined @Interface\\AddOns\\Ace3\\AceTimer-3.0\\AceTimer-3.0.lua:172\n UnregisterChatCommand = <function> defined @Interface\\AddOns\\Ace3\\AceConsole-3.0\\AceConsole-3.0.lua:111\n RawHookScript = <function> defined @Interface\\AddOns\\Ace3\\AceHook-3.0\\AceHook-3.0.lua:395\n ScheduleRepeatingTimer = <function> defined @Interface\\AddOns\\Ace3\\AceTimer-3.0\\AceTimer-3.0.lua:129\n CancelAllTimers = <function> defined @Interface\\AddOns\\Ace3\\AceTimer-3.0\\AceTimer-3.0.lua:160\n Printf = <function> defined @Interface\\AddOns\\Ace3\\AceConsole-3.0\\AceConsole-3.0.lua:69\n GetName = <function> defined @Interface\\AddOns\\Ace3\\AceAddon-3.0\\AceAddon-3.0.lua:310\n name = \"ILD-Blizzard\"\n IsEnabled = <function> defined @Interface\\AddOns\\Ace3\\AceAddon-3.0\\AceAddon-3.0.lua:482\n orderedModules = <table> {\n }\n ScheduleTimer = <function> defined @Interface\\AddOns\\Ace3\\AceTimer-3.0\\AceTimer-3.0.lua:94\n DisableModule = <function> defined @Interface\\AddOns\\Ace3\\AceAddon-3.0\\AceAddon-3.0.lua:381\n RegisterMessage = <function> defined @Interface\\AddOns\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:116\n GetArgs = <function> defined @Interface\\AddOns\\Ace3\\AceConsole-3.0\\AceConsole-3.0.lua:144\n Print = <function> defined @Interface\\AddOns\\Ace3\\AceConsole-3.0\\AceConsole-3.0.lua:54\n IsHooked = <function> defined @Interface\\AddOns\\Ace3\\AceHook-3.0\\AceHook-3.0.lua:493\n CancelTimer = <function> defined @Interface\\AddOns\\Ace3\\AceTimer-3.0\\AceTimer-3.0.lua:147\n hooks = <table> {\n }\n IsModule = <function> defined @Interface\\AddOns\\Ace3\\AceAddon-3.0\\AceAddon-3.0.lua:499\n UnregisterAllEvents = <function> defined @Interface\\AddOns\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:200\n SetDefaultModuleState = <function> defined @Interface\\AddOns\\Ace3\\AceAddon-3.0\\AceAddon-3.0.lua:418\n SendMessage = <function> defined @Interface\\AddOns\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:85\n UnregisterMessage = <function> defined @Interface\\AddOns\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:179\n SetEnabledState = <function> defined @Interface\\AddOns\\Ace3\\AceAddon-3.0\\AceAddon-3.0.lua:455\n Hook = <function> defined @Interface\\AddOns\\Ace3\\AceHook-3.0\\AceHook-3.0.lua:274\n enabledState = true\n defaultModuleState = true\n RegisterEvent = <function> defined @Interface\\AddOns\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:116\n UnregisterAllMessages = <function> defined @Interface\\AddOns\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:200\n HookScript = <function> defined @Interface\\AddOns\\Ace3\\AceHook-3.0\\AceHook-3.0.lua:366\n UnhookAll = <function> defined @Interface\\AddOns\\Ace3\\AceHook-3.0\\AceHook-3.0.lua:477\n Unhook = <function> defined @Interface\\AddOns\\Ace3\\AceHook-3.0\\AceHook-3.0.lua:418\n IterateModules = <function> defined @Interface\\AddOns\\Ace3\\AceAddon-3.0\\AceAddon-3.0.lua:468\n SecureHookScript = <function> defined @Interface\\AddOns\\Ace3\\AceHook-3.0\\AceHook-3.0.lua:410\n RawHook = <function> defined @Interface\\AddOns\\Ace3\\AceHook-3.0\\AceHook-3.0.lua:313\n NewModule = <function> defined @Interface\\AddOns\\Ace3\\AceAddon-3.0\\AceAddon-3.0.lua:266\n SetDefaultModulePrototype = <function> defined @Interface\\AddOns\\Ace3\\AceAddon-3.0\\AceAddon-3.0.lua:440\n UnregisterEvent = <function> defined @Interface\\AddOns\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:",
 			["stack"] = "Interface\\AddOns\\ILD-Blizzard\\core.lua:4: in main chunk",
-			["session"] = 1529,
-			["counter"] = 373,
-		}, -- [56]
+			["session"] = 1539,
+			["counter"] = 383,
+		}, -- [55]
 		{
 			["message"] = "Interface\\AddOns\\ItemLevelDisplay\\ItemLevelDisplay-2.1.2 70200.lua:528: unexpected symbol near 'if'",
 			["time"] = "2018/09/14 18:05:51",
 			["locals"] = "",
 			["stack"] = "",
-			["session"] = 1529,
-			["counter"] = 1140,
+			["session"] = 1539,
+			["counter"] = 1170,
+		}, -- [56]
+		{
+			["message"] = "...face\\AddOns\\Blizzard_GuildControlUI\\Localization.lua:4: attempt to index global 'GuildControlUIRankSettingsFrameRosterLabel' (a nil value)",
+			["time"] = "2018/09/14 17:47:28",
+			["locals"] = "(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"TOPLEFT\"\n(*temporary) = GuildControlUIRankSettingsFrameBankBg {\n 0 = <userdata>\n}\n(*temporary) = 7\n(*temporary) = -4\n(*temporary) = \"attempt to index global 'GuildControlUIRankSettingsFrameRosterLabel' (a nil value)\"\n",
+			["stack"] = "...face\\AddOns\\Blizzard_GuildControlUI\\Localization.lua:4: in main chunk\n[C]: in function `LoadAddOn'\nInterface\\FrameXML\\UIParent.lua:446: in function `UIParentLoadAddOn'\nInterface\\FrameXML\\UIParent.lua:692: in function `Communities_LoadUI'\nInterface\\FrameXML\\UIParent.lua:926: in function `ToggleCommunitiesFrame'\nInterface\\FrameXML\\UIParent.lua:813: in function <Interface\\FrameXML\\UIParent.lua:792>",
+			["session"] = 1539,
+			["counter"] = 108,
 		}, -- [57]
 		{
 			["message"] = "(null)",
-			["session"] = 1529,
+			["session"] = 1539,
 			["time"] = "2018/09/14 17:47:28",
-			["counter"] = 1865,
+			["counter"] = 1911,
 		}, -- [58]
 	},
 }

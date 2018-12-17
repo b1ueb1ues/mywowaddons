@@ -13,27 +13,17 @@ oRA3DB = {
 		},
 		["Tanks"] = {
 		},
-		["GuildRepairs"] = {
+		["Loot"] = {
 		},
 		["Promote"] = {
 		},
 		["Cooldowns"] = {
 			["global"] = {
 				["spellsOnCooldown"] = {
-					[49028] = {
-						["Player-829-03E955CC"] = 1807875.752,
-					},
-					[48792] = {
-						["Player-829-03E955CC"] = 1807924.543,
-					},
-					[116849] = {
-						["Player-829-0371A216"] = 1807892.588,
-					},
-					[115310] = {
-						["Player-829-0371A216"] = 1807949.701,
-					},
 				},
-				["lastTime"] = 1887550.189,
+				["lastTime"] = 2156151.682,
+				["chargeSpellsOnCooldown"] = {
+				},
 			},
 			["profiles"] = {
 				["Default"] = {
@@ -69,7 +59,7 @@ oRA3DB = {
 		},
 		["Consumables"] = {
 		},
-		["Loot"] = {
+		["GuildRepairs"] = {
 		},
 	},
 	["profileKeys"] = {

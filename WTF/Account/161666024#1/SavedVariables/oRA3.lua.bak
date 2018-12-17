@@ -11,30 +11,21 @@ oRA3DB = {
 		},
 		["Alerts"] = {
 		},
-		["GuildRepairs"] = {
-		},
 		["Loot"] = {
+		},
+		["GuildRepairs"] = {
 		},
 		["Promote"] = {
 		},
 		["Cooldowns"] = {
 			["global"] = {
-				["spellsOnCooldown"] = {
-					[49028] = {
-						["Player-829-03E955CC"] = 1807875.752,
-					},
-					[116849] = {
-						["Player-829-0371A216"] = 1807892.588,
-					},
-					[115310] = {
-						["Player-829-0371A216"] = 1807949.701,
-					},
-					[48792] = {
-						["Player-829-03E955CC"] = 1807924.543,
-					},
-				},
-				["lastTime"] = 1807871.196,
+				["lastTime"] = 2153347.482,
 				["chargeSpellsOnCooldown"] = {
+					[109132] = {
+						["Player-829-0386D7DB"] = {
+							2153365.335, -- [1]
+						},
+					},
 				},
 			},
 			["profiles"] = {

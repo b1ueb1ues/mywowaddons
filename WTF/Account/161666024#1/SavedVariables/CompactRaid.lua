@@ -45,9 +45,9 @@ CompactRaidDB = {
 	["spacing"] = 1,
 	["showRaidIcon"] = 1,
 	["containerBorderSize"] = 12,
-	["version"] = 5.09,
-	["raidFilter"] = "CLASS",
 	["powerBarHeight"] = 4,
+	["raidFilter"] = "CLASS",
+	["version"] = 5.09,
 	["profiles"] = {
 		["喵言术嗷呜 - 燃烧之刃"] = {
 			["modules"] = {
@@ -192,6 +192,40 @@ CompactRaidDB = {
 			["version"] = 4.31,
 			["showPartyPets"] = 1,
 		},
+		["Pantyazure - 燃烧之刃"] = {
+			["modules"] = {
+				["CornerIndicators"] = {
+					["talent2"] = {
+						["TOPLEFT"] = "[ignoreVehicle]#1#[aura]#缓落术#",
+					},
+					["talent3"] = {
+						["TOPLEFT"] = "[ignoreVehicle]#1#[aura]#缓落术#",
+					},
+					["talent1"] = {
+						["TOPLEFT"] = "[ignoreVehicle]#1#[aura]#缓落术#",
+					},
+				},
+				["ClickSets"] = {
+					["talent2"] = {
+						["alt-1"] = "buildin:缓落术",
+						["1"] = "action:target",
+						["2"] = "action:togglemenu",
+					},
+					["talent3"] = {
+						["alt-1"] = "buildin:缓落术",
+						["1"] = "action:target",
+						["2"] = "action:togglemenu",
+					},
+					["talent1"] = {
+						["alt-1"] = "buildin:缓落术",
+						["1"] = "action:target",
+						["2"] = "action:togglemenu",
+					},
+				},
+			},
+			["version"] = 4.33,
+			["showPartyPets"] = 1,
+		},
 		["喵喵围炉斯 - 燃烧之刃"] = {
 			["modules"] = {
 				["RaidDebuff"] = {
@@ -207,23 +241,6 @@ CompactRaidDB = {
 				},
 			},
 			["version"] = 4.22,
-			["showPartyPets"] = 1,
-		},
-		["备前长光 - 白银之手"] = {
-			["modules"] = {
-				["Artwork"] = {
-					["disabled"] = 1,
-				},
-				["ClickSets"] = {
-					["disabled"] = 1,
-				},
-				["CornerIndicators"] = {
-					["disabled"] = 1,
-				},
-				["RaidDebuff"] = {
-				},
-			},
-			["version"] = 4.33,
 			["showPartyPets"] = 1,
 		},
 		["萌娘百科 - 燃烧之刃"] = {
@@ -277,35 +294,18 @@ CompactRaidDB = {
 			["version"] = 5.06,
 			["showPartyPets"] = 1,
 		},
-		["Pantyazure - 燃烧之刃"] = {
+		["备前长光 - 白银之手"] = {
 			["modules"] = {
-				["CornerIndicators"] = {
-					["talent2"] = {
-						["TOPLEFT"] = "[ignoreVehicle]#1#[aura]#缓落术#",
-					},
-					["talent3"] = {
-						["TOPLEFT"] = "[ignoreVehicle]#1#[aura]#缓落术#",
-					},
-					["talent1"] = {
-						["TOPLEFT"] = "[ignoreVehicle]#1#[aura]#缓落术#",
-					},
+				["Artwork"] = {
+					["disabled"] = 1,
 				},
 				["ClickSets"] = {
-					["talent2"] = {
-						["alt-1"] = "buildin:缓落术",
-						["1"] = "action:target",
-						["2"] = "action:togglemenu",
-					},
-					["talent3"] = {
-						["alt-1"] = "buildin:缓落术",
-						["1"] = "action:target",
-						["2"] = "action:togglemenu",
-					},
-					["talent1"] = {
-						["alt-1"] = "buildin:缓落术",
-						["1"] = "action:target",
-						["2"] = "action:togglemenu",
-					},
+					["disabled"] = 1,
+				},
+				["CornerIndicators"] = {
+					["disabled"] = 1,
+				},
+				["RaidDebuff"] = {
 				},
 			},
 			["version"] = 4.33,
@@ -330,11 +330,11 @@ CompactRaidDB = {
 						["TOPLEFT"] = "[selfcast]#1#[aura]#恢复#[style]#2#",
 					},
 					["talent1"] = {
-						["TOPRIGHT"] = "[selfcast]#1#[ignoreVehicle]#1#[aura]#救赎#[b1]#0.0#[b2]#0.0#[b3]#0.0#[g1]#1.0#[g3]#0.0#[g2]#1.0#[r3]#1.0#[style]#3#[r1]#0.0#[r2]#1.0#",
-						["RIGHT"] = "[selfcast]#1#[aura]#救赎#[b1]#0.0#[b2]#0.0#[b3]#0.0#[g1]#1.0#[g3]#0.0#[g2]#1.0#[r3]#1.0#[r1]#0.0#[r2]#1.0#",
-						["TOPLEFT"] = "[selfcast]#1#[aura]#恢复#[style]#2#",
-						["BOTTOMLEFT"] = "[ignoreVehicle]#1#[aura]#愈合祷言#",
 						["BOTTOMRIGHT"] = "[selfcast]#1#[aura]#救赎#[b1]#0.0#[b2]#0.0#[b3]#0.0#[g1]#1.0#[g3]#0.0#[g2]#1.0#[r3]#1.0#[style]#2#[r1]#0.0#[r2]#1.0#",
+						["RIGHT"] = "[selfcast]#1#[aura]#救赎#[b1]#0.0#[b2]#0.0#[b3]#0.0#[g1]#1.0#[g3]#0.0#[g2]#1.0#[r3]#1.0#[r1]#0.0#[r2]#1.0#",
+						["TOPRIGHT"] = "[selfcast]#1#[ignoreVehicle]#1#[aura]#救赎#[b1]#0.0#[b2]#0.0#[b3]#0.0#[g1]#1.0#[g3]#0.0#[g2]#1.0#[r3]#1.0#[style]#3#[r1]#0.0#[r2]#1.0#",
+						["BOTTOMLEFT"] = "[ignoreVehicle]#1#[aura]#愈合祷言#",
+						["TOPLEFT"] = "[selfcast]#1#[aura]#恢复#[style]#2#",
 					},
 				},
 				["Artwork"] = {
@@ -369,6 +369,6 @@ CompactRaidDB = {
 	["nameColor"] = "1.0,1.0,1.0",
 	["nameXOffset"] = 0,
 	["containerAlpha"] = 75,
-	["healthtextmode"] = 0,
 	["keepgroupstogether"] = 1,
+	["healthtextmode"] = 0,
 }

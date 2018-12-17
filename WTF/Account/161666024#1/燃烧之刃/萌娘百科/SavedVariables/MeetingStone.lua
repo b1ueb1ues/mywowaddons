@@ -10,6 +10,24 @@ MEETINGSTONE_CHARACTER_DB = {
 			["minimap"] = {
 				["minimapPos"] = 176.017331171881,
 			},
+			["searchHistoryList"] = {
+				"3-135-496-0", -- [1]
+				"3-0-657-0", -- [2]
+				"2-142-518-0", -- [3]
+				"2-142-517-0", -- [4]
+				"3-0-458-0", -- [5]
+			},
+			["lastSearchCode"] = "3-135-496-0",
+			["settings"] = {
+				["panel"] = false,
+				["storage"] = {
+					["y"] = -78.3353271484375,
+					["x"] = -177.372924804688,
+					["point"] = "TOPRIGHT",
+					["scale"] = 1,
+				},
+			},
+			["advShine"] = "80000.05",
 			["recent"] = {
 				["3-0-657-0"] = {
 					{
@@ -824,24 +842,6 @@ MEETINGSTONE_CHARACTER_DB = {
 					}, -- [39]
 				},
 			},
-			["searchHistoryList"] = {
-				"3-135-496-0", -- [1]
-				"3-0-657-0", -- [2]
-				"2-142-518-0", -- [3]
-				"2-142-517-0", -- [4]
-				"3-0-458-0", -- [5]
-			},
-			["settings"] = {
-				["panel"] = false,
-				["storage"] = {
-					["y"] = -78.3353271484375,
-					["x"] = -177.372924804688,
-					["point"] = "TOPRIGHT",
-					["scale"] = 1,
-				},
-			},
-			["advShine"] = "80000.05",
-			["lastSearchCode"] = "3-135-496-0",
 			["worldQuestHelp"] = true,
 			["chatGroupListening"] = {
 				["APP_WHISPER"] = {

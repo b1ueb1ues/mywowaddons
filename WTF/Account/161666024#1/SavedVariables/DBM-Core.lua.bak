@@ -95,8 +95,8 @@ DBM_AllSavedOptions = {
 		["ShowCountdownText"] = true,
 		["ShowRespawn"] = true,
 		["SpecialWarningDuration"] = 4,
+		["PTCountThreshold"] = 5,
 		["EventSoundWipe"] = "None",
-		["HideQuestTooltips"] = true,
 		["EventSoundMusic"] = "None",
 		["LogOnlyRaidBosses"] = false,
 		["DontShowReminders"] = false,
@@ -104,12 +104,12 @@ DBM_AllSavedOptions = {
 		["ForumsMessageShown"] = 15226,
 		["DisableGuildStatus"] = false,
 		["EventSoundEngage"] = "",
-		["HideBossEmoteFrame2"] = true,
+		["AutoReplySound"] = true,
 		["HUDSize2"] = 5,
 		["AlwaysShowSpeedKillTimer2"] = false,
 		["FilterDispel"] = true,
-		["AutoReplySound"] = true,
-		["DontShowHealthFrame"] = false,
+		["HideBossEmoteFrame2"] = true,
+		["ShowGuildMessagesPlus"] = false,
 		["LFDEnhance"] = true,
 		["SpecialWarningFlashDura1"] = 0.4,
 		["DontShowPTNoID"] = false,
@@ -132,7 +132,11 @@ DBM_AllSavedOptions = {
 		["HideTooltips"] = false,
 		["RangeFrameSound2"] = "none",
 		["SpecialWarningFontSize2"] = 40,
-		["DontShowSpecialWarningText"] = false,
+		["SpecialWarningFlashCol5"] = {
+			0.2, -- [1]
+			1, -- [2]
+			1, -- [3]
+		},
 		["ShowPizzaMessage"] = true,
 		["SpecialWarningSound"] = "Sound\\Doodad\\BellTollNightElf.ogg",
 		["SpecialWarningSound5"] = "Sound\\Creature\\Loathstare\\Loa_Naxx_Aggro02.ogg",
@@ -169,7 +173,11 @@ DBM_AllSavedOptions = {
 		["SpecialWarningFlashDura4"] = 0.7,
 		["HUDTexture4"] = "highlight",
 		["SpecialWarningFont"] = "Fonts\\ARKai_T.ttf",
-		["HUDSize4"] = 5,
+		["SpecialWarningFlashCol3"] = {
+			1, -- [1]
+			0, -- [2]
+			0, -- [3]
+		},
 		["WarningColors"] = {
 			{
 				["b"] = 0.941176470588235,
@@ -194,27 +202,27 @@ DBM_AllSavedOptions = {
 		},
 		["InfoFrameShowSelf"] = false,
 		["SWarningAlphabetical"] = true,
-		["HUDColor3"] = {
-			1, -- [1]
-			0.5, -- [2]
-			0, -- [3]
-		},
+		["FilterSelfHud"] = true,
 		["BlockNoteShare"] = false,
 		["WarningDuration2"] = 1.5,
 		["HUDAlphaOverride"] = false,
 		["SpecialWarningY"] = -185.754852294922,
 		["ModelSoundValue"] = "Short",
-		["FilterSelfHud"] = true,
+		["HUDColor3"] = {
+			1, -- [1]
+			0.5, -- [2]
+			0, -- [3]
+		},
 		["AutoCorrectTimer"] = false,
-		["FilterInterrupt"] = true,
+		["HUDTexture2"] = "highlight",
 		["RangeFrameRadarPoint"] = "LEFT",
 		["DontShowInfoFrame"] = false,
-		["RaidWarningSound"] = "Sound\\interface\\AlarmClockWarning3.ogg",
+		["WarningY"] = 260,
 		["DontRestoreRange"] = false,
 		["RangeFrameUpdates"] = "Average",
 		["CountdownVoice3v2"] = "Pewsey",
 		["MISTSTWMessageShown"] = false,
-		["WarningY"] = 260,
+		["RaidWarningSound"] = "Sound\\interface\\AlarmClockWarning3.ogg",
 		["CustomSounds"] = 0,
 		["DontPlayCountdowns"] = false,
 		["SpecialWarningFlashRepeat3"] = true,
@@ -222,12 +230,12 @@ DBM_AllSavedOptions = {
 		["WhisperStats"] = false,
 		["VoiceOverSpecW2"] = "DefaultOnly",
 		["HideBossEmoteFrame"] = true,
-		["HUDAlpha3"] = 0.5,
+		["DontPlayPTCountdown"] = false,
 		["SpecialWarningFlashAlph5"] = 0.5,
 		["SpecialWarningDuration2"] = 1.5,
 		["HealthFrameWidth"] = 200,
-		["ShowEngageMessage"] = true,
 		["WarningIconLeft"] = true,
+		["ShowEngageMessage"] = true,
 		["RangeFrameLocked"] = false,
 		["HPFrameY"] = 189.712448120117,
 		["WarningFontSize"] = 20,
@@ -239,11 +247,11 @@ DBM_AllSavedOptions = {
 		["PGMessageShown"] = false,
 		["DisableStatusWhisper"] = false,
 		["RangeFrameSound1"] = "none",
-		["CountdownVoice"] = "Corsica",
+		["SpecialWarningFlashRepeat4"] = false,
 		["DontSetIcons"] = false,
 		["BigBrotherAnnounceToRaid"] = false,
 		["SpecialWarningFlashRepeat2"] = false,
-		["SpecialWarningFlashRepeat4"] = false,
+		["CountdownVoice"] = "Corsica",
 		["BonusFilter"] = "Never",
 		["HUDSize1"] = 5,
 		["DontShowUserTimers"] = false,
@@ -260,19 +268,15 @@ DBM_AllSavedOptions = {
 		["HUDTexture1"] = "highlight",
 		["ShowBigBrotherOnCombatStart"] = false,
 		["SpecialWarningIcon"] = true,
-		["DontPlayPTCountdown"] = false,
+		["HUDAlpha3"] = 0.5,
 		["SpecialWarningFlashAlph1"] = 0.3,
 		["ShowDefeatMessage"] = true,
 		["FilterTankSpec"] = true,
 		["DontShowRangeFrame"] = false,
-		["HUDTexture2"] = "highlight",
+		["FilterInterrupt"] = true,
 		["WarningDuration"] = 4,
 		["WarningFontShadow"] = true,
-		["SpecialWarningFlashCol3"] = {
-			1, -- [1]
-			0, -- [2]
-			0, -- [3]
-		},
+		["HUDSize4"] = 5,
 		["WarningX"] = 0,
 		["DontShowBossTimers"] = false,
 		["DontShowFlexMessage"] = false,
@@ -292,22 +296,18 @@ DBM_AllSavedOptions = {
 		["HUDAlpha4"] = 0.5,
 		["AdvancedAutologBosses"] = false,
 		["SpecialWarningFlashRepeat1"] = true,
-		["SpecialWarningFlashCol5"] = {
-			0.2, -- [1]
-			1, -- [2]
-			1, -- [3]
-		},
+		["DontShowSpecialWarningText"] = false,
 		["ArrowPosY"] = -150,
 		["Enabled"] = true,
-		["ShowGuildMessagesPlus"] = false,
-		["BCTWMessageShown"] = false,
 		["DebugLevel"] = 1,
+		["BCTWMessageShown"] = false,
+		["DontShowHealthFrame"] = false,
 		["WarningIconRight"] = true,
 		["ShowAllVersions"] = true,
 		["SpecialWarningSound3"] = "Interface\\AddOns\\DBM-Core\\sounds\\AirHorn.ogg",
 		["NewsMessageShown"] = 12,
 		["StripServerName"] = true,
-		["PTCountThreshold"] = 5,
+		["HideQuestTooltips"] = true,
 		["RangeFrameRadarX"] = 212.194213867188,
 		["HPFrameX"] = 278.065368652344,
 		["FilterInterrupt2"] = "TandFandBossCooldown",

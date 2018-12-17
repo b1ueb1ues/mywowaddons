@@ -228,12 +228,7 @@ TidyPlatesHubSettings = {
 		["WidgetAuraTrackDispelFriendly"] = false,
 		["WidgetsTotemIcon"] = false,
 		["FriendlyAlphaSpotlightMode"] = "None",
-		["ColorFriendlyPlayer"] = {
-			["a"] = 0.999997794628143,
-			["b"] = 0.999997794628143,
-			["g"] = 0,
-			["r"] = 0,
-		},
+		["ScaleIgnoreInactive"] = false,
 		["ColorNeutral"] = {
 			["a"] = 0.999997794628143,
 			["b"] = 0,
@@ -268,7 +263,12 @@ TidyPlatesHubSettings = {
 		},
 		["WidgetEliteIndicator"] = true,
 		["StatusTextRightColor"] = true,
-		["ScaleIgnoreInactive"] = false,
+		["ColorFriendlyPlayer"] = {
+			["a"] = 0.999997794628143,
+			["b"] = 0.999997794628143,
+			["g"] = 0,
+			["r"] = 0,
+		},
 		["UseGlobalSet"] = false,
 		["ColorThreatTransition"] = {
 			["a"] = 0.999997794628143,
@@ -524,14 +524,14 @@ TidyPlatesHubSettings = {
 		["ColorEnemyStatusTextMode"] = 1,
 		["ScaleStandard"] = 0.799999952316284,
 		["WidgetAuraTrackDispelFriendly"] = false,
+		["ScaleIgnoreInactive"] = false,
+		["FriendlyAlphaSpotlightMode"] = "None",
 		["ColorFriendlyPlayer"] = {
 			["a"] = 0.999997794628143,
 			["b"] = 0.999997794628143,
 			["g"] = 0,
 			["r"] = 0,
 		},
-		["FriendlyAlphaSpotlightMode"] = "None",
-		["ScaleIgnoreInactive"] = false,
 		["WidgetsTotemIcon"] = false,
 		["ColorPartyAggroGlow"] = false,
 		["ColorNeutral"] = {
@@ -806,12 +806,7 @@ TidyPlatesHubSettings = {
 			["r"] = 0.999997794628143,
 		},
 		["FriendlyAlphaSpotlightMode"] = "None",
-		["ColorFriendlyPlayer"] = {
-			["a"] = 0.999997794628143,
-			["b"] = 0.999997794628143,
-			["g"] = 0,
-			["r"] = 0,
-		},
+		["ScaleIgnoreInactive"] = false,
 		["StatusTextRightColor"] = true,
 		["ColorPartyAggroGlow"] = false,
 		["ColorDangerGlowMode"] = 2,
@@ -840,7 +835,12 @@ TidyPlatesHubSettings = {
 		},
 		["FriendlyNameColorMode"] = "Default",
 		["WidgetEliteIndicator"] = false,
-		["ScaleIgnoreInactive"] = false,
+		["ColorFriendlyPlayer"] = {
+			["a"] = 0.999997794628143,
+			["b"] = 0.999997794628143,
+			["g"] = 0,
+			["r"] = 0,
+		},
 		["ColorEnemyStatusTextMode"] = 1,
 		["UseGlobalSet"] = false,
 		["ColorThreatTransition"] = {

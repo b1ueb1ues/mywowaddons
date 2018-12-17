@@ -24,8 +24,8 @@ IceCoreDB = {
 		["腤泠凊 - 阿克蒙德"] = "Default",
 		["泠凊之腤 - 白银之手"] = "Default",
 		["蓝蓝哦 - 阿克蒙德"] = "Default",
-		["备前长光 - 白银之手"] = "Default",
 		["喵喵围炉斯 - 燃烧之刃"] = "Default",
+		["备前长光 - 白银之手"] = "Default",
 		["腤泠凊 - 古尔丹"] = "Default",
 		["萌娘百科 - 燃烧之刃"] = "Default",
 		["教授猫 - 白银之手"] = "Default",
@@ -114,12 +114,12 @@ IceCoreDB = {
 			["modules"] = {
 				["TargetCast"] = {
 					["auraIconYOffset"] = -91,
-					["displayAuraIcon"] = true,
 					["auraIconXOffset"] = 19,
+					["displayAuraIcon"] = true,
+					["updatedReverseInverse"] = true,
 					["myTagVersion"] = 3,
 					["auraIconScale"] = 2.35,
 					["updatedInverseExpand"] = true,
-					["updatedReverseInverse"] = true,
 				},
 				["PetHealth"] = {
 					["offset"] = 7,
@@ -198,36 +198,10 @@ IceCoreDB = {
 						},
 					},
 				},
-				["Lacerates"] = {
-					["countFontSize"] = 20,
-					["scale"] = 1,
-					["maxCount"] = 3,
-					["onlyMine"] = true,
-					["hpos"] = 0,
-					["countGap"] = 0,
-					["enabled"] = false,
-					["auraTarget"] = "target",
-					["countColor"] = {
-						["a"] = 1,
-						["b"] = 0,
-						["g"] = 0,
-						["r"] = 1,
-					},
-					["usesDogTagStrings"] = false,
-					["auraType"] = "debuff",
-					["vpos"] = 0,
-					["countMode"] = "Numeric",
-					["countMinColor"] = {
-						["a"] = 1,
-						["b"] = 0,
-						["g"] = 1,
-						["r"] = 1,
-					},
-					["auraName"] = "割伤",
-					["graphicalLayout"] = "Horizontal",
-					["gradient"] = false,
-					["alwaysFullAlpha"] = true,
-					["customBarType"] = "Counter",
+				["PlayerAltMana"] = {
+					["updatedReverseInverse"] = true,
+					["myTagVersion"] = 3,
+					["updatedInverseExpand"] = true,
 				},
 				["SunderCount"] = {
 				},
@@ -273,9 +247,9 @@ IceCoreDB = {
 				["Runes"] = {
 					["enabled"] = false,
 					["showWhenNotFull"] = true,
-					["cooldownMode"] = "Both",
 					["scale"] = 1.5,
 					["alwaysFullAlpha"] = true,
+					["cooldownMode"] = "Both",
 				},
 				["PlayerInfo"] = {
 					["scale"] = 1.6,
@@ -327,23 +301,6 @@ IceCoreDB = {
 				},
 				["MaelstromCount"] = {
 				},
-				["Threat"] = {
-					["enabled"] = true,
-					["myTagVersion"] = 3,
-					["updatedInverseExpand"] = true,
-					["updatedReverseInverse"] = true,
-				},
-				["PlayerAltMana"] = {
-					["updatedReverseInverse"] = true,
-					["myTagVersion"] = 3,
-					["updatedInverseExpand"] = true,
-				},
-				["PlayerAbsorb"] = {
-					["enabled"] = false,
-					["updatedReverseInverse"] = true,
-					["myTagVersion"] = 3,
-					["updatedInverseExpand"] = true,
-				},
 				["TargetAbsorb"] = {
 					["textVerticalOffset"] = -18,
 					["myTagVersion"] = 3,
@@ -356,6 +313,49 @@ IceCoreDB = {
 					},
 					["barFontSize"] = 15,
 					["updatedReverseInverse"] = true,
+				},
+				["PlayerAbsorb"] = {
+					["enabled"] = false,
+					["updatedReverseInverse"] = true,
+					["myTagVersion"] = 3,
+					["updatedInverseExpand"] = true,
+				},
+				["Threat"] = {
+					["enabled"] = true,
+					["myTagVersion"] = 3,
+					["updatedInverseExpand"] = true,
+					["updatedReverseInverse"] = true,
+				},
+				["Lacerates"] = {
+					["countFontSize"] = 20,
+					["scale"] = 1,
+					["maxCount"] = 3,
+					["onlyMine"] = true,
+					["hpos"] = 0,
+					["countGap"] = 0,
+					["enabled"] = false,
+					["auraTarget"] = "target",
+					["countColor"] = {
+						["a"] = 1,
+						["b"] = 0,
+						["g"] = 0,
+						["r"] = 1,
+					},
+					["usesDogTagStrings"] = false,
+					["auraType"] = "debuff",
+					["vpos"] = 0,
+					["countMode"] = "Numeric",
+					["countMinColor"] = {
+						["a"] = 1,
+						["b"] = 0,
+						["g"] = 1,
+						["r"] = 1,
+					},
+					["auraName"] = "割伤",
+					["graphicalLayout"] = "Horizontal",
+					["gradient"] = false,
+					["alwaysFullAlpha"] = true,
+					["customBarType"] = "Counter",
 				},
 			},
 			["barBgBlendMode"] = "ADD",
@@ -682,10 +682,10 @@ IceCoreDB = {
 			["modules"] = {
 				["PlayerAlternatePower"] = {
 					["lowThresholdFlash"] = false,
-					["barHorizontalOffset"] = -162,
-					["myTagVersion"] = 3,
 					["updatedReverseInverse"] = true,
+					["myTagVersion"] = 3,
 					["updatedInverseExpand"] = true,
+					["barHorizontalOffset"] = -162,
 				},
 				["TargetInfo"] = {
 					["enabled"] = false,
@@ -715,28 +715,28 @@ IceCoreDB = {
 				["TargetCast"] = {
 					["updatedReverseInverse"] = true,
 					["auraIconYOffset"] = -91,
-					["auraIconXOffset"] = 19,
+					["updatedInverseExpand"] = true,
 					["auraIconScale"] = 2.35,
 					["myTagVersion"] = 3,
 					["displayAuraIcon"] = true,
-					["updatedInverseExpand"] = true,
+					["auraIconXOffset"] = 19,
 				},
 				["PetHealth"] = {
 					["offset"] = 7,
-					["barHorizontalOffset"] = 146,
-					["updatedReverseInverse"] = true,
-					["myTagVersion"] = 3,
+					["updatedInverseExpand"] = true,
 					["textVisible"] = {
 						["lower"] = false,
 						["upper"] = false,
 					},
 					["barVerticalOffset"] = 48,
-					["updatedInverseExpand"] = true,
+					["myTagVersion"] = 3,
+					["updatedReverseInverse"] = true,
+					["barHorizontalOffset"] = 146,
 				},
 				["PlayerHealth"] = {
 					["updatedReverseInverse"] = true,
-					["myTagVersion"] = 3,
 					["barFontSize"] = 20,
+					["myTagVersion"] = 3,
 					["textVisible"] = {
 						["lower"] = false,
 					},
@@ -759,8 +759,85 @@ IceCoreDB = {
 				},
 				["TargetOfTarget"] = {
 					["enabled"] = false,
-					["scale"] = 2,
 					["vpos"] = -186,
+					["scale"] = 2,
+				},
+				["PlayerAltMana"] = {
+					["updatedReverseInverse"] = true,
+					["myTagVersion"] = 3,
+					["updatedInverseExpand"] = true,
+				},
+				["PlayerInfo"] = {
+					["vpos"] = 528,
+					["debuffSizeFixup"] = true,
+					["scale"] = 1.6,
+					["myTagVersion"] = 3,
+					["updateAurasIntoTable"] = true,
+					["auras"] = {
+						["debuff"] = {
+							["ownSize"] = 40,
+							["size"] = 30,
+						},
+						["buff"] = {
+							["ownSize"] = 40,
+							["size"] = 30,
+						},
+					},
+				},
+				["TargetHealth"] = {
+					["updatedReverseInverse"] = true,
+					["barFontSize"] = 15,
+					["myTagVersion"] = 3,
+					["textVisible"] = {
+						["lower"] = false,
+					},
+					["updatedInverseExpand"] = true,
+				},
+				["MonkMana"] = {
+					["updatedReverseInverse"] = true,
+					["myTagVersion"] = 3,
+					["updatedInverseExpand"] = true,
+				},
+				["PlayerMana"] = {
+					["updatedReverseInverse"] = true,
+					["barFontSize"] = 20,
+					["lowThreshold"] = 0.2,
+					["lowThresholdColor"] = true,
+					["myTagVersion"] = 3,
+					["textVisible"] = {
+						["lower"] = false,
+					},
+					["updatedInverseExpand"] = true,
+				},
+				["Runes"] = {
+					["scale"] = 1.5,
+					["showWhenNotFull"] = true,
+					["alwaysFullAlpha"] = true,
+					["cooldownMode"] = "Both",
+				},
+				["Threat"] = {
+					["enabled"] = true,
+					["myTagVersion"] = 3,
+					["updatedReverseInverse"] = true,
+					["updatedInverseExpand"] = true,
+				},
+				["PetMana"] = {
+					["enabled"] = false,
+					["myTagVersion"] = 3,
+					["updatedReverseInverse"] = true,
+					["updatedInverseExpand"] = true,
+				},
+				["EclipseBar"] = {
+					["updatedReverseInverse"] = true,
+					["myTagVersion"] = 3,
+					["alwaysFullAlpha"] = true,
+					["updatedInverseExpand"] = true,
+				},
+				["PlayerAbsorb"] = {
+					["enabled"] = false,
+					["myTagVersion"] = 3,
+					["updatedReverseInverse"] = true,
+					["updatedInverseExpand"] = true,
 				},
 				["Lacerates"] = {
 					["countFontSize"] = 20,
@@ -793,78 +870,6 @@ IceCoreDB = {
 					["countMode"] = "Numeric",
 					["customBarType"] = "Counter",
 				},
-				["SunderCount"] = {
-				},
-				["TargetHealth"] = {
-					["updatedReverseInverse"] = true,
-					["myTagVersion"] = 3,
-					["barFontSize"] = 15,
-					["textVisible"] = {
-						["lower"] = false,
-					},
-					["updatedInverseExpand"] = true,
-				},
-				["MonkMana"] = {
-					["updatedReverseInverse"] = true,
-					["myTagVersion"] = 3,
-					["updatedInverseExpand"] = true,
-				},
-				["PlayerMana"] = {
-					["updatedReverseInverse"] = true,
-					["lowThresholdColor"] = true,
-					["lowThreshold"] = 0.2,
-					["textVisible"] = {
-						["lower"] = false,
-					},
-					["barFontSize"] = 20,
-					["myTagVersion"] = 3,
-					["updatedInverseExpand"] = true,
-				},
-				["Runes"] = {
-					["scale"] = 1.5,
-					["showWhenNotFull"] = true,
-					["alwaysFullAlpha"] = true,
-					["cooldownMode"] = "Both",
-				},
-				["PlayerInfo"] = {
-					["vpos"] = 528,
-					["debuffSizeFixup"] = true,
-					["scale"] = 1.6,
-					["myTagVersion"] = 3,
-					["updateAurasIntoTable"] = true,
-					["auras"] = {
-						["debuff"] = {
-							["ownSize"] = 40,
-							["size"] = 30,
-						},
-						["buff"] = {
-							["ownSize"] = 40,
-							["size"] = 30,
-						},
-					},
-				},
-				["PetMana"] = {
-					["enabled"] = false,
-					["myTagVersion"] = 3,
-					["updatedReverseInverse"] = true,
-					["updatedInverseExpand"] = true,
-				},
-				["EclipseBar"] = {
-					["updatedReverseInverse"] = true,
-					["myTagVersion"] = 3,
-					["alwaysFullAlpha"] = true,
-					["updatedInverseExpand"] = true,
-				},
-				["RangeCheck"] = {
-					["enabled"] = true,
-					["scale"] = 2,
-					["vpos"] = 3,
-				},
-				["FocusAbsorb"] = {
-					["updatedReverseInverse"] = true,
-					["myTagVersion"] = 3,
-					["updatedInverseExpand"] = true,
-				},
 				["TargetMana"] = {
 					["updatedReverseInverse"] = true,
 					["myTagVersion"] = 3,
@@ -876,8 +881,8 @@ IceCoreDB = {
 				["GlobalCoolDown"] = {
 					["updatedReverseInverse"] = true,
 					["myTagVersion"] = 3,
-					["desiredLerpTime"] = 1.371,
 					["updatedInverseExpand"] = true,
+					["desiredLerpTime"] = 1.371,
 				},
 				["Stagger"] = {
 					["enabled"] = false,
@@ -895,35 +900,39 @@ IceCoreDB = {
 				},
 				["MaelstromCount"] = {
 				},
+				["FocusAbsorb"] = {
+					["updatedReverseInverse"] = true,
+					["myTagVersion"] = 3,
+					["updatedInverseExpand"] = true,
+				},
+				["RangeCheck"] = {
+					["enabled"] = true,
+					["vpos"] = 3,
+					["scale"] = 2,
+				},
+				["SunderCount"] = {
+				},
 				["TargetAbsorb"] = {
 					["side"] = "LEFT",
 					["forceJustifyText"] = "LEFT",
-					["textVisible"] = {
-						["lower"] = false,
-					},
+					["textHorizontalOffset"] = -54,
 					["updatedInverseExpand"] = true,
 					["updatedReverseInverse"] = true,
 					["textVerticalOffset"] = -18,
 					["myTagVersion"] = 3,
-					["textHorizontalOffset"] = -54,
 					["barFontSize"] = 15,
+					["textVisible"] = {
+						["lower"] = false,
+					},
 				},
-				["PlayerAbsorb"] = {
-					["enabled"] = false,
-					["myTagVersion"] = 3,
-					["updatedReverseInverse"] = true,
-					["updatedInverseExpand"] = true,
+			},
+			["colors"] = {
+				["ScaledManaColor"] = {
+					["r"] = 1,
 				},
-				["Threat"] = {
-					["enabled"] = true,
-					["myTagVersion"] = 3,
-					["updatedReverseInverse"] = true,
-					["updatedInverseExpand"] = true,
-				},
-				["PlayerAltMana"] = {
-					["updatedReverseInverse"] = true,
-					["myTagVersion"] = 3,
-					["updatedInverseExpand"] = true,
+				["ScaledHealthColor"] = {
+					["g"] = 0,
+					["r"] = 1,
 				},
 			},
 			["barPreset"] = "CleanCurvesOut",

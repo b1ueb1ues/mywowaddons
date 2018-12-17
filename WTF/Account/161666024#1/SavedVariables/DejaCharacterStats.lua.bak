@@ -1517,7 +1517,7 @@ DCS_ClassSpecDB = {
 		}, -- [49]
 		["uniqueKey"] = "喵言术嗷呜:燃烧之刃:2",
 	},
-	["Pantyazure:燃烧之刃:1"] = {
+	["立二拆三:燃烧之刃:1"] = {
 		{
 			["statKey"] = "ItemLevelFrame",
 		}, -- [1]
@@ -1680,10 +1680,7 @@ DCS_ClassSpecDB = {
 			["statKey"] = "ITEMLEVEL",
 			["hidden"] = true,
 		}, -- [42]
-		{
-			["statKey"] = "SPEED",
-		}, -- [43]
-		["uniqueKey"] = "Pantyazure:燃烧之刃:1",
+		["uniqueKey"] = "立二拆三:燃烧之刃:1",
 	},
 	["暗言术喵:燃烧之刃:1"] = {
 		{
@@ -4703,7 +4700,7 @@ DCS_ClassSpecDB = {
 		}, -- [49]
 		["uniqueKey"] = "暗言术喵:燃烧之刃:3",
 	},
-	["立二拆三:燃烧之刃:1"] = {
+	["Pantyazure:燃烧之刃:1"] = {
 		{
 			["statKey"] = "ItemLevelFrame",
 		}, -- [1]
@@ -4866,6 +4863,9 @@ DCS_ClassSpecDB = {
 			["statKey"] = "ITEMLEVEL",
 			["hidden"] = true,
 		}, -- [42]
-		["uniqueKey"] = "立二拆三:燃烧之刃:1",
+		{
+			["statKey"] = "SPEED",
+		}, -- [43]
+		["uniqueKey"] = "Pantyazure:燃烧之刃:1",
 	},
 }
